@@ -1,0 +1,27 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="cloud-shell" category="platform_services" audience="platform" href="/docs/cloud-shell?topic=cloud-shell-getting-started" path="cloud-shell"}
+IBM Cloud Shell (Beta)
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    shell-ui.md
+    files.md
+    feedback.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    at-events.md
+    plugins-tools.md
+    [IBM Cloud CLI command reference](/cli/cloud-cli-ibmcloud_cli)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    faqs.md
+    troubleshooting.md
+    limitations.md
+    {: .navgroup-end}
