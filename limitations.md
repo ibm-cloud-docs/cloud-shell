@@ -27,7 +27,7 @@ subcollection: cloud-shell
 ## Known issues
 {: #known-issues}
 
-* Your {{site.data.keyword.cloud-shell_short}} workspace includes 500 MB of temporary storage. If you use all of your storage space, your connection to {{site.data.keyword.cloud-shell_short}} lost. To access {{site.data.keyword.cloud-shell_short}}, you must restart it, which removes all of your files.
+* Your {{site.data.keyword.cloud-shell_short}} workspace includes 500 MB of temporary storage. If you use all of your storage space, your connection to {{site.data.keyword.cloud-shell_short}} is lost. To access {{site.data.keyword.cloud-shell_short}}, you must restart it, which removes all of your files.
 * You can use the {{site.data.keyword.dev_cli_notm}} CLI plug-in (`ibmcloud dev`) to work with cloud-based resources such as pipelines and toolchains. However, it can't be used to work locally, such as to build, test, or run apps.
 
 ## Limitations
