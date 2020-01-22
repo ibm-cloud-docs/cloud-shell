@@ -48,10 +48,10 @@ When you open a session, you're logged in with the {{site.data.keyword.cloud_not
 To switch the default account for your sessions, close your {{site.data.keyword.cloud-shell_short}} environment, switch the account in the {{site.data.keyword.cloud_notm}} console menu bar, and then reopen {{site.data.keyword.cloud-shell_short}}.
 {: tip}
 
-## Restarting {{site.data.keyword.cloud-shell_notm}}
+## Restarting {{site.data.keyword.cloud-shell_short}}
 {: #shell-restart}
 
-When you restart {{site.data.keyword.cloud-shell_short}}, any open sessions are closed and all of your files and data is removed. Before you restart, be sure that you download any files that you want to keep to your local system.
+When you restart {{site.data.keyword.cloud-shell_short}}, any open sessions are closed and all of your files and data are removed. Before you restart, be sure that you download any files that you want to keep to your local system.
 
 To restart, click the Menu icon ![More icon](../icons/actions-icon-vertical.svg), and select **Restart**.
 
