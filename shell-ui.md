@@ -38,7 +38,7 @@ Each session automatically closes if it's not used for 30 minutes. If you don't 
 
 ![A diagram that shows the workspace storage, which can be accessed in your home directory. The five sessions connect to the same workspace storage.](images/cloud-shell-env.svg "Sessions connect to your personal workspace storage."){: caption="Figure 1. Your personal workspace and sessions in Cloud Shell" caption-side="bottom"}
 
-## Using multiple sessions
+## Opening sessions
 {: #multi-shell}
 
 To open a new session, click the Open icon ![Open a new session icon](../icons/add.svg). Each session maintains separate command histories, which are removed when you close the session. Because the workspace storage is shared between sessions, you can save a file to your home directory in one session, and then open the file in another session.

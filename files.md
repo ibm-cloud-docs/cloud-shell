@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-01-21"
+lastupdated: "2020-01-24"
 
 keywords: IBM Cloud Shell, upload file in cloud shell, download file in cloud shell, add file, add project to cloud shell, file storage, persistence, import file, export file
 
@@ -48,12 +48,15 @@ You can upload a file to the root level of your home directory. Only a single fi
 1. In the {{site.data.keyword.cloud-shell_notm}} menu bar, click the Upload icon ![Upload icon](../icons/upload.svg).
 1. Select the file that you want to upload, and click **Open**.
 
-All files are uploaded to the root level your home directory. You can move or otherwise work with your files by running standard Linux&trade; commands. For example, you can move a `myFile.txt` file that you uploaded to a `myFolder` subdirectory by running the following command.
+Your file is uploaded in your home directory, for example `/home/<user-name>/myFile.txt`. You can move or otherwise work with your files by running standard Linux&trade; commands. For example, you can move a `myFile.txt` file that you uploaded to a `myFolder` subdirectory by running the following command.
 
 ```bash
 mv myFile.txt ./myFolder/
 ```
 {: pre}
+
+Although you can move files, be sure to keep all files in your workspace under your home directory, `/home/<user-name>`. If you move files outside of this directory, it can cause {{site.data.keyword.cloud-shell_short}} to close, which removes your data.
+{: tip}
 
 ## Downloading files
 {: #download-files}
