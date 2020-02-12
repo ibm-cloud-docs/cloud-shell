@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-01-21"
+lastupdated: "2020-02-11"
 
 keywords: IBM Cloud Shell, frequently asked questions, faq, cloud shell type, cloud shell bash
 
@@ -76,3 +76,7 @@ Be careful when you edit these values because you can introduce errors that caus
 
 To switch the default account for all sessions, close {{site.data.keyword.cloud-shell_short}}, switch the account in the {{site.data.keyword.cloud_notm}} console menu bar, and then reopen {{site.data.keyword.cloud-shell_short}}.
 
+## Can I use `sudo` to run commands?
+{: #faq-sudo}
+
+`sudo` isn't currently supported in {{site.data.keyword.cloud-shell_short}}. Want this or another feature? [Submit your feedback](/docs/cloud-shell?topic=cloud-shell-feedback) to help us improve future releases.
