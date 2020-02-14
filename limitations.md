@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-01-24"
+lastupdated: "2020-02-11"
 
 keywords: IBM Cloud Shell, beta, limitations, known issues, beta limitations
 
@@ -36,4 +36,3 @@ subcollection: cloud-shell
 
 * {{site.data.keyword.cloud-shell_notm}} runs in the Dallas (`us-south`) region only. You can access resources in any region.
 * Usage is limited to 4 hours of continuous use or 30 hours of weekly use. For more information, see [Tracking your usage](/docs/cloud-shell?topic=cloud-shell-shell-ui#usage-limit).
-* As a beta service, {{site.data.keyword.cloud-shell_notm}} is not for production use. For a complete list of terms and notices, see [{{site.data.keyword.cloud_notm}} Terms and Notices](/docs/overview?topic=overview-terms).
