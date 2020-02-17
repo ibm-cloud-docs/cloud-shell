@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-01-21"
+lastupdated: "2020-02-17"
 
 keywords: getting started tutorial, IBM Cloud Shell, cloud shell, cli, shell
 
@@ -23,6 +23,9 @@ subcollection: cloud-shell
 
 In this getting started tutorial, you use {{site.data.keyword.cloud-shell_full}} to clone a sample Node.js app and deploy it to Cloud Foundry on {{site.data.keyword.cloud}}. {{site.data.keyword.cloud-shell_notm}} is a cloud-based shell workspace that you can access through your browser. It's preconfigured with the full {{site.data.keyword.cloud_notm}} CLI and tons of plug-ins and tools that you can use to manage apps, resources, and infrastructure. This tutorial takes about 5 minutes to complete.
 {: shortdesc}
+
+New to {{site.data.keyword.cloud-shell_short}}? [Watch the demo video](https://www.youtube.com/watch?v=a8YHFyYfpVI){: external} to see how quickly you can start using it from the {{site.data.keyword.cloud_notm}} console.
+{: tip}
 
 ## Before you begin
 {: #prereqs}
