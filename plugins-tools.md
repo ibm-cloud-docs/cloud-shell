@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-01-21"
+lastupdated: "2020-02-11"
 
 keywords: IBM Cloud Shell, cloud shell plug-ins, cloud shell runtimes, cloud shell tools, installed packages, installed tools, cloud shell utilities
 
@@ -67,7 +67,7 @@ For the full list of installed plug-ins and their versions, run `ibmcloud plugin
   - Helm CLI (`helm`)
   - Istio CLI (`istioctl`)
   - jq JSON processor (`jq`)
-  - Knative CLI (`knctl`)
+  - Knative CLI (`kn`)
   - Kubernetes CLI (`kubectl`)
   - Kubetail Kubernetes log aggregator (`kubetail`)
   - MongoDB shell (`mongo`) and tools

@@ -24,4 +24,5 @@ IBM Cloud Shell (Beta)
     faqs.md
     troubleshooting.md
     limitations.md
+    release-notes-image.md
     {: .navgroup-end}
