@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-02-14"
+lastupdated: "2020-02-17"
 
 keywords: IBM Cloud Shell, release notes, changes, updates, image version
 
@@ -32,5 +32,5 @@ When a new image version is released, new {{site.data.keyword.cloud-shell_short}
 * Enabled auto-completion for the {{site.data.keyword.cloud_notm}} CLI.
 * Added the community `kn` Knative CLI and removed the third-party `knctl` Knative CLI.
 * Updated {{site.data.keyword.cloud_notm}} CLI plug-ins to the latest versions.
-* Updated the `istoctl` Istio CLI to the version 1.4.4.
+* Updated the `istoctl` Istio CLI to version 1.4.4.
 
