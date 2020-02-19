@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-02-11"
+lastupdated: "2020-02-19"
 
 keywords: IBM Cloud Shell, frequently asked questions, faq, cloud shell type, cloud shell bash
 
@@ -37,6 +37,12 @@ FAQs for {{site.data.keyword.cloud-shell_full}} include questions about {{site.d
 {: faq}
 
 {{site.data.keyword.cloud-shell_notm}} includes all available {{site.data.keyword.cloud_notm}} CLI plug-ins and dozens of tools, packages, and runtimes. For the full list, see [Installed plug-ins and tools](/docs/cloud-shell?topic=cloud-shell-plugins-tools).
+
+## What browsers does {{site.data.keyword.cloud-shell_short}} support?
+{: #what-browsers}
+{: faq}
+
+To work in {{site.data.keyword.cloud-shell_short}}, you need to use one of the {{site.data.keyword.cloud_notm}} supported browsers. For more information, see [What are the {{site.data.keyword.cloud_notm}} prerequisites?](/docs/overview?topic=overview-prereqs-platform). If you use a browser that's not supported, you might see blank screens or other display problems when you use {{site.data.keyword.cloud-shell_short}}.
 
 ## How long can I use {{site.data.keyword.cloud-shell_short}}?
 {: #what-usage-length}
