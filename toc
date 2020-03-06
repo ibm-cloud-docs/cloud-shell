@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="cloud-shell" category="platform_services" audience="platform" href="/docs/cloud-shell?topic=cloud-shell-getting-started" path="cloud-shell"}
-IBM Cloud Shell (Beta)
+Cloud Shell (Beta)
 
     {: .navgroup id="learn"}
     getting-started.md
