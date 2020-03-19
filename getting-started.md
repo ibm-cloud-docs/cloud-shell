@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-02-17"
+lastupdated: "2020-03-19"
 
 keywords: getting started tutorial, IBM Cloud Shell, cloud shell, cli, shell
 
@@ -84,21 +84,24 @@ ibmcloud target --cf
 ## Step 4. Deploy your app
 {: #deploy-app}
 
-Build and deploy your app in Cloud Foundry by running the following command.
+Build and deploy your app in Cloud Foundry by running the `ibmcloud cf push` command. Make sure to specify a unique name for your app.
 
 ```bash
-ibmcloud cf push node-helloworld
+ibmcloud cf push node-helloworld-1234
 ```
 {: pre}
+
+If you see an error message that states `The app cannot be mapped to route <app-name>.mybluemix.net because the route exists in a different space.`, just specify a different app name.
+{: tip}
 
 As the command runs, it creates your app, downloads any dependencies, and then deploys it. When the app starts, details about the app, such as its URL, memory usage, and status, are displayed.
 
 To view your running app, copy the `routes` URL and paste it in your browser.
 
 ```
-name:              node-helloworld
+name:              node-helloworld-1234
 requested state:   started
-routes:            node-helloworld.us-south.cf.appdomain.cloud
+routes:            node-helloworld-1234.us-south.cf.appdomain.cloud
 last uploaded:     Wed 01 Jan 12:34:56 UTC 2020
 stack:             cflinuxfs3
 buildpacks:        sdk-for-nodejs
