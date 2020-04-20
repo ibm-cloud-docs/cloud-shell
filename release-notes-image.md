@@ -32,7 +32,7 @@ Use these release notes to learn about the latest changes to {{site.data.keyword
 * Extended the time after which inactive sessions are closed from 30 minutes to an hour.
 * Extended the time after which workspace data is removed due to inactivity from an 30 minutes to an hour after there are no open sessions.
 * Removed the 4-hour continuous usage limit. You can now use {{site.data.keyword.cloud-shell_short}} for any length of time up to the weekly usage quota.
-* Updated the {{site.data.keyword.cloud-shell_short}} server image to version 0.6.2, which includes the following changes:
+* Updated the {{site.data.keyword.cloud-shell_short}} server image to version 0.6.3, which includes the following changes:
    * Added GNU Automake (`automake`).
    * Added GNU Compiler Collection (`gcc`, `gcov`, and `gcov-tool`).
    * Downgraded the Istio CLI (`istioctl`) from 1.5 to 1.4.
