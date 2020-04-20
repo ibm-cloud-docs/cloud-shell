@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-03-27"
+lastupdated: "2020-04-18"
 
 keywords: IBM Cloud Shell, Cloud Shell, release notes, changes, updates, image version
 
@@ -24,8 +24,8 @@ subcollection: cloud-shell
 Use these release notes to learn about the latest changes to {{site.data.keyword.cloud-shell_full}}.
 {: shortdesc}
 
-## 31 March 2020
-{: #31-03-2020}
+## 18 April 2020
+{: #18-04-2020}
 
 * Added the ability to preview web apps that you access through {{site.data.keyword.cloud-shell_short}}. For more information, see [Previewing apps](/docs/cloud-shell?topic=cloud-shell-preview-apps).
 * Added support for running {{site.data.keyword.cloud-shell_short}} in the Frankfurt (`eu-de`) region. Each region runs independently, so your workspace, sessions, and usage are completely separate. For more information, see [Changing locations](/docs/cloud-shell?topic=cloud-shell-shell-ui#change-location).
