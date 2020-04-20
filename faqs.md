@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-02-19"
 
-keywords: IBM Cloud Shell, frequently asked questions, faq, cloud shell type, cloud shell bash
+keywords: IBM Cloud Shell, Cloud Shell, frequently asked questions, faq, cloud shell type, cloud shell bash
 
 subcollection: cloud-shell
 
@@ -35,20 +35,23 @@ FAQs for {{site.data.keyword.cloud-shell_full}} include questions about {{site.d
 ## What tools and plug-ins are included in {{site.data.keyword.cloud-shell_short}}?
 {: #what-tools}
 {: faq}
+{: support}
 
 {{site.data.keyword.cloud-shell_notm}} includes all available {{site.data.keyword.cloud_notm}} CLI plug-ins and dozens of tools, packages, and runtimes. For the full list, see [Installed plug-ins and tools](/docs/cloud-shell?topic=cloud-shell-plugins-tools).
 
 ## What browsers does {{site.data.keyword.cloud-shell_short}} support?
 {: #what-browsers}
 {: faq}
+{: support}
 
 To work in {{site.data.keyword.cloud-shell_short}}, you need to use one of the {{site.data.keyword.cloud_notm}} supported browsers. For more information, see [What are the {{site.data.keyword.cloud_notm}} prerequisites?](/docs/overview?topic=overview-prereqs-platform). If you use a browser that's not supported, you might see blank screens or other display problems when you use {{site.data.keyword.cloud-shell_short}}.
 
 ## How long can I use {{site.data.keyword.cloud-shell_short}}?
 {: #what-usage-length}
 {: faq}
+{: support}
 
-You can use {{site.data.keyword.cloud-shell_short}} for up to 4 hours continuously or up to 30 hours within a single week. If you reach this limit, all {{site.data.keyword.cloud-shell_short}} sessions are closed, and any data in your workspace is deleted. If you reach your weekly limit, you can access {{site.data.keyword.cloud-shell_short}} only in 5-minute increments until the week resets.
+You can use {{site.data.keyword.cloud-shell_short}} for up to 30 hours within a single week. If you reach this limit, all {{site.data.keyword.cloud-shell_short}} sessions are closed, and any data in your workspace is deleted. But don't worry, you can still access {{site.data.keyword.cloud-shell_short}} only in 5-minute increments until the week resets.
 
 ## How can I audit {{site.data.keyword.cloud-shell_short}} usage?
 {: #how-audit-logs}
@@ -59,6 +62,7 @@ You can use {{site.data.keyword.cloud-shell_short}} for up to 4 hours continuous
 ## How can I delete my data in {{site.data.keyword.cloud-shell_short}}?
 {: #how-delete-data}
 {: faq}
+{: support}
 
 Your data in {{site.data.keyword.cloud-shell_short}} is automatically deleted when {{site.data.keyword.cloud-shell_short}} is closed after inactivity or reaching the usage limits.
 
@@ -84,5 +88,6 @@ To switch the default account for all sessions, close {{site.data.keyword.cloud-
 
 ## Can I use `sudo` to run commands?
 {: #faq-sudo}
+{: faq}
 
 `sudo` isn't currently supported in {{site.data.keyword.cloud-shell_short}}. Want this or another feature? [Submit your feedback](/docs/cloud-shell?topic=cloud-shell-feedback) to help us improve future releases.

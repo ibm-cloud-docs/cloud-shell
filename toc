@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="cloud-shell" category="platform_services" audience="platform" href="/docs/cloud-shell?topic=cloud-shell-getting-started" path="cloud-shell"}
+{: .toc subcollection="cloud-shell" category="platform_services" audience="platform" href="/docs/cloud-shell?topic=cloud-shell-getting-started" path="cloud-shell" console-page="/shell" product-page="https://www.ibm.com/cloud/cli"}
 Cloud Shell (Beta)
 
     {: .navgroup id="learn"}
@@ -11,6 +11,7 @@ Cloud Shell (Beta)
     {: .navgroup id="howto"}
     shell-ui.md
     files.md
+    preview.md
     feedback.md
     {: .navgroup-end}
 

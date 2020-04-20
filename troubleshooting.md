@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-01-21"
+lastupdated: "2020-03-27"
 
-keywords: IBM Cloud Shell, troubleshooting, error, disconnect, connection lost, could not start cloud shell, bashrc
+keywords: IBM Cloud Shell, Cloud Shell, troubleshooting, error, disconnect, connection lost, could not start cloud shell, bashrc
 
 subcollection: cloud-shell
 
@@ -48,6 +48,7 @@ Refresh your {{site.data.keyword.cloud-shell_short}} browser tab or window. If {
 ## Why can't I work with my Kubernetes clusters from my session?
 {: #trouble-kube}
 {: troubleshoot}
+{: support}
 
 You want to work with your {{site.data.keyword.containerlong}} clusters, but when you run a command such as `kubectl get pods`, the following error is displayed:
 {: tsSymptoms}
@@ -66,6 +67,7 @@ Set the cluster as the context in your session as described in [Configuring the 
 ## What do I do if I changed my `.bashrc` file and my sessions don't work?
 {: #trouble-bashrc}
 {: troubleshoot}
+{: support}
 
 You customized your {{site.data.keyword.cloud-shell_short}} sessions by editing the `.bashrc` file, and now your sessions don't open. As a result, you can't work in {{site.data.keyword.cloud-shell_short}}.
 {: tsSymptoms}
@@ -79,6 +81,7 @@ If you're able to run commands from an existing open session, [download any file
 ## Why do I keep losing my connection to {{site.data.keyword.cloud-shell_short}}?
 {: #trouble-connection}
 {: troubleshoot}
+{: support}
 
 You're working in {{site.data.keyword.cloud-shell_short}} when your session closes with the following message:
 {: tsSymptoms}
@@ -89,6 +92,9 @@ You might see this error for a few reasons:
 {: tsCauses}
 * Your internet connection was unstable.
 * You reached the maximum capacity for your {{site.data.keyword.cloud-shell_short}} temporary storage.
+* Rarely, the {{site.data.keyword.cloud-shell_short}} region you were working in is unavailable.
 
 If your connection was lost because of a temporary hiccup in your internet connection, refresh the browser window to reconnect. If you continue to be disconnected, restart {{site.data.keyword.cloud-shell_short}}. Restarting {{site.data.keyword.cloud-shell_notm}} removes all files in your workspace, so be sure to [download any files](/docs/cloud-shell?topic=cloud-shell-files) that you want to keep.
 {: tsResolve}
+
+If a region is unavailable, restarting {{site.data.keyword.cloud-shell_short}} will automatically load it in an available region if you didn't change the {{site.data.keyword.cloud-shell_short}} location from the default. If you did manually change to a different location, clear your browser cache and cookies to remove your preferences, and then open {{site.data.keyword.cloud-shell_short}}.

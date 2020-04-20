@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-02-20"
+lastupdated: "2020-03-27"
 
-keywords: IBM Cloud Shell, cloud shell plug-ins, cloud shell runtimes, cloud shell tools, installed packages, installed tools, cloud shell utilities
+keywords: IBM Cloud Shell, Cloud Shell, cloud shell plug-ins, cloud shell runtimes, cloud shell tools, installed packages, installed tools, cloud shell utilities
 
 subcollection: cloud-shell
 
@@ -63,6 +63,7 @@ For the full list of installed plug-ins and their versions, run `ibmcloud plugin
   - FIGlet text banner generator (`figlet`)
   - Git CLI (`git`)
   - GNU Automake (`automake`)
+  - GNU Compiler Collection (`gcc`, `gcov`, `gcov-tool`)
   - GNU Wget (`wget`)
   - Gradle CLI (`gradle`)
   - Helm CLI (`helm`)

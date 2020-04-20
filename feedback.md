@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-01-21"
 
-keywords: IBM Cloud Shell, feedback, question, comment, concern, review
+keywords: IBM Cloud Shell, Cloud Shell, feedback, question, comment, concern, review
 
 subcollection: cloud-shell
 

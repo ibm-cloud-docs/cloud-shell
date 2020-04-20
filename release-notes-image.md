@@ -2,15 +2,15 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-02-20"
+lastupdated: "2020-03-27"
 
-keywords: IBM Cloud Shell, release notes, changes, updates, image version
+keywords: IBM Cloud Shell, Cloud Shell, release notes, changes, updates, image version
 
 subcollection: cloud-shell
 
 ---
 
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:shortdesc: .shortdesc}
 {:table: .aria-labeledby="caption"}
 {:codeblock: .codeblock}
@@ -18,22 +18,35 @@ subcollection: cloud-shell
 {:important: .important}
 {:note: .note}
 
-# Server image release notes
+# Release notes
 {: #release-notes-image}
 
-Use these release notes to learn about the latest changes to the {{site.data.keyword.cloud-shell_full}} server image. Changes to this image affect the tools and other capabilities that are available in each session. 
+Use these release notes to learn about the latest changes to {{site.data.keyword.cloud-shell_full}}.
 {: shortdesc}
 
-When a new image version is released, new {{site.data.keyword.cloud-shell_short}} sessions automatically use the latest version.
+## 31 March 2020
+{: #31-03-2020}
 
-## Image 0.4.37
+* Added the ability to preview web apps that you access through {{site.data.keyword.cloud-shell_short}}. For more information, see [Previewing apps](/docs/cloud-shell?topic=cloud-shell-preview-apps).
+* Added support for running {{site.data.keyword.cloud-shell_short}} in the Frankfurt (`eu-de`) region. Each region runs independently, so your workspace, sessions, and usage are completely separate. For more information, see [Changing locations](/docs/cloud-shell?topic=cloud-shell-shell-ui#change-location).
+* Extended the time after which inactive sessions are closed from 30 minutes to an hour.
+* Extended the time after which workspace data is removed due to inactivity from an 30 minutes to an hour after there are no open sessions.
+* Removed the 4-hour continuous usage limit. You can now use {{site.data.keyword.cloud-shell_short}} for any length of time up to the weekly usage quota.
+* Updated the {{site.data.keyword.cloud-shell_short}} server image to version 0.6.2, which includes the following changes:
+   * Added GNU Automake (`automake`).
+   * Added GNU Compiler Collection (`gcc`, `gcov`, and `gcov-tool`).
+   * Downgraded the Istio CLI (`istioctl`) from 1.5 to 1.4.
+   * Updated the {{site.data.keyword.cloud_notm}} CLI and all plug-ins to the latest versions.
+
+
+## 16 February 2020
 {: #image-0-4-37}
 
-Released on 16 February 2020.
+Updated the {{site.data.keyword.cloud-shell_short}} server image to version 0.4.37. Changes to this image affect the tools and other capabilities that are available in each session.
 
 * Enabled auto-completion for the {{site.data.keyword.cloud_notm}} CLI.
 * Added the community `kn` Knative CLI and removed the third-party `knctl` Knative CLI.
 * Added the {{site.data.keyword.ibmwatson_notm}} CLI plug-in (`ibmcloud watson`).
 * Updated {{site.data.keyword.cloud_notm}} CLI plug-ins to the latest versions.
-* Updated the `istoctl` Istio CLI to version 1.4.4.
+* Updated the Istio CLI (`istoctl`) to version 1.4.4.
 

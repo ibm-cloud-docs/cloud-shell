@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-01-24"
+lastupdated: "2020-03-13"
 
-keywords: IBM Cloud Shell, upload file in cloud shell, download file in cloud shell, add file, add project to cloud shell, file storage, persistence, import file, export file
+keywords: IBM Cloud Shell, Cloud Shell, upload file in cloud shell, download file in cloud shell, add file, add project to cloud shell, file storage, persistence, import file, export file
 
 subcollection: cloud-shell
 
@@ -18,6 +18,7 @@ subcollection: cloud-shell
 {:important: .important}
 {:note: .note}
 {:pre: .pre}
+{:support: data-reuse='support'}
 
 # Working with files
 {: #files}
@@ -28,9 +29,9 @@ Your {{site.data.keyword.cloud-shell_full}} workspace includes a home directory 
 ## Temporary workspace storage
 {: #file-persistence}
 
-Your {{site.data.keyword.cloud-shell_notm}} workspace includes 500 MB of temporary secure storage that you can access through your personal home directory, `/home/<user-name>`. This storage space is provided at the user level rather than the account level. This means that only you can access your storage, and you can access it from any of your accounts. No one else in your accounts can access your workspace storage.
+Your {{site.data.keyword.cloud-shell_notm}} workspace includes 500 MB of temporary secure storage per region that you can access through your personal home directory, `/home/<user-name>`. This storage space is provided at the user level rather than the account level. This means that only you can access your storage, and you can access it from any of your accounts. No one else in your accounts can access your workspace storage.
 
-Your workspace storage is shared across all of your sessions, so you can work with the same files in different session tabs. The storage persists only while your workspace is active. If you're idle in {{site.data.keyword.cloud-shell_short}} for over an hour, your files and data are removed. Similarly, if you reach a usage limit or you restart {{site.data.keyword.cloud-shell_short}}, {{site.data.keyword.cloud-shell_short}} closes and removes your data. If you make any changes to files that you want to keep, be sure to download the files at the end of your session.
+Your workspace storage is shared across all of your sessions, so you can work with the same files in different session tabs. The storage persists only while your workspace is active. If you're idle in {{site.data.keyword.cloud-shell_short}} for over an hour, your files and data are removed. Similarly, if you reach the usage quota or you restart {{site.data.keyword.cloud-shell_short}}, {{site.data.keyword.cloud-shell_short}} closes and removes your data. If you make any changes to files that you want to keep, be sure to download the files at the end of your session.
 
 There is a known issue where your connection to {{site.data.keyword.cloud-shell_short}} is lost if your reach the temporary storage limit. If this happens, the only way to fix the connection is to restart {{site.data.keyword.cloud-shell_short}}, which removes all of your files. While working in {{site.data.keyword.cloud-shell_notm}}, avoid uploading large files and remove any unused files by using standard Linux&trade; commands, such as `rm`.
 {: important}
@@ -42,6 +43,7 @@ Your workspace storage is temporary, and it's not intended to be used as the pri
 
 ## Uploading files
 {: #upload-file}
+{: support}
 
 You can upload a file to the root level of your home directory. Only a single file can be uploaded at a time.
 
@@ -60,6 +62,7 @@ Although you can move files, be sure to keep all files in your workspace under y
 
 ## Downloading files
 {: #download-files}
+{: support}
 
 You can download a file from your workspace to your local system. Only a single file can be downloaded at a time.
 
