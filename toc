@@ -1,11 +1,12 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="cloud-shell" category="platform_services" audience="platform" href="/docs/cloud-shell?topic=cloud-shell-getting-started" path="cloud-shell" console-page="/shell" product-page="https://www.ibm.com/cloud/cli"}
+{: .toc subcollection="cloud-shell" category="platform_services" audience="platform" href="/docs/cloud-shell?topic=cloud-shell-getting-started" path="cloud-shell" console-page="/shell" product-page="https://www.ibm.com/cloud/cloud-shell"}
 Cloud Shell (Beta)
 
     {: .navgroup id="learn"}
     getting-started.md
+    [Why IBM Cloud Shell?](https://www.ibm.com/cloud/cloud-shell)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
