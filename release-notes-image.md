@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-04-18"
+lastupdated: "2020-05-15"
 
 keywords: IBM Cloud Shell, Cloud Shell, release notes, changes, updates, image version
 
@@ -23,6 +23,14 @@ subcollection: cloud-shell
 
 Use these release notes to learn about the latest changes to {{site.data.keyword.cloud-shell_full}}.
 {: shortdesc}
+
+## 15 May 2020
+{: #15-05-2020}
+
+Updated the {{site.data.keyword.cloud-shell_short}} server image to version 0.6.6:
+* Updated Red Hat&reg; OpenShift CLI (`oc`) to 4.3
+* Updated the {{site.data.keyword.cloud_notm}} CLI and all plug-ins to the latest versions.
+* Removed Netcat networking utility (`netcat`)
 
 ## 18 April 2020
 {: #18-04-2020}

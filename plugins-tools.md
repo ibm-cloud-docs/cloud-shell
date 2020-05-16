@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-03-27"
+lastupdated: "2020-05-15"
 
 keywords: IBM Cloud Shell, Cloud Shell, cloud shell plug-ins, cloud shell runtimes, cloud shell tools, installed packages, installed tools, cloud shell utilities
 
@@ -74,7 +74,6 @@ For the full list of installed plug-ins and their versions, run `ibmcloud plugin
   - Kubetail Kubernetes log aggregator (`kubetail`)
   - MongoDB shell (`mongo`) and tools
   - Nano text editor (`nano`) and colors for `nano`
-  - Netcat networking utility (`netcat`)
   - nodemon Node.js development monitoring utility (`nodemon`)
   - NPM Package Manager (`npm`)
   - Node Version Manager (`nvm`)
