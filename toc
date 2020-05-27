@@ -19,7 +19,7 @@ Cloud Shell (Beta)
     {: .navgroup id="reference"}
     at-events.md
     plugins-tools.md
-    [IBM Cloud CLI command reference](/cli/cloud-cli-ibmcloud_cli)
+    [IBM Cloud CLI command reference](/cli/cli-ibmcloud_cli)
     {: .navgroup-end}
 
     {: .navgroup id="help"}

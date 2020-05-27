@@ -152,8 +152,8 @@ start command:   node server
 
 From {{site.data.keyword.cloud-shell_short}}, you can quickly run commands on your {{site.data.keyword.cloud_notm}} account. For example:
 
-* [Managing accounts, users, and Cloud Foundry orgs](/docs/cli?topic=cloud-cli-ibmcloud_commands_account)
-* [Managing IAM access, API keys, service IDs, and access groups](/docs/cli?topic=cloud-cli-ibmcloud_commands_iam)
-* [Viewing usage for accounts, orgs, resource groups, and resources](/docs/cli?topic=cloud-cli-ibmcloud_billing)
+* [Managing accounts, users, and Cloud Foundry orgs](/docs/cli?topic=cli-ibmcloud_commands_account)
+* [Managing IAM access, API keys, service IDs, and access groups](/docs/cli?topic=cli-ibmcloud_commands_iam)
+* [Viewing usage for accounts, orgs, resource groups, and resources](/docs/cli?topic=cli-ibmcloud_billing)
 
 In addition to the {{site.data.keyword.cloud_notm}} CLI, {{site.data.keyword.cloud-shell_short}} is preconfigured with all {{site.data.keyword.cloud_notm}} CLI plug-ins and many tools and runtimes to help you work in the cloud. For the full list, see [Installed plug-ins and tools](/docs/cloud-shell?topic=cloud-shell-plugins-tools).
