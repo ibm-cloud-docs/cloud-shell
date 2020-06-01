@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-04-11"
+lastupdated: "2020-05-29"
 
 keywords: IBM Cloud Shell, cloud shell, terminal, shell session, usage limit, usage quota, restart, workspace, home directory
 
@@ -45,13 +45,16 @@ To open a new session, click the Open icon ![Open a new session icon](../icons/a
 Each session automatically closes if it's not used for an hour. If you don't use {{site.data.keyword.cloud-shell_short}} for two hours - that is, another hour after the last session is closed - all files and data in your {{site.data.keyword.cloud-shell_short}} workspace are erased. If you need to step away from {{site.data.keyword.cloud-shell_short}}, be sure to download any files that you want to keep. For more information, see [Working with files](/docs/cloud-shell?topic=cloud-shell-files).
 {: tip}
 
-### Switching accounts
+## Switching accounts
 {: #switch-accounts}
 {: support}
 
-When you open a session, you're logged in with the {{site.data.keyword.cloud_notm}} CLI targeting the account and region that you were in when you opened {{site.data.keyword.cloud-shell_notm}}. This account and region are the default for every session, even if you changed them through the command line in another session. For example, say you run `ibmcloud login` to switch to a different account in a session. When you open a new session, it's logged in to the original account and not the one that you switched to previously.
+When you open a session, you're logged in with the {{site.data.keyword.cloud_notm}} CLI targeting the account and region that you were in when you opened {{site.data.keyword.cloud-shell_short}}. This account and region are the default for every session.
 
 To switch the default account for your sessions, close your {{site.data.keyword.cloud-shell_short}} environment, switch the account in the {{site.data.keyword.cloud_notm}} console menu bar, and then reopen {{site.data.keyword.cloud-shell_short}}.
+
+The `ibmcloud target -c` command can't be used to change accounts from within a session.
+{: note}
 
 ## Changing locations
 {: #change-location}
