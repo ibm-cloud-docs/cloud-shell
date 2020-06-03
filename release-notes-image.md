@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-05-15"
+lastupdated: "2020-06-03"
 
 keywords: IBM Cloud Shell, Cloud Shell, release notes, changes, updates, image version
 
@@ -23,6 +23,9 @@ subcollection: cloud-shell
 
 Use these release notes to learn about the latest changes to {{site.data.keyword.cloud-shell_full}}.
 {: shortdesc}
+
+The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the latest available versions.
+{: tip}
 
 ## 15 May 2020
 {: #15-05-2020}

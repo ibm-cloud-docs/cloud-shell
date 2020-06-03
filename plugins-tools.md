@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-05-15"
+lastupdated: "2020-06-03"
 
 keywords: IBM Cloud Shell, Cloud Shell, cloud shell plug-ins, cloud shell runtimes, cloud shell tools, installed packages, installed tools, cloud shell utilities
 
@@ -48,9 +48,8 @@ In addition to the full {{site.data.keyword.cloud_notm}} CLI, {{site.data.keywor
 * {{site.data.keyword.ibmwatson_notm}} CLI plug-in (`ibmcloud watson`)
 * {{site.data.keyword.pm_full}} CLI plug-in (`ibmcloud ml`)
 
-For the full list of installed plug-ins and their versions, run `ibmcloud plugin list` in {{site.data.keyword.cloud-shell_short}}.
+The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the latest available versions. For the full list of installed plug-ins and their versions, run `ibmcloud plugin list` in {{site.data.keyword.cloud-shell_short}}.
 {: tip}
-
 
 ## Tools
 {: #installed-tools}
