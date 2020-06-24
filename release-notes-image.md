@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-06-03"
+lastupdated: "2020-06-24"
 
 keywords: IBM Cloud Shell, Cloud Shell, release notes, changes, updates, image version
 
@@ -27,13 +27,27 @@ Use these release notes to learn about the latest changes to {{site.data.keyword
 The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the latest available versions.
 {: tip}
 
+## 24 June 2020
+{: #24-06-2020}
+
+{{site.data.keyword.cloud-shell_notm}} is now generally available (GA)! With this release, {{site.data.keyword.cloud-shell_short}} includes the following updates:
+* Increased service level availability to 99.99% and hardened disaster recovery plan to meet {{site.data.keyword.cloud_notm}} requirements. For more information, see [Understanding high availability and disaster recovery for {{site.data.keyword.cloud-shell_short}}](/docs/cloud-shell?topic=cloud-shell-ha-dr).
+* Added support for inputting and viewing double-byte characters on the command line in your sessions. This enables you to work in national languages such as Japanese, Simplified Chinese, or Traditional Chinese.
+* Added support for the Tokyo (`jp-tok`) region.
+* Added cookie preferences so you can choose which cookies {{site.data.keyword.cloud-shell_short}} saves. {{site.data.keyword.cloud-shell_short}} relies on personalization cookies to remember your region preferences.
+* Added a link to these release notes from the About {{site.data.keyword.cloud-shell_notm}} window, so you can find them even more easily in the future.
+* Updated the {{site.data.keyword.cloud-shell_short}} server image to version 0.7.1, which includes the following changes:
+   * Updated the Istio CLI (`istioctl`) to 1.5.4.
+   * Added auto-complete for Red Hat OpenShift CLI (`oc`).
+   * Added the Cloud Foundry CLI installed in the {{site.data.keyword.cloud_notm}} CLI context (`ibmcloud cf`).
+
 ## 15 May 2020
 {: #15-05-2020}
 
 Updated the {{site.data.keyword.cloud-shell_short}} server image to version 0.6.6:
-* Updated Red Hat&reg; OpenShift CLI (`oc`) to 4.3
+* Updated Red Hat&reg; OpenShift CLI (`oc`) to 4.3.
 * Updated the {{site.data.keyword.cloud_notm}} CLI and all plug-ins to the latest versions.
-* Removed Netcat networking utility (`netcat`)
+* Removed Netcat networking utility (`netcat`).
 
 ## 18 April 2020
 {: #18-04-2020}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-05-29"
+lastupdated: "2020-06-11"
 
 keywords: IBM Cloud Shell, cloud shell, terminal, shell session, usage limit, usage quota, restart, workspace, home directory
 
@@ -59,16 +59,16 @@ The `ibmcloud target -c` command can't be used to change accounts from within a 
 ## Changing locations
 {: #change-location}
 
-{{site.data.keyword.cloud-shell_short}} runs in the Dallas (`us-south`) and Frankfurt (`eu-de`) regions. Each {{site.data.keyword.cloud-shell_short}} location operates independently, which means that your workspace storage, sessions, and usage are separate. When you work in {{site.data.keyword.cloud-shell_short}}, the location that you're in determines the following aspects:
+{{site.data.keyword.cloud-shell_short}} runs in the Dallas (`us-south`), Frankfurt (`eu-de`), and Tokyo (`jp-tok`) regions. Each {{site.data.keyword.cloud-shell_short}} location operates independently, which means that your workspace storage, sessions, and usage are separate. When you work in {{site.data.keyword.cloud-shell_short}}, the location that you're in determines the following aspects:
 
 - Where your workspace data is stored, including any files that you upload and your user data, such as your session history and usage quota
-- The default region that's targeted by the IBM Cloud CLI: `us-south` or `eu-de`
+- The default region that's targeted by the IBM Cloud CLI: `us-south`, `eu-de`, or `jp-tok`
 
 By default, the location that's closest to you geographically is selected when you open {{site.data.keyword.cloud-shell_short}} from the console. For example, if you're in California then {{site.data.keyword.cloud-shell_short}} opens to the Dallas region, but if you're in Paris it opens to the Frankfurt region.
 
 To change to {{site.data.keyword.cloud-shell_short}} in a different location, find the current location in the {{site.data.keyword.cloud-shell_short}} menu bar, and click **Change**. Select the location that you want to switch to, and click **OK**.
 
-If you change from the default location, {{site.data.keyword.cloud-shell_short}} remembers your location preferences by saving them as cookies in your browser. If you switch to a different browser or clear your browser cookies, {{site.data.keyword.cloud-shell_short}} will open in the default location.
+If you change from the default location, {{site.data.keyword.cloud-shell_short}} remembers your location preferences by saving them as cookies in your browser. If you switch to a different browser, clear your browser cookies, or your [cookie preferences](/docs/account?topic=account-usersettings#tracking) don't allow personalization cookies, {{site.data.keyword.cloud-shell_short}} will open in the default location.
 
 ## Restarting {{site.data.keyword.cloud-shell_short}}
 {: #shell-restart}
