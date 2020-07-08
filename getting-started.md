@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-04-10"
+lastupdated: "2020-04-11"
 
 keywords: getting started tutorial, IBM Cloud Shell, cloud shell, cli, shell, using IBM Cloud Shell
 
