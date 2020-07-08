@@ -10,7 +10,6 @@ subcollection: cloud-shell
 
 ---
 
-{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:table: .aria-labeledby="caption"}
 {:codeblock: .codeblock}
