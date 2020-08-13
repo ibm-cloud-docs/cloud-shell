@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-06-24"
+lastupdated: "2020-08-12"
 
-keywords: IBM Cloud Shell, Cloud Shell, release notes, changes, updates, image version
+keywords: Cloud Shell release notes, Cloud Shell changes
 
 subcollection: cloud-shell
 
@@ -24,8 +24,22 @@ subcollection: cloud-shell
 Use these release notes to learn about the latest changes to {{site.data.keyword.cloud-shell_full}}.
 {: shortdesc}
 
-The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the latest available versions.
+The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the latest available versions. These updates are not detailed in these release notes.
 {: tip}
+
+## 12 August 2020
+{: #12-08-2020}
+
+* Increased the weekly usage quota from 30 hours to 50 hours so you have more time to use {{site.data.keyword.cloud-shell_short}} each week. For more information about the usage quota, see [Tracking your usage](/docs/cloud-shell?topic=cloud-shell-shell-ui#usage-limit).
+* Changed {{site.data.keyword.cloud-shell_short}} to have separate workspaces for each account. Previously, workspaces in each region were set at the user level, which meant that your workspace was shared across all of your accounts. For more information about workspaces, see [Your {{site.data.keyword.cloud-shell_short}} workspace](/docs/cloud-shell?topic=cloud-shell-shell-ui#shell-workspace).
+* Moved the cookie preferences from the in-page button to the **Privacy** option in the {{site.data.keyword.cloud-shell_short}} menu.
+* Updated the {{site.data.keyword.cloud-shell_short}} server image to version 1.0.1, which includes the following changes:
+   * Added the Operator SDK (`operator-sdk`) for managing Kubernetes applications at version 0.19.0.
+   * Added the Mercurial source content mangement tool (`hg`) at version 4.4.1.
+   * Added the Bazaar version control system and CLI (`bzr`) at version 2.7.0.
+   * Updated the Python runtime from version 3.5 to 3.6.
+   * Updated the {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform to 1.8.1
+
 
 ## 24 June 2020
 {: #24-06-2020}

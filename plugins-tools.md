@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-06-03"
+lastupdated: "2020-08-12"
 
-keywords: IBM Cloud Shell, Cloud Shell, cloud shell plug-ins, cloud shell runtimes, cloud shell tools, installed packages, installed tools, cloud shell utilities
+keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities
 
 subcollection: cloud-shell
 
@@ -28,9 +28,10 @@ In addition to the full {{site.data.keyword.cloud_notm}} CLI, {{site.data.keywor
 
 {{site.data.keyword.cloud-shell_notm}} includes all {{site.data.keyword.cloud_notm}} CLI plug-ins, including but not limited to:
 
-* {{site.data.keyword.dev_cli_notm}} CLI plug-in (`ibmcloud dev`)
 * {{site.data.keyword.iae_full_notm}} CLI plug-in (`ibmcloud ae`)
-* {{site.data.keyword.cloud_notm}} {{site.data.keyword.databases-for}} CLI plug-in (`ibmcloud cdb`)
+* {{site.data.keyword.cloud_notm}} Catalogs Management CLI plug-in (`ibmcloud catalog`)
+* {{site.data.keyword.IBM_notm}} {{site.data.keyword.databases-for}} CLI plug-in (`ibmcloud cdb`)
+* {{site.data.keyword.codeenginefull_notm}} CLI plug-in (`ibmcloud ce`)
 * {{site.data.keyword.registrylong_notm}} CLI plug-in (`ibmcloud cr`)
 * {{site.data.keyword.cloud_notm}} {{site.data.keyword.DRA_short}} CLI plug-in (`ibmcloud doi`)
 * {{site.data.keyword.IBM_notm}} {{site.data.keyword.openwhisk_short}} CLI plug-in (`ibmcloud fn`)
@@ -38,7 +39,9 @@ In addition to the full {{site.data.keyword.cloud_notm}} CLI, {{site.data.keywor
 * {{site.data.keyword.cis_full_notm}} CLI plug-in (`ibmcloud cis`)
 * {{site.data.keyword.containerlong_notm}} CLI plug-in (`ibmcloud ks`)
 * {{site.data.keyword.cos_full_notm}} CLI plug-in (`ibmcloud cos`)
-* {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform (`ibmcloud terraform`)
+* {{site.data.keyword.satellitelong_notm}} CLI plug-in (`ibmcloud sat`)
+* {{site.data.keyword.bplong_notm}} plug-in (`ibmcloud schematics`)
+* {{site.data.keyword.tg_full_notm}} CLI plug-in (`ibmcloud tg`)
 * {{site.data.keyword.vpn_full}} CLI plug-in (`ibmcloud vpn`)
 * {{site.data.keyword.vpc_full}} CLI plug-in (`ibmcloud is`)
 * {{site.data.keyword.IBM_notm}} {{site.data.keyword.messagehub}} CLI plug-in (`ibmcloud es`)
@@ -55,6 +58,7 @@ The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to t
 
   - Apache Ant (`ant`)
   - Apache Maven (`maven`)
+  - Bazaar version control system (`bzr`)
   - Calico CLI (`calicoctl`)
   - cURL (`curl`)
   - etcd CLI (`etcdctl`)
@@ -70,17 +74,19 @@ The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to t
   - Knative CLI (`kn`)
   - Kubernetes CLI (`kubectl`)
   - Kubetail Kubernetes log aggregator (`kubetail`)
+  - Mercurial source content management tool (`hg`)
   - MongoDB shell (`mongo`) and tools
   - Nano text editor (`nano`) and colors for `nano`
   - nodemon Node.js development monitoring utility (`nodemon`)
   - NPM Package Manager (`npm`)
   - Node Version Manager (`nvm`)
+  - Operator SDK (`operator-sdk`)
   - PostgeSQL client (`psql`)
   - Red Hat&reg; OpenShift CLI (`oc`)
   - Red Hat OpenShift Do CLI (`odo`)
   - Redis CLI (`redis-cli`)
   - SoftLayer CLI (`slcli`)
-  - Terraform CLI (`terraform`)
+  - Terraform CLI (`terraform`) and {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform (`terraform-provider-ibm`)
   - tmux terminal multiplexer (`tmux`)
   - UnZip extraction utility (`unzip`)
   - Vim text editor (`vim`)

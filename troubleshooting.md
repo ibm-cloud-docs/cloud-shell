@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-03-27"
 
-keywords: IBM Cloud Shell, Cloud Shell, troubleshooting, error, disconnect, connection lost, could not start cloud shell, bashrc
+keywords: Cloud Shell troubleshooting, cloud shell connection lost, could not start cloud shell, cloud shell bashrc
 
 subcollection: cloud-shell
 

@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-03-10"
 
-keywords: IBM Cloud Shell, Cloud Shell, preview web app, web preview, view port, port preview, app localhost
+keywords: Cloud Shell preview web app, web preview in Cloud Shell, view port, port preview, app localhost
 
 subcollection: cloud-shell
 

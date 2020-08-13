@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-03-13"
+lastupdated: "2020-08-12"
 
-keywords: IBM Cloud Shell, Cloud Shell, upload file in cloud shell, download file in cloud shell, add file, add project to cloud shell, file storage, persistence, import file, export file
+keywords: upload file in cloud shell, download file in cloud shell, add file, add project to cloud shell, file storage, persistence, import file, export file
 
 subcollection: cloud-shell
 
@@ -28,11 +28,11 @@ Your {{site.data.keyword.cloud-shell_full}} workspace includes a home directory 
 ## Temporary workspace storage
 {: #file-persistence}
 
-Your {{site.data.keyword.cloud-shell_notm}} workspace includes 500 MB of temporary secure storage per region that you can access through your personal home directory, `/home/<user-name>`. This storage space is provided at the user level rather than the account level. This means that only you can access your storage, and you can access it from any of your accounts. No one else in your accounts can access your workspace storage.
+Your {{site.data.keyword.cloud-shell_short}} workspace includes 500 MB of temporary secure storage, which you can access through your personal home directory, `/home/<user-name>`. Only you can access your workspace storage, and your storage is separate for each account that you access or region where you work in {{site.data.keyword.cloud-shell_notm}}.
 
 Your workspace storage is shared across all of your sessions, so you can work with the same files in different session tabs. The storage persists only while your workspace is active. If you're idle in {{site.data.keyword.cloud-shell_short}} for over an hour, your files and data are removed. Similarly, if you reach the usage quota or you restart {{site.data.keyword.cloud-shell_short}}, {{site.data.keyword.cloud-shell_short}} closes and removes your data. If you make any changes to files that you want to keep, be sure to download the files at the end of your session.
 
-There is a known issue where your connection to {{site.data.keyword.cloud-shell_short}} is lost if your reach the temporary storage limit. If this happens, the only way to fix the connection is to restart {{site.data.keyword.cloud-shell_short}}, which removes all of your files. While working in {{site.data.keyword.cloud-shell_notm}}, avoid uploading large files and remove any unused files by using standard Linux&trade; commands, such as `rm`.
+There is a known issue where your connection to {{site.data.keyword.cloud-shell_short}} is lost if your reach the temporary storage limit. If this happens, the only way to fix the connection is to restart {{site.data.keyword.cloud-shell_short}}, which removes all of your files. While you work in {{site.data.keyword.cloud-shell_notm}}, avoid uploading large files and remove any unused files by using standard Linux&trade; commands, such as `rm`.
 {: important}
 
 ### Backing up your data

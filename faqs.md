@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-02-19"
+lastupdated: "2020-08-12"
 
-keywords: IBM Cloud Shell, Cloud Shell, frequently asked questions, faq, cloud shell type, cloud shell bash
+keywords: Cloud Shell frequently asked questions, Cloud Shell faq, cloud shell type, cloud shell bash
 
 subcollection: cloud-shell
 
@@ -51,7 +51,7 @@ To work in {{site.data.keyword.cloud-shell_short}}, you need to use one of the {
 {: faq}
 {: support}
 
-You can use {{site.data.keyword.cloud-shell_short}} for up to 30 hours within a single week. If you reach this limit, all {{site.data.keyword.cloud-shell_short}} sessions are closed, and any data in your workspace is deleted. But don't worry, you can still access {{site.data.keyword.cloud-shell_short}} only in 5-minute increments until the week resets.
+You can use {{site.data.keyword.cloud-shell_short}} for up to 50 hours within a single week. If you reach this limit, all {{site.data.keyword.cloud-shell_short}} sessions are closed, and any data in your workspace is deleted. But don't worry, you can still access {{site.data.keyword.cloud-shell_short}} only in 5-minute increments until the week resets.
 
 ## How can I audit {{site.data.keyword.cloud-shell_short}} usage?
 {: #how-audit-logs}
