@@ -108,4 +108,4 @@ In {{site.data.keyword.cloud-shell_short}}, browser cookies are used to provide 
 
 {{site.data.keyword.cloud-shell_short}} uses the cookie preferences from the {{site.data.keyword.cloud_notm}} console. If you change your cookie settings from the IBM standard default, your {{site.data.keyword.cloud-shell_short}} location preferences won't be saved, and you might not be able to use some {{site.data.keyword.cloud_notm}} console features.
 
-To change your {{site.data.keyword.cloud_notm}} cookie preferences from within {{site.data.keyword.cloud-shell_short}}, click the Menu icon ![More icon](../icons/actions-icon-vertical.svg), and select **Privacy**. For more information, see [Changing your cookie settings](docs/account?topic=account-usersettings#tracking).
+To change your {{site.data.keyword.cloud_notm}} cookie preferences from within {{site.data.keyword.cloud-shell_short}}, click the Menu icon ![More icon](../icons/actions-icon-vertical.svg), and select **Privacy**. For more information, see [Changing your cookie settings](/docs/account?topic=account-usersettings#tracking).
