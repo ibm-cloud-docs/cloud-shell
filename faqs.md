@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-08-12"
+lastupdated: "2020-09-04"
 
 keywords: Cloud Shell frequently asked questions, Cloud Shell faq, cloud shell type, cloud shell bash
 
@@ -44,7 +44,22 @@ FAQs for {{site.data.keyword.cloud-shell_full}} include questions about {{site.d
 {: faq}
 {: support}
 
-To work in {{site.data.keyword.cloud-shell_short}}, you need to use one of the {{site.data.keyword.cloud_notm}} supported browsers. For more information, see [What are the {{site.data.keyword.cloud_notm}} prerequisites?](/docs/overview?topic=overview-prereqs-platform). If you use a browser that's not supported, you might see blank screens or other display problems when you use {{site.data.keyword.cloud-shell_short}}.
+To work in {{site.data.keyword.cloud-shell_short}}, you need to use one of the {{site.data.keyword.cloud_notm}} supported browsers. For more information, see [What are the {{site.data.keyword.cloud_notm}} prerequisites?](/docs/overview?topic=overview-prereqs-platform). If you use a browser that is not supported, you might see blank screens or other display problems when you use {{site.data.keyword.cloud-shell_short}}.
+
+## How do I copy and paste text in {{site.data.keyword.cloud-shell_short}}?
+{: #how-copy-paste}
+{: faq}
+{: support}
+
+To copy text in {{site.data.keyword.cloud-shell_short}}, select the text that you want to copy, and then do one of the following:
+
+* In your browser menu, click **Edit**, and then click **Copy** or **Paste**.
+* For macOS, use the keyboard shortcuts Cmd+C and Cmd+V.
+* For Linux&trade;, use Ctrl+Insert for copy and Shift+Insert for paste.
+* For Windows&trade;, use Ctrl+Insert for copy and either Shift+Insert or Ctrl+Shift+V for paste.
+* Select text and then right-click to use the pop-up menu, and select **Copy** or **Paste**.
+
+Firefox and Internet Explorer might not support clipboard permissions properly.
 
 ## How long can I use {{site.data.keyword.cloud-shell_short}}?
 {: #what-usage-length}
