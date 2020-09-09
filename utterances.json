@@ -1,134 +1,161 @@
 {
-    "what-shell-type": [
-        "type of shell is Cloud Shell",
-        "shell type is Cloud Shell",
-        "is Cloud Shell a Ubuntu Linux bash shell",
-        "Cloud shell type",
-        "shell type for Cloud Shell",
-        "type of shell type for Cloud Shell"
-    ],
-    "what-tools": [
-        "tools and plug-ins are included in Cloud Shell",
-        "what's included with Cloud shell",
-        "tools that included with Cloud Shell",
-        "plug-ins included in Cloud Shell",
-        "cloud shell installed tools",
-        "what's included with Cloud Shell",
-        "what does Cloud Shell include",
-        "cloud shell installed plug ins"
-    ],
-    "what-browsers": [
-        "browsers does Cloud Shell support",
-        "browsers are supported for IBM cloud",
-        "browsers supported for cloud shell",
-        "cloud shell support chrome",
-        "supported browsers for using Cloud Shell",
-        "browser support for Cloud Shell",
-        "is firefox supported by cloud shell",
-        "safari browser have Cloud Shell support"
-    ],
-    "what-usage-length": [
-        "how long can I use Cloud Shell",
-        "time restriction on cloud shell use",
-        "time duration for cloud shell",
-        "duration using Cloud shell per week",
-        "time limitation for cloud shell",
-        "long can I use Shell in a week",
-        "what happens when shell time runs out",
-        "duration to use cloud shell"
-    ],
-    "how-audit-logs": [
-        "audit Cloud Shell usage",
-        "view cloud shell usage",
-        "check on usage for cloud shell",
-        "see the usage for cloud shell",
-        "check cloud shell usage",
-        "analyze cloud shell events",
-        "view users interaction with Cloud Shell",
-        "see user ineractions in Cloud shell"
-    ],
-    "how-delete-data": [
-        "delete my data in Cloud Shell",
-        "remove cloud shell data",
-        "removing data from cloud shell",
-        "cloud shell data removal",
-        "delete data from cloud shell",
-        "cloud shell data deletion",
-        "removal of cloud shell data",
-        "data deletion automated when usage limits met in cloud shell",
-        "data deleted when usage limits met in cloud shell"
-    ],
-    "how-edit-files": [
-        "edit files in Cloud Shell",
-        "update files in cloud shell",
-        "available text editors in Cloud Shell",
-        "editing files within cloud shell",
-        "text editor use in Cloud Shell",
-        "text editor used by cloud shell",
-        "update file content in Cloud Shell"
-    ],
-    "how-customize-shell": [
-        "customize my Cloud Shell",
-        "cloud shell customization",
-        "customizing cloud shell",
-        "modifying custom shells in cloud shell",
-        "modify the bashrc file in cloud shell",
-        "modify the files in Cloud Shell",
-        "update cloud shell files"
-    ],
-    "faq-switch-accounts": [
-        "switch accounts in Cloud Shell",
-        "change accounts in Cloud Shell",
-        "open a different account in cloud shell",
-        "changing accounts within Cloud Shell",
-        "work in a different account in cloud shell",
-        "account switching in Cloud Shell",
-        "account changing in Cloud Shell"
-    ],
-    "faq-sudo": [
-        "use sudo to run commands in cloud shell",
-        "sudo supported in cloud shell",
-        "use of sudo within cloud shell",
-        "running commands in cloud shell",
-        "run cloud shell commands",
-        "use sudo in cloud shell to run commands",
-        "use sudo in cloud shell",
-        "support for sudo in cloud shell"
-    ],
-    "trouble-restart": [
-        "Your session couldn't be started error",
-        "error Your session couldn't be started in Cloud shell",
-        "can't start cloud shell",
-        "unable to start cloud shell",
-        "can't access cloud shell",
-        "cloud shell error when I try to access it",
-        "can't my cloud shell sessions start"
-    ],
-    "trouble-kube": [
-        "can't I work with my Kubernetes clusters in Cloud Shell",
-        "The connection to the server localhost:8080 was refused in Cloud Shell",
-        "unable to work with kube clusters in cloud shell",
-        "error given trying to work with clusters in cloud shell",
-        "error trying to use kubernetes clusters in cloud shell",
-        "error given The connection to the server localhost:8080 was refused in Cloud Shell"
-    ],
-    "trouble-bashrc": [
-        "changed my bashrc file and cloud shell doesn't work",
-        "updated bashrc file and not shell won't work",
-        "can't open cloud shell after changing configuration",
-        "changed configuration and cloud shell not working",
-        "updated the bashrc and now shell doesn't work",
-        "cloud shell not opening after config update",
-        "cloud shell not opening after bashrc update"
-    ],
-    "trouble-connection": [
-        "keep losing my connection to Cloud Shell",
-        "lost connection to Cloud Shell again",
-        "The connection to your session was lost in cloud shell",
-        "error in cloud shell that The connection to your session was lost",
-        "connection was lost in cloud shell",
-        "connection issue in cloud shell",
-        "cloud shell connection was lost",
-        "The connection to my cloud shell session was lost"
-    ]
+  "what-shell-type": [
+    "type of shell is Cloud Shell",
+    "shell type is Cloud Shell",
+    "is Cloud Shell a Ubuntu Linux bash shell",
+    "Cloud shell type",
+    "What is Cloud Shell",
+    "Whats Cloud Shell",
+    "shell type for Cloud Shell",
+    "type of shell type for Cloud Shell"
+  ],
+  "what-tools": [
+    "tools and plug-ins are included in Cloud Shell",
+    "what's included with Cloud shell",
+    "tools that included with Cloud Shell",
+    "plug-ins included in Cloud Shell",
+    "tools are available in Cloud Shell",
+    "get the list of commands in Cloud Shell",
+    "cloud shell installed tools",
+    "whats included with Cloud Shell",
+    "what does Cloud Shell include",
+    "tools are available in Cloud Shell",
+    "commands are available in Cloud Shell",
+    "list of commands in Cloud Shell",
+    "commands in Cloud Shell",
+    "cloud shell installed plug ins"
+  ],
+  "what-browsers": [
+    "browsers does Cloud Shell support",
+    "browsers are supported for IBM cloud",
+    "browsers supported for cloud shell",
+    "cloud shell support chrome",
+    "supported browsers for using Cloud Shell",
+    "supported browsers in Cloud Shell",
+    "browsers can I use with Cloud Shell",
+    "supported browsers for use in Cloud Shell",
+    "browser support for Cloud Shell",
+    "is firefox supported by cloud shell",
+    "safari browser have Cloud Shell support"
+  ],
+  "what-usage-length": [
+    "how long can I use Cloud Shell",
+    "time restriction on cloud shell use",
+    "time duration for cloud shell",
+    "duration using Cloud shell per week",
+    "time limitation for cloud shell",
+    "long can I use Shell in a week",
+    "long does a cloud shell session last",
+    "what happens when shell time runs out",
+    "cloud shell session last",
+    "duration to use cloud shell"
+  ],
+  "how-audit-logs": [
+    "audit Cloud Shell usage",
+    "view cloud shell usage",
+    "check on usage for cloud shell",
+    "see the usage for cloud shell",
+    "check cloud shell usage",
+    "analyze cloud shell events",
+    "view users interaction with Cloud Shell",
+    "logs in cloud shell",
+    "get logs for cloud shell",
+    "see user ineractions in Cloud shell"
+  ],
+  "how-delete-data": [
+    "delete my data in Cloud Shell",
+    "remove cloud shell data",
+    "removing data from cloud shell",
+    "cloud shell data removal",
+    "delete data from cloud shell",
+    "cloud shell data deletion",
+    "removal of cloud shell data",
+    "data deletion automated when usage limits met in cloud shell",
+    "data deleted when usage limits met in cloud shell"
+  ],
+  "how-edit-files": [
+    "edit files in Cloud Shell",
+    "update files in cloud shell",
+    "available text editors in Cloud Shell",
+    "editing files within cloud shell",
+    "text editor use in Cloud Shell",
+    "text editor used by cloud shell",
+    "update file content in Cloud Shell"
+  ],
+  "how-customize-shell": [
+    "customize my Cloud Shell",
+    "cloud shell customization",
+    "customizing cloud shell",
+    "modifying custom shells in cloud shell",
+    "modify the bashrc file in cloud shell",
+    "modify the files in Cloud Shell",
+    "update cloud shell files"
+  ],
+  "faq-switch-accounts": [
+    "switch accounts in Cloud Shell",
+    "change accounts in Cloud Shell",
+    "open a different account in cloud shell",
+    "changing accounts within Cloud Shell",
+    "work in a different account in cloud shell",
+    "account switching in Cloud Shell",
+    "change account in cloud shell",
+    "account changing in Cloud Shell"
+  ],
+  "faq-sudo": [
+    "use sudo to run commands in cloud shell",
+    "sudo supported in cloud shell",
+    "use of sudo within cloud shell",
+    "running commands in cloud shell",
+    "run cloud shell commands",
+    "use sudo in cloud shell to run commands",
+    "use sudo in cloud shell",
+    "sudo supported for commands",
+    "support for sudo in cloud shell"
+  ],
+  "trouble-restart": [
+    "Your session couldn't be started error",
+    "error Your session couldn't be started in Cloud shell",
+    "can't start cloud shell",
+    "unable to start cloud shell",
+    "can't access cloud shell",
+    "my cloud shell session won't start",
+    "troubleshooting in cloud shell",
+    "cloud shell error when I try to access it",
+    "can't my cloud shell sessions start"
+  ],
+  "trouble-kube": [
+    "can't I work with my Kubernetes clusters in Cloud Shell",
+    "The connection to the server localhost:8080 was refused in Cloud Shell",
+    "unable to work with kube clusters in cloud shell",
+    "error given trying to work with clusters in cloud shell",
+    "error trying to use kubernetes clusters in cloud shell",
+    "use Cloud Shell for Kubernetes",
+    "can't work with my Kubernetes clusters from my session",
+    "Where do I start with Kubernetes in Cloud Shell",
+    "configure Cloud Shell to use Kubernetes",
+    "list of commands for Kubernetes in Cloud Shell",
+    "list of commands for Workers in Cloud Shell",
+    "error given The connection to the server localhost:8080 was refused in Cloud Shell"
+  ],
+  "trouble-bashrc": [
+    "changed my bashrc file and cloud shell doesn't work",
+    "updated bashrc file and not shell won't work",
+    "can't open cloud shell after changing configuration",
+    "changed configuration and cloud shell not working",
+    "updated the bashrc and now shell doesn't work",
+    "cloud shell not opening after config update",
+    "cloud shell not opening after bashrc update"
+  ],
+  "trouble-connection": [
+    "keep losing my connection to Cloud Shell",
+    "lost connection to Cloud Shell again",
+    "The connection to your session was lost in cloud shell",
+    "error in cloud shell that The connection to your session was lost",
+    "connection was lost in cloud shell",
+    "connection issue in cloud shell",
+    "cloud shell connection was lost",
+    "lose my connection in cloud shell",
+    "lost my connection in cloud shell",
+    "The connection to my cloud shell session was lost"
+  ]
 }
