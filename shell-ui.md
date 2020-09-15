@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-08-12"
+lastupdated: "2020-09-15"
 
 keywords: cloud shell terminal, cloud shell session, cloud shell usage limit, restart cloud shell
 
@@ -55,10 +55,7 @@ Each session automatically closes if it's not used for an hour. If you don't use
 
 When you open a session, you're logged in with the {{site.data.keyword.cloud_notm}} CLI targeting the account and region that you were in when you opened {{site.data.keyword.cloud-shell_short}}. This account and region are the default for every session.
 
-To switch the default account for your sessions, close {{site.data.keyword.cloud-shell_short}}, switch to a different account in the {{site.data.keyword.cloud_notm}} console menu bar, and then reopen {{site.data.keyword.cloud-shell_short}}. 
-
-The `ibmcloud target -c` command can't be used to change accounts from within a session.
-{: note}
+To switch the default account for your sessions, close {{site.data.keyword.cloud-shell_short}}, switch to a different account in the {{site.data.keyword.cloud_notm}} console menu bar, and then reopen {{site.data.keyword.cloud-shell_short}}.
 
 Because you have separate workspaces for each account, your session history and temporary file storage are also separate. This means that when you switch accounts, you'll see different session tabs and won't have access to any files that you were working with in the previous account.
 
