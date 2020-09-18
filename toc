@@ -23,6 +23,7 @@ Cloud Shell
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    /account/account-shell-settings
     faqs.md
     troubleshooting.md
     limitations.md

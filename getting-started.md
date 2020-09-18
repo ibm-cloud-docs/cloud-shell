@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-04-10"
+lastupdated: "2020-09-18"
 
-keywords: getting started tutorial, IBM Cloud Shell, cloud shell, IBM Cloud cli, using IBM Cloud Shell
+keywords: getting started tutorial, IBM Cloud Shell, cloud shell, IBM Cloud cli, using IBM Cloud Shell, cloud shell access
 
 subcollection: cloud-shell
 
@@ -29,7 +29,7 @@ New to {{site.data.keyword.cloud-shell_short}}? [Watch the demo video](https://w
 
 ## Before you begin
 {: #prereqs}
-If you don't already have an {{site.data.keyword.cloud_notm}} account, [sign up for one](https://cloud.ibm.com/registration/) and log in. And that's it - because {{site.data.keyword.cloud-shell_notm}} is instantly accessible from the console, no other installation is needed.
+If you don't already have an {{site.data.keyword.cloud_notm}} account, [sign up for one](https://{DomainName}/registration/) and log in. And that's it - because {{site.data.keyword.cloud-shell_notm}} is instantly accessible from the console, no other installation is needed.
 
 ## Step 1. Start a session in {{site.data.keyword.cloud-shell_notm}}
 {: #open-shell}
