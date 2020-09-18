@@ -32,7 +32,6 @@ The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to t
 
 * Account owners or users with {{site.data.keyword.cloud-shell_short}} administrator access can manage {{site.data.keyword.cloud-shell_short}} settings from the {{site.data.keyword.cloud_notm}} console. For more information, see the following topics:
   - [Updating {{site.data.keyword.cloud-shell_short}} settings](/docs/account?topic=account-shell-settings)
-  - [IAM roles and actions](/docs/account?topic=account-iam-service-roles-actions#ibm-cloud-shell)
   - [Actions and roles for account management services](/docs/account?topic=account-account-services#shell-service-account-management)
 * The following tools are new with this {{site.data.keyword.cloud-shell_short}} update:
   - Terraform version switch (`tfswitch`) version 0.8.832
