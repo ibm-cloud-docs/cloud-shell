@@ -113,5 +113,4 @@ To switch the default account for all sessions, close {{site.data.keyword.cloud-
 Account owners or {{site.data.keyword.cloud-shell_short}} administrators can control whether users in an account can access {{site.data.keyword.cloud-shell_short}}, and they can select the location for storing user session data. For more information, see the following topics:
 
 * [Updating {{site.data.keyword.cloud-shell_short}} settings](/docs/account?topic=account-shell-settings)
-* [IAM roles and actions](/docs/account?topic=account-iam-service-roles-actions#ibm-cloud-shell)
 * [Actions and roles for account management services](/docs/account?topic=account-account-services#shell-service-account-management)
