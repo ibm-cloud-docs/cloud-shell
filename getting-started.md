@@ -148,8 +148,6 @@ start command:   node server
 ## Next steps
 {: #next-steps}
 
-<!-- Now that you're familiar with deploying a basic Cloud Foundry app, try an in-depth tutorial for [creating apps by using the CLI](/docs/cli?topic=creating-apps-create-deploy-app-cli) that deploys an app in a DevOps pipeline. -->
-
 From {{site.data.keyword.cloud-shell_short}}, you can quickly run commands on your {{site.data.keyword.cloud_notm}} account. For example:
 
 * [Managing accounts, users, and Cloud Foundry orgs](/docs/cli?topic=cli-ibmcloud_commands_account)
