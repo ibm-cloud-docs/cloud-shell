@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-18"
+lastupdated: "2020-10-02"
 
 keywords: Cloud Shell frequently asked questions, Cloud Shell faq, cloud shell type, cloud shell bash
 
@@ -105,7 +105,7 @@ To switch the default account for all sessions, close {{site.data.keyword.cloud-
 {: #faq-sudo}
 {: faq}
 
-`sudo` isn't currently supported in {{site.data.keyword.cloud-shell_short}}. Want this or another feature? [Submit your feedback](/docs/cloud-shell?topic=cloud-shell-feedback) to help us improve future releases.
+{{site.data.keyword.cloud-shell_short}} is a restricted shell, so `sudo` isn't supported in {{site.data.keyword.cloud-shell_short}}.
 
 ## How do I manage access and locations for {{site.data.keyword.cloud-shell_short}}?
 {: #faq-shell-access}
