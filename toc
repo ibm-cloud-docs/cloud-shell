@@ -18,6 +18,7 @@ Cloud Shell
     {: .navgroup id="reference"}
     at-events.md
     ha-dr.md
+    architecture-workload-isolation.md
     plugins-tools.md
     [IBM Cloud CLI command reference](/cli/cli-ibmcloud_cli)
     {: .navgroup-end}
