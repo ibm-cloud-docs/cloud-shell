@@ -2,10 +2,13 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-18"
+lastupdated: "2020-12-10"
 
 keywords: getting started tutorial, IBM Cloud Shell, cloud shell, IBM Cloud cli, using IBM Cloud Shell, cloud shell access
-
+content-type: tutorial
+services: 
+account-plan: lite
+completion-time: 30m
 subcollection: cloud-shell
 
 ---
@@ -16,12 +19,16 @@ subcollection: cloud-shell
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:step: data-tutorial-type='step'}
 
 
 # Getting started with {{site.data.keyword.cloud-shell_notm}}
 {: #getting-started}
+{: toc-content-type="tutorial"} 
+{: toc-services=""} 
+{: toc-completion-time="30m"}
 
-In this getting started tutorial, you use {{site.data.keyword.cloud-shell_full}} to clone a sample Node.js app and deploy it to Cloud Foundry on {{site.data.keyword.cloud}}. {{site.data.keyword.cloud-shell_notm}} is a cloud-based shell workspace that you can access through your browser. It's preconfigured with the full {{site.data.keyword.cloud_notm}} CLI and tons of plug-ins and tools that you can use to manage apps, resources, and infrastructure. This tutorial takes about 5 minutes to complete.
+In this getting started tutorial, you use {{site.data.keyword.cloud-shell_full}} to clone a sample Node.js app and deploy it to Cloud Foundry on {{site.data.keyword.cloud}}. {{site.data.keyword.cloud-shell_notm}} is a cloud-based shell workspace that you can access through your browser. It's preconfigured with the full {{site.data.keyword.cloud_notm}} CLI and tons of plug-ins and tools that you can use to manage apps, resources, and infrastructure. 
 {: shortdesc}
 
 New to {{site.data.keyword.cloud-shell_short}}? [Watch the demo video](https://www.youtube.com/watch?v=a8YHFyYfpVI){: external} to see how quickly you can start using it from the {{site.data.keyword.cloud_notm}} console.
@@ -31,13 +38,15 @@ New to {{site.data.keyword.cloud-shell_short}}? [Watch the demo video](https://w
 {: #prereqs}
 If you don't already have an {{site.data.keyword.cloud_notm}} account, [sign up for one](https://{DomainName}/registration/) and log in. And that's it - because {{site.data.keyword.cloud-shell_notm}} is instantly accessible from the console, no other installation is needed.
 
-## Step 1. Start a session in {{site.data.keyword.cloud-shell_notm}}
+## Start a session in {{site.data.keyword.cloud-shell_notm}}
 {: #open-shell}
+{: step}
 
 In the {{site.data.keyword.cloud_notm}} console, click the {{site.data.keyword.cloud-shell_notm}} icon ![{{site.data.keyword.cloud-shell_notm}} icon](../icons/terminal-cloud-shell.svg). A session starts and automatically logs you in through the {{site.data.keyword.cloud_notm}} CLI.
 
-## Step 2. Clone the Node.js sample app
+## Clone the Node.js sample app
 {: #clone-app}
+{: step}
 
 Your {{site.data.keyword.cloud-shell_short}} session starts in the temporary home directory, `/home/<user-name>`. Clone the [Node.js Express sample app](https://github.com/IBM/nodejs-express-app){: external} to this directory and then change to the sample app directory by running the following commands.
 
@@ -66,7 +75,9 @@ package.json  public  scripts  server  test
 ```
 {: screen}
 
-## Step 3. Preview the app locally
+## Preview the app locally
+{: #preview-app}
+{: step}
 
 Before you deploy your app, you can start it in {{site.data.keyword.cloud-shell_short}} and preview it locally. This gives you a chance to see your app run without it being publicly visible.
 
@@ -99,8 +110,9 @@ Before you deploy your app, you can start it in {{site.data.keyword.cloud-shell_
 
 1. Press `Control+C` to stop the app so that you can deploy it to the cloud.
 
-## Step 4. Target a Cloud Foundry org and space
+## Target a Cloud Foundry org and space
 {: #target-cf}
+{: step}
 
 Now that you tested the sample app, you can deploy it to the cloud so everyone can see it. Because you're deploying the app to Cloud Foundry, you need to target a Cloud Foundry org and space. The org and space help to organize your Cloud Foundry services and apps.
 
@@ -111,8 +123,9 @@ ibmcloud target --cf
 ```
 {: pre}
 
-## Step 5. Deploy your app
+## Deploy your app
 {: #deploy-app}
+{: step}
 
 Build and deploy your app in Cloud Foundry by running the following command. Make sure to specify a unique name for your app.
 
