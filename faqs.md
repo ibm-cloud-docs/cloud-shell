@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-02"
+lastupdated: "2020-12-18"
 
 keywords: Cloud Shell frequently asked questions, Cloud Shell faq, cloud shell type, cloud shell bash
 
@@ -26,11 +26,11 @@ subcollection: cloud-shell
 FAQs for {{site.data.keyword.cloud-shell_full}} include questions about {{site.data.keyword.cloud-shell_short}} sessions and its included tools and plug-ins. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](https://{DomainName}/docs/faqs).
 {: shortdesc}
 
-## What type of shell is {{site.data.keyword.cloud-shell_short}}?
+## What type of shell does {{site.data.keyword.cloud-shell_short}} use?
 {: #what-shell-type}
 {: faq}
 
-{{site.data.keyword.cloud-shell_notm}} is an x86-64 Ubuntu Linux&trade; bash shell.
+{{site.data.keyword.cloud-shell_notm}} uses a Red Hat&trade; Linux&trade; bash shell.
 
 ## What tools and plug-ins are included in {{site.data.keyword.cloud-shell_short}}?
 {: #what-tools}

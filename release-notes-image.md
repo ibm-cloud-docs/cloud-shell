@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-18"
+lastupdated: "2020-12-18"
 
 keywords: Cloud Shell release notes, Cloud Shell changes, Cloud Shell updates
 
@@ -26,6 +26,19 @@ Use the release notes to learn about the latest changes to {{site.data.keyword.c
 
 The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the most recent available versions. These updates are not usually detailed in these release notes.
 {: tip}
+
+## 18 December 2020
+{: #18-12-2020}
+
+* Account owners or users with {{site.data.keyword.cloud-shell_short}} administrator access can enable or disable {{site.data.keyword.cloud-shell_short}} features for an account. The available features in this release are **File upload and download** and **Web preview**. The feature settings apply only to the enabled {{site.data.keyword.cloud-shell_short}} locations. For more information, see [Enabling or disabling {{site.data.keyword.cloud-shell_short}} features for an account](/docs/account?topic=account-shell-settings#shell-features-enable).
+* An account administrator can grant specific users access to {{site.data.keyword.cloud-shell_short}} and its features, even if {{site.data.keyword.cloud-shell_short}} settings are disabled at the account level. For more information, see [Assigning access to {{site.data.keyword.cloud-shell_short}} and its features at a user level](/docs/account?topic=account-shell-settings#shell-access-user).
+* The following new service roles are available:
+  * Cloud Operator
+  * Cloud Developer
+  * File Manager
+
+  For more information, see [IAM roles and actions](/docs/account?topic=account-iam-service-roles-actions#ibm-cloud-shell).
+* {{site.data.keyword.cloud-shell_notm}} now uses a Red Hat&trade; Linux&trade; bash shell instead of a x86-64 Ubuntu Linux&trade; bash shell.
 
 ## 18 September 2020
 {: #18-09-2020}
