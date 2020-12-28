@@ -30,7 +30,7 @@ FAQs for {{site.data.keyword.cloud-shell_full}} include questions about {{site.d
 {: #what-shell-type}
 {: faq}
 
-{{site.data.keyword.cloud-shell_notm}} uses a Red Hat&trade; Linux&trade; bash shell.
+{{site.data.keyword.cloud-shell_notm}} uses a Red Hat&reg; Linux&reg; bash shell.
 
 ## What tools and plug-ins are included in {{site.data.keyword.cloud-shell_short}}?
 {: #what-tools}
@@ -55,8 +55,8 @@ To copy text in {{site.data.keyword.cloud-shell_short}}, select the text that yo
 
 * In your browser menu, click **Edit**, and then click **Copy** or **Paste**.
 * For macOS, use the keyboard shortcuts Cmd+C and Cmd+V.
-* For Linux&trade;, use Ctrl+Insert for copy and Shift+Insert for paste.
-* For Windows&trade;, use Ctrl+Insert for copy and either Shift+Insert or Ctrl+Shift+V for paste.
+* For Linux&reg;, use Ctrl+Insert for copy and Shift+Insert for paste.
+* For Windows&reg;, use Ctrl+Insert for copy and either Shift+Insert or Ctrl+Shift+V for paste.
 * Select text and then right-click to use the pop-up menu, and select **Copy** or **Paste**.
 
 Firefox and Internet Explorer might not support clipboard permissions properly.
