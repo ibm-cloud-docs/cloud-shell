@@ -38,6 +38,15 @@
     "is firefox supported by cloud shell",
     "safari browser have Cloud Shell support"
   ],
+  "how-copy-paste": [
+    "copy and paste text in Cloud Shell",
+    "how to copy & paste in Shell",
+    "use copy and paste in Windows for Shell",
+    "copy and paste in Mac for Shell",
+    "copy paste for Shell in Linux",
+    "Cloud Shell support copy & paste",
+    "copy text for Shell"
+  ],
   "what-usage-length": [
     "how long can I use Cloud Shell",
     "time restriction on cloud shell use",
@@ -112,13 +121,31 @@
     "sudo supported for commands",
     "support for sudo in cloud shell"
   ],
+  "faq-shell-access": [
+    "how can i access shell from instance",
+    "how to access Cloud Shell",
+    "connect a device to my cloud shell",
+    "connect to Cloud Shell",
+    "change location for Cloud Shell",
+    "update Cloud Shell location for a user",
+    "how to enable Cloud Shell",
+    "disable Cloud Shell for a User",
+    "access to Cloud Shell for a user",
+    "how to login to shell",
+    "enable access for a User to Shell",
+    "update location in Shell",
+    "enabling shell access"
+  ],
   "trouble-restart": [
     "Your session couldn't be started error",
+    "cannot open a cloud shell session",
     "error Your session couldn't be started in Cloud shell",
     "can't start cloud shell",
     "unable to start cloud shell",
     "can't access cloud shell",
     "my cloud shell session won't start",
+    "i could not access IBM cloud shell",
+    "why is cloud shell not opening",
     "troubleshooting in cloud shell",
     "cloud shell error when I try to access it",
     "can't my cloud shell sessions start"
@@ -149,6 +176,9 @@
   "trouble-connection": [
     "keep losing my connection to Cloud Shell",
     "lost connection to Cloud Shell again",
+    "cloud shell not able to access",
+    "unable to access cloud shell",
+    "i cannot use cloud shell",
     "The connection to your session was lost in cloud shell",
     "error in cloud shell that The connection to your session was lost",
     "connection was lost in cloud shell",
