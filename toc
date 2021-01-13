@@ -17,7 +17,6 @@ Cloud Shell
 
     {: .navgroup id="reference"}
     at-events.md
-    manage-scc.md
     ha-dr.md
     architecture-workload-isolation.md
     ip-addresses.md
