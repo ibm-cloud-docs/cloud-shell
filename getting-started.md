@@ -76,7 +76,7 @@ package.json  public  scripts  server  test
 {: screen}
 
 ## Preview the app locally
-{: #preview-app}
+{: #preview-app-locally}
 {: step}
 
 Before you deploy your app, you can start it in {{site.data.keyword.cloud-shell_short}} and preview it locally. This gives you a chance to see your app run without it being publicly visible.
