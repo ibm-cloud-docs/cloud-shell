@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-08-12"
+  years: 2020, 2021
+lastupdated: "2021-03-18"
 
 keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities
 
@@ -86,7 +86,7 @@ The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to t
   - Red Hat OpenShift Do CLI (`odo`)
   - Redis CLI (`redis-cli`)
   - SoftLayer CLI (`slcli`)
-  - Terraform CLI (`terraform`) and {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform (`terraform-provider-ibm`)
+  - Terraform CLI (`terraform`) and {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform (`ibmcloud terraform`)
   - tmux terminal multiplexer (`tmux`)
   - UnZip extraction utility (`unzip`)
   - Vim text editor (`vim`)
