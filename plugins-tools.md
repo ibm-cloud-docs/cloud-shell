@@ -20,7 +20,7 @@ subcollection: cloud-shell
 # Installed plug-ins and tools
 {: #plugins-tools}
 
-In addition to the full {{site.data.keyword.cloud_notm}} CLI, {{site.data.keyword.cloud-shell_full}} includes preinstalled CLI plug-ins, packages, tools, and runtimes so that you can instantly get working on the command line.
+In addition to the full {{site.data.keyword.cloud}} CLI, {{site.data.keyword.cloud-shell_full}} includes preinstalled CLI plug-ins, packages, tools, and runtimes so that you can instantly get working on the command line.
 {: shortdesc}
 
 ## {{site.data.keyword.cloud_notm}} CLI plug-ins
