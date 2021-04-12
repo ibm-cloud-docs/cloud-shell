@@ -13,10 +13,17 @@ Cloud Shell
     files.md
     preview.md
     feedback.md
+
+    {: topicgroup}
+    Logging and monitoring
+      at-events.md
+
+    {: topicgroup}
+    Enhancing security
+      manage-scc.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    at-events.md
     ha-dr.md
     architecture-workload-isolation.md
     ip-addresses.md
