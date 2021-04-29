@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-03-27"
+  years: 2020, 2021
+lastupdated: "2021-04-29"
 
-keywords: Cloud Shell troubleshooting, cloud shell connection lost, could not start cloud shell, cloud shell bashrc
+keywords: Cloud Shell troubleshooting, cloud shell connection lost, could not start cloud shell, cloud shell bashrc, Cloud Shell hangs, Cloud Shell closes, Cloud Shell restarts
 
 subcollection: cloud-shell
 
@@ -30,7 +30,7 @@ subcollection: cloud-shell
 Use these tips to help troubleshoot problems that you might run into when you use {{site.data.keyword.cloud-shell_full}}.
 {: shortdesc}
 
-Running into issues that you can't fix? We want to hear about it. [Submit feedback](/docs/cloud-shell?topic=cloud-shell-feedback) about {{site.data.keyword.cloud-shell_short}} through our UI or Slack channel.
+Running into issues that you can't fix? We want to hear about it. [Submit feedback](/docs/cloud-shell?topic=cloud-shell-feedback) about {{site.data.keyword.cloud-shell_short}} through our UI. Or come chat with the development team on [{{site.data.keyword.cloud_notm}} Dev Tools Slack](https://ic-devops-slack-invite.us-south.devops.cloud.ibm.com/){: external}. After you request your invitation, sign in and join the `#ask-your-question` channel.
 {: tip}
 
 ## Why can't my sessions start?
@@ -75,7 +75,7 @@ You customized your {{site.data.keyword.cloud-shell_short}} sessions by editing 
 Some code in your `.bashrc` file isn't working correctly, and it's interfering with your sessions' ability to initialize.
 {:tsCauses}
 
-If you're able to run commands from an existing open session, [download any files](/docs/cloud-shell?topic=cloud-shell-files) that you want to keep. Then, restart  {{site.data.keyword.cloud-shell_short}} by going to the {{site.data.keyword.cloud-shell_short}} menu and clicking **Restart**.
+If you're able to run commands from an existing open session, [download any files](/docs/cloud-shell?topic=cloud-shell-files) that you want to keep. Then, restart {{site.data.keyword.cloud-shell_short}} by going to the {{site.data.keyword.cloud-shell_short}} menu and clicking **Restart**.
 {: tsResolve}
 
 ## Why do I keep losing my connection to {{site.data.keyword.cloud-shell_short}}?
@@ -97,4 +97,15 @@ You might see this error for a few reasons:
 If your connection was lost because of a temporary hiccup in your internet connection, refresh the browser window to reconnect. If you continue to be disconnected, restart {{site.data.keyword.cloud-shell_short}}. Restarting {{site.data.keyword.cloud-shell_notm}} removes all files in your workspace, so be sure to [download any files](/docs/cloud-shell?topic=cloud-shell-files) that you want to keep.
 {: tsResolve}
 
-If a region is unavailable, restarting {{site.data.keyword.cloud-shell_short}} will automatically load it in an available region if you didn't change the {{site.data.keyword.cloud-shell_short}} location from the default. If you did manually change to a different location, clear your browser cache and cookies to remove your preferences, and then open {{site.data.keyword.cloud-shell_short}}.
+If a region is unavailable, restarting {{site.data.keyword.cloud-shell_short}} automatically loads it in an available region if you didn't change the {{site.data.keyword.cloud-shell_short}} location from the default. If you did manually change to a different location, clear your browser cache and cookies to remove your preferences, and then open {{site.data.keyword.cloud-shell_short}}.
+
+## Why does {{site.data.keyword.cloud-shell_short}} hang, close, or restart?
+{: #trouble-resource-use}
+{: troubleshoot}
+{: support}
+
+You're working in {{site.data.keyword.cloud-shell_short}} when your session hangs or closes with no message.
+{: tsSymptoms}
+
+{{site.data.keyword.cloud-shell_short}} might hang, experience slow performance, or close with intensive resource usage. If too many resources are used, the {{site.data.keyword.cloud-shell_short}} environment might restart. When {{site.data.keyword.cloud-shell_short}} closes, any data in your workspace is deleted.
+{: tsCauses}

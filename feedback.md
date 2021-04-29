@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-06-17"
+  years: 2020, 2021
+lastupdated: "2021-04-29"
 
-keywords: Cloud Shell feedback, question about Cloud Shell
+keywords: Cloud Shell feedback, questions about Cloud Shell
 
 subcollection: cloud-shell
 
@@ -31,5 +31,4 @@ Let our team know your thoughts about {{site.data.keyword.cloud-shell_short}} or
 ## Chat with us on Slack
 {: #feedback-chat}
 
-Have a casual question or just want to talk about all things {{site.data.keyword.cloud-shell_notm}}? Come chat with the development team on [IBM Cloud Technology Slack](https://ibm.biz/cli-feedback). After you request your invite, sign in and join the `#developer-tools` channel.
-
+Have a casual question or just want to talk about all things {{site.data.keyword.cloud-shell_notm}}? Come chat with the development team on [{{site.data.keyword.cloud_notm}} Dev Tools Slack](https://ic-devops-slack-invite.us-south.devops.cloud.ibm.com/){: external}. After you request your invitation, sign in and join the `#ask-your-question` channel.
