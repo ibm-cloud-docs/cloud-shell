@@ -8,6 +8,8 @@ keywords: Cloud Shell troubleshooting, cloud shell connection lost, could not st
 
 subcollection: cloud-shell
 
+content-type: troubleshoot
+
 ---
 
 {:shortdesc: .shortdesc}
