@@ -8,6 +8,8 @@ keywords: Cloud Shell frequently asked questions, Cloud Shell faq, cloud shell t
 
 subcollection: cloud-shell
 
+content-type: faq
+
 ---
 
 {:shortdesc: .shortdesc}
