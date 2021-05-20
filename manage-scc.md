@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2021
-lastupdated: "2021-05-12"
+lastupdated: "2021-05-20"
 
 keywords: security and compliance for IBM Cloud Shell, security for IBM Cloud Shell, compliance for IBM Cloud Shell, rules for IBM Cloud Shell
 
