@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-03-18"
+lastupdated: "2021-07-08"
 
 keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities
 
@@ -75,7 +75,6 @@ The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to t
   - Kubernetes CLI (`kubectl`)
   - Kubetail Kubernetes log aggregator (`kubetail`)
   - Mercurial source content management tool (`hg`)
-  - MongoDB shell (`mongo`) and tools
   - Nano text editor (`nano`) and colors for `nano`
   - nodemon Node.js development monitoring utility (`nodemon`)
   - NPM Package Manager (`npm`)
