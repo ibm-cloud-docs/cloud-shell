@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2021
-lastupdated: "2021-05-20"
+lastupdated: "2021-08-30"
 
 keywords: security and compliance for IBM Cloud Shell, security for IBM Cloud Shell, compliance for IBM Cloud Shell, rules for IBM Cloud Shell
 
@@ -51,4 +51,4 @@ As a security or compliance focal, you can use the {{site.data.keyword.complianc
 | service | enabled | is_true<br>is_false | - | Indicates whether access to {{site.data.keyword.cloud-shell_short}} is allowed for an account. |
 {: caption="Table 1. Rule properties for {{site.data.keyword.cloud-shell_short}}" caption-side="top"}
 
-To learn more about config rules, check out [What is a config rule?](/docs/security-compliance?topic=security-compliance-what-is-rule).
+To learn more about formatting config rules, check out [Formatting rules and templates](/docs/security-compliance?topic=security-compliance-formatting-rule-templates).
