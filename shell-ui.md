@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-09-22"
+  years: 2020, 2021
+lastupdated: "2021-09-29"
 
 keywords: cloud shell terminal, cloud shell session, cloud shell usage limit, restart cloud shell, cloud shell workspace, cloud shell cookies
 
@@ -31,6 +31,18 @@ To open {{site.data.keyword.cloud-shell_short}}, click the {{site.data.keyword.c
 
 Each time that you open {{site.data.keyword.cloud-shell_short}}, you connect to your {{site.data.keyword.cloud-shell_short}} workspace. A workspace is a dedicated environment that holds your user and session data and provides temporary storage for you to work with files. Workspaces are separate for each user, account, and region, which each run in their own virtual machine. This means that only you can access your workspace, and if you're a user in multiple accounts, you have separate workspaces for each account, which keeps your data isolated and secure. For more information about storing data in {{site.data.keyword.cloud-shell_short}}, see [Temporary workspace storage](/docs/cloud-shell?topic=cloud-shell-files#file-persistence).
 
+## Deleting your {{site.data.keyword.cloud-shell_short}} workspace
+{: #shell-workspace-delete}
+
+Deleting your Cloud Shell workspace ends and deletes all sessions in the workspace. All files and data within the workspace are erased. Before you delete the workspace, download any files that you want to keep.
+
+To delete your {{site.data.keyword.cloud-shell_short}} workspace, complete the following steps:
+
+1. Download any files that you want to keep.
+1. From your {{site.data.keyword.cloud-shell_short}} workspace, click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg), and then select **Delete**.
+1. In the confirmation window, click **Delete**. A blank page is displayed.
+1. Click the **Add** icon ![Add icon](../icons/add.svg) to open a new {{site.data.keyword.cloud-shell_short}} session. This action also creates a new {{site.data.keyword.cloud-shell_short}} workspace.
+
 ## Working with sessions
 {: #shell-env}
 
@@ -57,7 +69,7 @@ When you open a session, you're logged in with the {{site.data.keyword.cloud_not
 
 To switch the default account for your sessions, close {{site.data.keyword.cloud-shell_short}}, switch to a different account in the {{site.data.keyword.cloud_notm}} console menu bar, and then reopen {{site.data.keyword.cloud-shell_short}}.
 
-Because you have separate workspaces for each account, your session history and temporary file storage are also separate. This means that when you switch accounts, you'll see different session tabs and won't have access to any files that you were working with in the previous account.
+Because you have separate workspaces for each account, your session history and temporary file storage are also separate. This means that when you switch accounts, you see different session tabs and don't have access to any files that you were working with in the previous account.
 
 ## Changing locations
 {: #change-location}
@@ -65,7 +77,7 @@ Because you have separate workspaces for each account, your session history and 
 {{site.data.keyword.cloud-shell_short}} runs in the Dallas (`us-south`), Frankfurt (`eu-de`), and Tokyo (`jp-tok`) regions. Each {{site.data.keyword.cloud-shell_short}} location operates independently, which means that your workspace storage, sessions, and usage are separate. When you work in {{site.data.keyword.cloud-shell_short}}, the location that you're in determines the following aspects:
 
 - Where your workspace data is stored, including any files that you upload and your user data, such as your session history and usage quota
-- The default region that's targeted by the IBM Cloud CLI: `us-south`, `eu-de`, or `jp-tok`
+- The default region that's targeted by the {{site.data.keyword.cloud_notm}} CLI: `us-south`, `eu-de`, or `jp-tok`
 
 By default, the location that's closest to you geographically is selected when you open {{site.data.keyword.cloud-shell_short}} from the console. For example, if you're in California then {{site.data.keyword.cloud-shell_short}} opens to the Dallas region, but if you're in Paris it opens to the Frankfurt region.
 
@@ -91,11 +103,11 @@ If you use all of your quota, your {{site.data.keyword.cloud-shell_short}} sessi
 When you reach your usage quota, you get a notification that {{site.data.keyword.cloud-shell_short}} will close in 5 minutes. Use this time to complete any urgent tasks.
 {: tip}
 
-At any point, you can track your usage and check when your weekly quota resets. In the {{site.data.keyword.cloud-shell_short}} menu bar, click the Menu icon ![More icon](../icons/actions-icon-vertical.svg), and select **Usage quota**. You can view how many hours you used {{site.data.keyword.cloud-shell_short}} during the current weekly period and the day and time when it will reset.
+At any point, you can track your usage and check when your weekly quota resets. In the {{site.data.keyword.cloud-shell_short}} menu bar, click the Menu icon ![More icon](../icons/actions-icon-vertical.svg), and select **Usage quota**. You can view how many hours you used {{site.data.keyword.cloud-shell_short}} during the current weekly period and the day and time when it resets.
 
 The time that you used of the 50-hour usage quota resets back to 0 at the same time each week. Even after you used all of your quota, you can still use {{site.data.keyword.cloud-shell_notm}} for up to 5 minutes at a time to complete quick tasks, such as to run a few simple commands.
 
-{{site.data.keyword.cloud-shell_notm}} is intended for {{site.data.keyword.cloud_notm}} administration and development purposes. Any usage outside of these guidelines might result in your access to {{site.data.keyword.cloud-shell_notm}} or {{site.data.keyword.cloud_notm}} being suspended. Because {{site.data.keyword.cloud-shell_short}} is intended for interactive purposes only, long-running processes will be stopped. For more information, see the [{{site.data.keyword.cloud_notm}} Terms and Notices](/docs/overview/terms-of-use?topic=overview-terms).
+{{site.data.keyword.cloud-shell_notm}} is intended for {{site.data.keyword.cloud_notm}} administration and development purposes. Any usage outside of these guidelines might result in your access to {{site.data.keyword.cloud-shell_notm}} or {{site.data.keyword.cloud_notm}} being suspended. Because {{site.data.keyword.cloud-shell_short}} is intended for interactive purposes only, long-running processes are stopped. For more information, see the [{{site.data.keyword.cloud_notm}} Terms and Notices](/docs/overview/terms-of-use?topic=overview-terms).
 {: note}
 
 ## Changing your cookie preferences
@@ -103,6 +115,6 @@ The time that you used of the 50-hour usage quota resets back to 0 at the same t
 
 In {{site.data.keyword.cloud-shell_short}}, browser cookies are used to provide a secure login and remember some preferences, such as if you change the default location. Additional cookies are used to build a more personalized experience for you and provide better support. 
 
-{{site.data.keyword.cloud-shell_short}} uses the cookie preferences from the {{site.data.keyword.cloud_notm}} console. If you change your cookie settings from the IBM standard default, your {{site.data.keyword.cloud-shell_short}} location preferences won't be saved, and you might not be able to use some {{site.data.keyword.cloud_notm}} console features.
+{{site.data.keyword.cloud-shell_short}} uses the cookie preferences from the {{site.data.keyword.cloud_notm}} console. If you change your cookie settings from the IBM standard default, your {{site.data.keyword.cloud-shell_short}} location preferences aren't saved, and you might not be able to use some {{site.data.keyword.cloud_notm}} console features.
 
 To change your {{site.data.keyword.cloud_notm}} cookie preferences from within {{site.data.keyword.cloud-shell_short}}, click the Menu icon ![More icon](../icons/actions-icon-vertical.svg), and select **Privacy**. For more information, see [Changing your cookie settings](/docs/account?topic=account-usersettings#tracking).
