@@ -34,10 +34,10 @@ To start monitoring your resources, check out [Getting started with {{site.data.
 ### Available goals for {{site.data.keyword.cloud-shell_short}}
 {: #cloudshell-available-goals}
 
-* Ensure that {{site.data.keyword.cloud-shell_short}} is enabled or disabled in account settings
-* Ensure that one or more regions are enabled or disabled in account settings 
-* Ensure that the file upload and download features are enabled or disabled in account settings
-* Ensure that the web preview feature is enabled or disabled in account settings
+* Check whether {{site.data.keyword.cloud-shell_short}} is enabled in account settings
+* Check whether {{site.data.keyword.cloud-shell_short}} has one or more locations enabled in account settings
+* Check whether {{site.data.keyword.cloud-shell_short}} has the file upload and download features enabled in account settings
+* Check whether {{site.data.keyword.cloud-shell_short}} has the web preview feature enabled in account settings
 
 ## Governing {{site.data.keyword.cloud-shell_short}} resource configuration
 {: #govern-cloudshell}
