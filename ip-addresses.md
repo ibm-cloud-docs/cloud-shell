@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-11-30"
+  years: 2020, 2021
+lastupdated: "2021-09-28"
 
 keywords: IBM Cloud Shell, cloud shell, cloud shell service, cloud shell ip addresses, cloud shell allowlist, cloud shell blocklist
 
@@ -37,33 +37,31 @@ You can use a {{site.data.keyword.cloud-shell_short}} session as a terminal to u
 
 Data center location | Subnet
 -- | --
-Dallas 10 | 52.116.182.136/29
-Dallas 10 | 169.48.166.216/29
-Dallas 12 | 169.47.98.88/29
-Dallas 12 | 169.48.219.200/29
-Dallas 13 | 169.48.65.216/29
-Dallas 13 | 169.48.74.80/29
+Dallas 10 | 169.60.247.216/29
+Dallas 10 | 169.60.247.224/28
+Dallas 10 | 169.60.247.248/29
+Dallas 12 | 165.192.70.32/27
+Dallas 12 | 165.192.107.64/29
+Dallas 13 | 169.61.41.64/28
+Dallas 13 | 169.61.41.80/28
+Dallas 13 | 169.61.41.96/28
 
 ## {{site.data.keyword.cloud-shell_short}} ingress IP ranges for eu-de (Frankfurt)
 {: #frankfurt-ip-range}
 
 Data center location | Subnet
 -- | --
-Frankfurt 2 | 158.177.215.136/29
-Frankfurt 2 | 159.122.98.240/29
-Frankfurt 4 | 161.156.129.96/29
-Frankfurt 4 | 161.156.150.248/29
-Frankfurt 5 | 149.81.102.232/29
-Frankfurt 5 | 149.81.114.64/29
+Frankfurt 2 | 169.50.53.0/29
+Frankfurt 4 | 161.156.157.200/29
+Frankfurt 4 | 161.156.157.240/28
+Frankfurt 5 | 149.81.73.176/28
 
 ## {{site.data.keyword.cloud-shell_short}} ingress IP ranges for jp-tok (Tokyo)
 {: #tokyo-ip-range}
 
 Data center location | Subnet
 -- | --
-Tokyo 2 | 161.202.133.88/29
-Tokyo 2 | 161.202.236.208/29
-Tokyo 4 | 128.168.75.240/29
-Tokyo 4 | 128.168.94.24/29
-Tokyo 5 | 165.192.82.240/29
-Tokyo 5 | 165.192.92.208/29
+Tokyo 2 | 161.202.235.192/27
+Tokyo 2 | 169.56.10.136/29
+Tokyo 4 | 128.168.68.192/27
+Tokyo 5 | 165.192.70.32/27
