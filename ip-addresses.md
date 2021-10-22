@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-09-28"
+lastupdated: "2021-10-22"
 
 keywords: IBM Cloud Shell, cloud shell, cloud shell service, cloud shell ip addresses, cloud shell allowlist, cloud shell blocklist
 
@@ -40,8 +40,8 @@ Data center location | Subnet
 Dallas 10 | 169.60.247.216/29
 Dallas 10 | 169.60.247.224/28
 Dallas 10 | 169.60.247.248/29
-Dallas 12 | 165.192.70.32/27
-Dallas 12 | 165.192.107.64/29
+Dallas 12 | 169.61.132.64/27
+Dallas 12 | 169.61.132.96/27
 Dallas 13 | 169.61.41.64/28
 Dallas 13 | 169.61.41.80/28
 Dallas 13 | 169.61.41.96/28
