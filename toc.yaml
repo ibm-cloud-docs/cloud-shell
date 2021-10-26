@@ -1,0 +1,52 @@
+---
+toc:
+  properties:
+    subcollection: cloud-shell
+    version: 2
+    category: platform_services
+    audience: platform
+    href: /docs/cloud-shell
+    console-page: /shell
+    product-page: https://www.ibm.com/cloud/cloud-shell
+    path: cloud-shell
+    label: Cloud Shell
+
+  entries: 
+  - navgroup: 
+      id: learn
+      topics:
+      - getting-started.md
+
+  - navgroup: 
+      id: howto
+      topics:
+      - shell-ui.md
+      - files.md
+      - preview.md
+      - feedback.md
+      - topicgroup: 
+          label: Logging and monitoring
+          topics: 
+          - at-events.md
+      - topicgroup: 
+          label: Enhancing security
+          topics: 
+          - manage-scc.md
+
+  - navgroup:
+      id: reference
+      topics:
+      - ha-dr.md
+      - architecture-workload-isolation.md
+      - ip-addresses.md
+      - plugins-tools.md
+      - /cli/cli-ibmcloud_cli
+
+  - navgroup:
+      id: help
+      topics: 
+      - /account/account-shell-settings
+      - faqs.md
+      - troubleshooting.md
+      - limitations.md
+      - release-notes-image.md
