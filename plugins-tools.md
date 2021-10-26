@@ -56,77 +56,77 @@ The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to t
 ## Tools
 {: #installed-tools}
 
-  - Apache Ant (`ant`)
-  - Apache Maven (`maven`)
-  - Bazaar version control system (`bzr`)
-  - Calico CLI (`calicoctl`)
-  - cURL (`curl`)
-  - etcd CLI (`etcdctl`)
-  - FIGlet text banner generator (`figlet`)
-  - Git CLI (`git`)
-  - GNU Automake (`automake`)
-  - GNU Compiler Collection (`gcc`, `gcov`, `gcov-tool`)
-  - GNU Wget (`wget`)
-  - Gradle CLI (`gradle`)
-  - Helm CLI (`helm`)
-  - Istio CLI (`istioctl`)
-  - jq JSON processor (`jq`)
-  - Knative CLI (`kn`)
-  - Kubernetes CLI (`kubectl`)
-  - Kubetail Kubernetes log aggregator (`kubetail`)
-  - Mercurial source content management tool (`hg`)
-  - Nano text editor (`nano`) and colors for `nano`
-  - nodemon Node.js development monitoring utility (`nodemon`)
-  - NPM Package Manager (`npm`)
-  - Node Version Manager (`nvm`)
-  - Operator SDK (`operator-sdk`)
-  - PostgeSQL client (`psql`)
-  - Red Hat&reg; OpenShift CLI (`oc`)
-  - Red Hat OpenShift Do CLI (`odo`)
-  - Redis CLI (`redis-cli`)
-  - SoftLayer CLI (`slcli`)
-  - Terraform CLI (`terraform`) and {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform (`ibmcloud terraform`)
-  - tmux terminal multiplexer (`tmux`)
-  - UnZip extraction utility (`unzip`)
-  - Vim text editor (`vim`)
-  - XZ Utils (`xz`, `xzcat`, `xzcmp`, `xzdiff`, `xzegrep`, `xzfgrep`, `xzgrep`, `xzless`, `xzmore`)
-  - Yarn package manager (`yarn`)
-  - yq YAML processor (`yq`)
-  - Zip archive utility (`zip`)
+   - Apache Ant (`ant`)
+   - Apache Maven (`maven`)
+   - Bazaar version control system (`bzr`)
+   - Calico CLI (`calicoctl`)
+   - cURL (`curl`)
+   - etcd CLI (`etcdctl`)
+   - FIGlet text banner generator (`figlet`)
+   - Git CLI (`git`)
+   - GNU Automake (`automake`)
+   - GNU Compiler Collection (`gcc`, `gcov`, `gcov-tool`)
+   - GNU Wget (`wget`)
+   - Gradle CLI (`gradle`)
+   - Helm CLI (`helm`)
+   - Istio CLI (`istioctl`)
+   - jq JSON processor (`jq`)
+   - Knative CLI (`kn`)
+   - Kubernetes CLI (`kubectl`)
+   - Kubetail Kubernetes log aggregator (`kubetail`)
+   - Mercurial source content management tool (`hg`)
+   - Nano text editor (`nano`) and colors for `nano`
+   - nodemon Node.js development monitoring utility (`nodemon`)
+   - NPM Package Manager (`npm`)
+   - Node Version Manager (`nvm`)
+   - Operator SDK (`operator-sdk`)
+   - PostgeSQL client (`psql`)
+   - Red Hat&reg; OpenShift CLI (`oc`)
+   - Red Hat OpenShift Do CLI (`odo`)
+   - Redis CLI (`redis-cli`)
+   - SoftLayer CLI (`slcli`)
+   - Terraform CLI (`terraform`) and {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform  (`ibmcloud terraform`)
+   - tmux terminal multiplexer (`tmux`)
+   - UnZip extraction utility (`unzip`)
+   - Vim text editor (`vim`)
+   - XZ Utils (`xz`, `xzcat`, `xzcmp`, `xzdiff`, `xzegrep`, `xzfgrep`, `xzgrep`, `xzless`, `xzmore`)
+   - Yarn package manager (`yarn`)
+   - yq YAML processor (`yq`)
+   - Zip archive utility (`zip`)
 
 ## Packages and libraries
 {: #installed-packages}
 
-  - `apt-transport-https`
-  - `bash-completion`
-  - `build-essential`
-  - `ca-certificates`
-  - `cron`
-  - `dnsutils`
-  - `gettext`
-  - `inetutils-ping`
-  - `libevent-dev`
-  - `libncurses5-dev`
-  - `locales`
-  - `musl`
-  - `net-tools`
-  - `pkg-config`
-  - `powerline-shell`
-  - Python `requests`
-  - `python-virtualenv`
-  - `python-setuptools`
-  - `python-pip`
-  - `python3-pip`
-  - `ruby-dev`
-  - `silversearcher-ag`
-  - `software-properties-common`
-  - `zlib1g-dev`
+   - `apt-transport-https`
+   - `bash-completion`
+   - `build-essential`
+   - `ca-certificates`
+   - `cron`
+   - `dnsutils`
+   - `gettext`
+   - `inetutils-ping`
+   - `libevent-dev`
+   - `libncurses5-dev`
+   - `locales`
+   - `musl`
+   - `net-tools`
+   - `pkg-config`
+   - `powerline-shell`
+   - Python `requests`
+   - `python-virtualenv`
+   - `python-setuptools`
+   - `python-pip`
+   - `python3-pip`
+   - `ruby-dev`
+   - `silversearcher-ag`
+   - `software-properties-common`
+   - `zlib1g-dev`
 
 ## Programming language runtimes
 {: #installed-runtimes}
 
-  - Java&trade; (OpenJDK)
-  - Python
-  - Ruby
-  - Go
-  - Node.JS
+   - Java&trade; (OpenJDK)
+   - Python
+   - Ruby
+   - Go
+   - Node.JS

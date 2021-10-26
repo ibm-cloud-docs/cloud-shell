@@ -48,7 +48,7 @@ As a security or compliance focal, you can use the {{site.data.keyword.complianc
 
 | Resource kind | Property | Operator | Value | Description |
 |---------------|----------|---------------|-------|-------------|
-| service | enabled | is_true<br>is_false | - | Indicates whether access to {{site.data.keyword.cloud-shell_short}} is allowed for an account. |
+| service | enabled | is_true  \n is_false | - | Indicates whether access to {{site.data.keyword.cloud-shell_short}} is allowed for an account. |
 {: caption="Table 1. Rule properties for {{site.data.keyword.cloud-shell_short}}" caption-side="top"}
 
 To learn more about formatting config rules, check out [Formatting rules and templates](/docs/security-compliance?topic=security-compliance-formatting-rule-templates).

@@ -55,13 +55,13 @@ Refresh your {{site.data.keyword.cloud-shell_short}} browser tab or window. If {
 You want to work with your {{site.data.keyword.containerlong}} clusters, but when you run a command such as `kubectl get pods`, the following error is displayed:
 {: tsSymptoms}
 
-```
+```text
 $ kubectl get pods
 The connection to the server localhost:8080 was refused - did you specify the right host or port?
 ```
 
 The cluster isn't currently set as the context. As with your local development environment, the cluster context must be set for each individual session.
-{:tsCauses}
+{: tsCauses}
 
 Set the cluster as the context in your session as described in [Configuring the CLI to run `kubectl`](/docs/containers?topic=containers-cs_cli_install#cs_cli_configure).
 {: tsResolve}
@@ -75,7 +75,7 @@ You customized your {{site.data.keyword.cloud-shell_short}} sessions by editing 
 {: tsSymptoms}
 
 Some code in your `.bashrc` file isn't working correctly, and it's interfering with your sessions' ability to initialize.
-{:tsCauses}
+{: tsCauses}
 
 If you're able to run commands from an existing open session, [download any files](/docs/cloud-shell?topic=cloud-shell-files) that you want to keep. Then, restart {{site.data.keyword.cloud-shell_short}} by going to the {{site.data.keyword.cloud-shell_short}} menu and clicking **Restart**.
 {: tsResolve}
@@ -92,6 +92,7 @@ You're working in {{site.data.keyword.cloud-shell_short}} when your session clos
 
 You might see this error for a few reasons:
 {: tsCauses}
+
 * Your internet connection was unstable.
 * You reached the maximum capacity for your {{site.data.keyword.cloud-shell_short}} temporary storage.
 * Rarely, the {{site.data.keyword.cloud-shell_short}} region you were working in is unavailable.

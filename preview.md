@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-03-10"
+lastupdated: "2020-03-11"
 
 keywords: Cloud Shell preview web app, web preview in Cloud Shell, view port, port preview, app localhost
 
@@ -43,7 +43,7 @@ As with your local system, only one app can run on each port at any time. If you
 {{site.data.keyword.cloud-shell_short}} includes lots of [plug-ins, tools, and runtimes](/docs/cloud-shell?topic=cloud-shell-plugins-tools) that you can use to work with apps that you're developing. Because {{site.data.keyword.cloud-shell_short}} storage is temporary, the easiest way to work with an app is to first copy or clone it to your {{site.data.keyword.cloud-shell_short}} workspace, make any changes, and then preview it.
 
 Currently, the {{site.data.keyword.dev_cli_notm}} CLI plug-in (`ibmcloud dev`) can't be used to build, test, or run apps in {{site.data.keyword.cloud-shell_short}}.
-{:note }
+{: note}
 
 The following example workflow shows how you can preview a [Node.js Express sample app](https://github.com/IBM/nodejs-express-app){: external} that's hosted in a GitHub repository.
 
@@ -78,7 +78,7 @@ The following example workflow shows how you can preview a [Node.js Express samp
 
    After the app starts, note the port where your web server is listening. The port must be one of the [available ports](#preview-apps) to be able to preview it in {{site.data.keyword.cloud-shell_short}}. When this sample app starts, it outputs the following information, which shows that it's listening on port `3000`.
 
-   ```
+   ```text
    > nodejsexpressapp@1.0.0 start /home/my-user-name/nodejs-express-app
    > node server/server.js
    
@@ -118,11 +118,12 @@ If you're doing app development and testing, port forwarding is a simpler way to
 
    The pod name is listed under the `NAME` column, for example `my-pod-123abc`.
 
-   ```
+   ```text
    NAME            READY   STATUS    RESTARTS   AGE
    my-pod-123abc   1/1     Running   0          9d
    ```
    {: screen}
+
 1. Find the port in the pod that you want to expose by running the [`kubectl describe`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe){: external} command on the pod.
 
    ```bash
@@ -132,7 +133,7 @@ If you're doing app development and testing, port forwarding is a simpler way to
 
    Under the `Containers` section, the local port is listed as the `Port` value, such as `6000` in the following example.
 
-   ```
+   ```text
    Containers:
      cluster-agent:
      Container ID:   containerd://1234abcd5678efab90cde603e4ba6986fdaf26daae94c4f309
@@ -168,7 +169,7 @@ After you open the web preview, you can view any other endpoints that your serve
 
 For example, the Node.js sample app outputs the following URLs:
 
-```
+```text
 App UI available http://localhost:3000
 Swagger UI available http://localhost:3000/swagger/api-docs
 ```

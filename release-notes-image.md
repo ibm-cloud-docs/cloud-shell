@@ -33,25 +33,25 @@ The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to t
 * Account owners or users with {{site.data.keyword.cloud-shell_short}} administrator access can enable or disable {{site.data.keyword.cloud-shell_short}} features for an account. The available features in this release are **File upload and download** and **Web preview**. The feature settings apply only to the enabled {{site.data.keyword.cloud-shell_short}} locations. For more information, see [Enabling or disabling {{site.data.keyword.cloud-shell_short}} features for an account](/docs/account?topic=account-shell-settings#shell-features-enable).
 * An account administrator can grant specific users access to {{site.data.keyword.cloud-shell_short}} and its features, even if {{site.data.keyword.cloud-shell_short}} settings are disabled at the account level. For more information, see [Assigning access to {{site.data.keyword.cloud-shell_short}} and its features at a user level](/docs/account?topic=account-shell-settings#shell-access-user).
 * The following new service roles are available:
-  * Cloud Operator
-  * Cloud Developer
-  * File Manager
+   * Cloud Operator
+   * Cloud Developer
+   * File Manager
 
-  For more information, see [IAM roles and actions](/docs/account?topic=account-iam-service-roles-actions#ibm-cloud-shell).
+   For more information, see [IAM roles and actions](/docs/account?topic=account-iam-service-roles-actions#ibm-cloud-shell).
 * {{site.data.keyword.cloud-shell_notm}} now uses a Red Hat&trade; Linux&trade; bash shell instead of a x86-64 Ubuntu Linux&trade; bash shell.
 
 ## 18 September 2020
 {: #18-09-2020}
 
 * Account owners or users with {{site.data.keyword.cloud-shell_short}} administrator access can manage {{site.data.keyword.cloud-shell_short}} settings from the {{site.data.keyword.cloud_notm}} console. For more information, see the following topics:
-  - [Updating {{site.data.keyword.cloud-shell_short}} settings](/docs/account?topic=account-shell-settings)
-  - [Actions and roles for account management services](/docs/account?topic=account-account-services#shell-service-account-management)
+   - [Updating {{site.data.keyword.cloud-shell_short}} settings](/docs/account?topic=account-shell-settings)
+   - [Actions and roles for account management services](/docs/account?topic=account-account-services#shell-service-account-management)
 * The following tools are new with this {{site.data.keyword.cloud-shell_short}} update:
-  - Terraform version switch (`tfswitch`) version 0.8.832
-  - Tekton CLI (`tkn`) version 0.12.0
+   - Terraform version switch (`tfswitch`) version 0.8.832
+   - Tekton CLI (`tkn`) version 0.12.0
 * The following tools are updated with this {{site.data.keyword.cloud-shell_short}} update:
-  - `kn` upgrade to 0.14.0
-  - The {{site.data.keyword.cloud_notm}} CLI (`ibmcloud`) is upgraded to version 1.2.1, and the CLI plug-ins are upgraded to the most recent versions
+   - `kn` upgrade to 0.14.0
+   - The {{site.data.keyword.cloud_notm}} CLI (`ibmcloud`) is upgraded to version 1.2.1, and the CLI plug-ins are upgraded to the most recent versions
 
 ## 12 August 2020
 {: #12-08-2020}
@@ -113,4 +113,3 @@ Updated the {{site.data.keyword.cloud-shell_short}} server image to version 0.4.
 * Added the {{site.data.keyword.ibmwatson_notm}} CLI plug-in (`ibmcloud watson`).
 * Updated {{site.data.keyword.cloud_notm}} CLI plug-ins to the most recent versions.
 * Updated the ISTIO CLI (`istoctl`) to version 1.4.4.
-

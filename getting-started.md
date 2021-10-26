@@ -36,11 +36,12 @@ New to {{site.data.keyword.cloud-shell_short}}? [Watch the demo video](https://w
 
 ## Before you begin
 {: #prereqs}
+
 * If you don't already have an {{site.data.keyword.cloud_notm}} account, [sign up for one](https://{DomainName}/registration/) and log in.
 * Note the following account access information that might affect your access to {{site.data.keyword.cloud-shell_short}} and its features:
-  * An account administrator can grant specific users access to {{site.data.keyword.cloud-shell_short}} and its features, even if {{site.data.keyword.cloud-shell_short}} settings are disabled at the account level. For more information, see [Assigning access to {{site.data.keyword.cloud-shell_short}} and its features at a user level](/docs/account?topic=account-shell-settings#shell-access-user).
-  * Account owners or users with {{site.data.keyword.cloud-shell_short}} administrator access can enable or disable {{site.data.keyword.cloud-shell_short}} features for an account. The available features in this release are **File upload and download** and **Web preview**. The feature settings apply only to the enabled {{site.data.keyword.cloud-shell_short}} locations. For more information, see [Enabling or disabling {{site.data.keyword.cloud-shell_short}} features for an account](/docs/account?topic=account-shell-settings#shell-features-enable).
-  * For more information, see [IAM roles and actions](/docs/account?topic=account-iam-service-roles-actions#ibm-cloud-shell).
+   * An account administrator can grant specific users access to {{site.data.keyword.cloud-shell_short}} and its features, even if {{site.data.keyword.cloud-shell_short}} settings are disabled at the account level. For more information, see [Assigning access to {{site.data.keyword.cloud-shell_short}} and its features at a user level](/docs/account?topic=account-shell-settings#shell-access-user).
+   * Account owners or users with {{site.data.keyword.cloud-shell_short}} administrator access can enable or disable {{site.data.keyword.cloud-shell_short}} features for an account. The available features in this release are **File upload and download** and **Web preview**. The feature settings apply only to the enabled {{site.data.keyword.cloud-shell_short}} locations. For more information, see [Enabling or disabling {{site.data.keyword.cloud-shell_short}} features for an account](/docs/account?topic=account-shell-settings#shell-features-enable).
+   * For more information, see [IAM roles and actions](/docs/account?topic=account-iam-service-roles-actions#ibm-cloud-shell).
 
 ## Start a session in {{site.data.keyword.cloud-shell_notm}}
 {: #open-shell}
@@ -73,7 +74,7 @@ ls
 
 You can see that your `nodejs-express-app` directory contains all of the sample app files and folders.
 
-```
+```text
 Dockerfile  Dockerfile-tools  LICENSE  README.md  package-lock.json  
 package.json  public  scripts  server  test
 ```
@@ -91,6 +92,7 @@ Before you deploy your app, you can start it in {{site.data.keyword.cloud-shell_
    npm install
    ```
    {: pre}
+
 1. Start the app.
 
    ```bash
@@ -100,7 +102,7 @@ Before you deploy your app, you can start it in {{site.data.keyword.cloud-shell_
 
    When the app is running, it outputs the location where the app UI is available. For {{site.data.keyword.cloud-shell_short}}, you only need to note the port, which in this case is `3000` .
 
-   ```
+   ```text
    > nodejsexpressapp@1.0.0 start /home/my-user-name/nodejs-express-app
    > node server/server.js
    
@@ -108,6 +110,7 @@ Before you deploy your app, you can start it in {{site.data.keyword.cloud-shell_
    Swagger UI available http://localhost:3000/swagger/api-docs
    ```
    {: screen}
+
 1. In the {{site.data.keyword.cloud-shell_short}} menu bar, click the **Web preview** icon ![Web preview](../icons/view.svg), and select port 3000.
 
    Your app preview opens in a new window. If you see the congratulations message, your app is running locally in {{site.data.keyword.cloud-shell_short}}!
@@ -145,7 +148,7 @@ As the command runs, it creates your app, downloads any dependencies, and then d
 
 To view your running app, copy the `routes` URL and paste it in your browser. You see the same screen that you saw in your local testing, but it's at a URL that everyone can access!
 
-```
+```text
 name:              my-nodejs-app-1234
 requested state:   started
 routes:            my-nodejs-app-1234.us-south.cf.test.appdomain.cloud
