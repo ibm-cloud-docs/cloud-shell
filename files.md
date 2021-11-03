@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-08-12"
+lastupdated: "2021-11-03"
 
 keywords: upload file in cloud shell, download file in cloud shell, add file, add project to cloud shell, file storage, persistence, import file, export file
 
@@ -24,6 +24,11 @@ subcollection: cloud-shell
 
 Your {{site.data.keyword.cloud-shell_full}} workspace includes a home directory where you can temporarily work with files in your {{site.data.keyword.cloud-shell_short}} sessions. You can upload or download files one at a time to your workspace through the UI, or use command-line tools to work with many files at once.
 {: shortdesc}
+
+## Before you begin
+{: #before-begin}
+
+Enable **File upload and download** in the {{site.data.keyword.cloud_notm}} console. For more information about how to enable file upload and download, see [Enabling or disabling Cloud Shell features for an account](/docs/account?topic=account-shell-settings#shell-features-enable).
 
 ## Temporary workspace storage
 {: #file-persistence}
