@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-03-11"
+lastupdated: "2021-11-03"
 
 keywords: Cloud Shell preview web app, web preview in Cloud Shell, view port, port preview, app localhost
 
@@ -25,6 +25,14 @@ subcollection: cloud-shell
 
 You can preview apps that are running in {{site.data.keyword.cloud-shell_full}} just like you would if you were running them locally. The {{site.data.keyword.cloud-shell_short}} web preview makes your app UI or endpoint available at a URL that only you can access. This gives you a chance to view changes to your app before you deploy it to a publicly accessible location.
 {: shortdesc}
+
+## Before you begin
+{: #before-begin}
+
+Enable **Web preview** in the {{site.data.keyword.cloud_notm}} console. For more information about how to enable web preview, see [Enabling or disabling Cloud Shell features for an account](/docs/account?topic=account-shell-settings#shell-features-enable).
+
+## Web preview ports
+{: #preview-ports}
 
 You can preview an app by clicking the **Web preview** icon ![Web preview](../icons/view.svg) in the {{site.data.keyword.cloud-shell_short}} menu bar. Web preview is available for any app that listens to HTTP requests on the following ports:
 * 3000
