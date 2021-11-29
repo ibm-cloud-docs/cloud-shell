@@ -27,7 +27,7 @@ You can preview apps that are running in {{site.data.keyword.cloud-shell_full}} 
 {: shortdesc}
 
 ## Before you begin
-{: #before-begin}
+{: #preview-before-begin}
 
 Enable **Web preview** in the {{site.data.keyword.cloud_notm}} console. For more information about how to enable web preview, see [Enabling or disabling Cloud Shell features for an account](/docs/account?topic=account-shell-settings#shell-features-enable).
 

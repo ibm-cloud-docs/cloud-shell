@@ -26,7 +26,7 @@ Your {{site.data.keyword.cloud-shell_full}} workspace includes a home directory 
 {: shortdesc}
 
 ## Before you begin
-{: #before-begin}
+{: #files-before-begin}
 
 Enable **File upload and download** in the {{site.data.keyword.cloud_notm}} console. For more information about how to enable file upload and download, see [Enabling or disabling Cloud Shell features for an account](/docs/account?topic=account-shell-settings#shell-features-enable).
 
