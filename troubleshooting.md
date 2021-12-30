@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-29"
+lastupdated: "2021-12-30"
 
 keywords: Cloud Shell troubleshooting, cloud shell connection lost, could not start cloud shell, cloud shell bashrc, Cloud Shell hangs, Cloud Shell closes, Cloud Shell restarts
 
@@ -57,7 +57,7 @@ You want to work with your {{site.data.keyword.containerlong}} clusters, but whe
 
 ```text
 $ kubectl get pods
-The connection to the server localhost:8080 was refused - did you specify the right host or port?
+The connection to the server localhost:8080 was refused - did you specify the correct host or port?
 ```
 
 The cluster isn't currently set as the context. As with your local development environment, the cluster context must be set for each individual session.

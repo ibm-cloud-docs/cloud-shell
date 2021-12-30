@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2021-11-03"
+  years: 2020, 2021
+lastupdated: "2021-12-30"
 
 keywords: Cloud Shell preview web app, web preview in Cloud Shell, view port, port preview, app localhost
 
@@ -167,7 +167,7 @@ If you're doing app development and testing, port forwarding is a simpler way to
    Your web preview opens in a new browser window. You should see the first screen of your app's UI.
    <!-- Just how static is this URL? Will it ever change? If so, when? -->
 
-   If you see a message that says there's nothing to preview in {{site.data.keyword.cloud-shell_short}}, the server where your app is running isn't listening on the selected port. Verify that your server is listening on the pod's internal port and that you're forwarding the port that you're previewing to the right internal port.
+   If you see a message that says there's nothing to preview in {{site.data.keyword.cloud-shell_short}}, the server where your app is running isn't listening on the selected port. Verify that your server is listening on the pod's internal port and that you're forwarding the port that you're previewing to the correct internal port.
    {: tip}
 
 ## Previewing other endpoints on a port
