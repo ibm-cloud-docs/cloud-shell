@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-01-26"
+lastupdated: "2022-02-16"
 
 keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities, cli plugins, ibm cloud cli
 
@@ -32,24 +32,22 @@ For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plugin
 
 * [{{site.data.keyword.iae_full_notm}} CLI plug-in](/docs/cli?topic=analytics-engine-cli-plugin-CLI_analytics_engine) (`ibmcloud ae`)
 * [{{site.data.keyword.cloud_notm}} Catalogs Management CLI plug-in](/docs/cli?topic=cli-manage-catalogs-plugin) ([`ibmcloud catalog`](/docs/cli?topic=cli-ibmcloud_catalog))
-* [{{site.data.keyword.IBM_notm}} {{site.data.keyword.databases-for}} CLI plug-in](cli?topic=databases-cli-plugin-cdb-reference) (`ibmcloud cdb`)
-* [{{site.data.keyword.codeenginefull_notm}} CLI plug-in](docs/codeengine?topic=codeengine-cli) [(`ibmcloud ce`](/docs/codeengine?topic=codeengine-cli))
-* [{{site.data.keyword.registrylong_notm}} CLI plug-in](docs/cli?topic=container-registry-cli-plugin-containerregcli) [(`ibmcloud cr`](/docs/container-registry-cli-plugin?topic=container-registry-cli-plugin-containerregcli))
-* [{{site.data.keyword.cloud_notm}} {{site.data.keyword.DRA_short}} CLI plug-in](/docs/cli?topic=devops-insights-cli-plugin-CLI_devops-insights) [(`ibmcloud doi`](/docs/devops-insights-cli-plugin?topic=devops-insights-cli-plugin-CLI_devops-insights))
-* [{{site.data.keyword.IBM_notm}} {{site.data.keyword.openwhisk_short}} CLI plug-in](docs/cli?topic=cloud-functions-cli-plugin-functions-cli) [(`ibmcloud fn`](/docs/cloud-functions-cli-plugin?topic=cloud-functions-cli-plugin-functions-cli))
-* [{{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_full}} CLI plug-in](/docs/cli?topic=dbaas-cli-plugin-dbaas_cli_plugin) ([`ibmcloud dbaas`](docs/dbaas-cli-plugin?topic=dbaas-cli-plugin-dbaas_cli_plugin))
+* [{{site.data.keyword.IBM_notm}} {{site.data.keyword.databases-for}} CLI plug-in](/docs/cli?topic=databases-cli-plugin-cdb-reference) (`ibmcloud cdb`)
+* [{{site.data.keyword.codeenginefull_notm}} CLI plug-in](/docs/codeengine?topic=codeengine-cli) (`ibmcloud ce`)
+* [{{site.data.keyword.registrylong_notm}} CLI plug-in](/docs/cli?topic=container-registry-cli-plugin-containerregcli) (`ibmcloud cr`)
+* [{{site.data.keyword.cloud_notm}} {{site.data.keyword.DRA_short}} CLI plug-in](/docs/cli?topic=devops-insights-cli-plugin-CLI_devops-insights) (`ibmcloud doi`)
+* [{{site.data.keyword.IBM_notm}} {{site.data.keyword.openwhisk_short}} CLI plug-in](/docs/cli?topic=cloud-functions-cli-plugin-functions-cli) (`ibmcloud fn`)
+* [{{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_full}} CLI plug-in](/docs/cli?topic=dbaas-cli-plugin-dbaas_cli_plugin) (`ibmcloud dbaas`)
 * [{{site.data.keyword.cis_full_notm}} CLI plug-in](/docs/cli?topic=cis-cli-plugin-cis-cli) (`ibmcloud cis`)
-* [{{site.data.keyword.containerlong_notm}} CLI plug-in](/docs/cli?topic=containers-kubernetes-service-cli) [(`ibmcloud ks`](/docs/containers?topic=containers-kubernetes-service-cli))
+* [{{site.data.keyword.containerlong_notm}} CLI plug-in](/docs/cli?topic=containers-kubernetes-service-cli) (`ibmcloud ks`)
 * [{{site.data.keyword.cos_full_notm}} CLI plug-in](/docs/cli?topic=cloud-object-storage-cli-plugin-ic-cos-cli) [(`ibmcloud cos`](/docs/cloud-object-storage-cli-plugin?topic=cloud-object-storage-cli-plugin-ic-cos-cli))
 * [{{site.data.keyword.satellitelong_notm}} CLI plug-in](/docs/cli?topic=satellite-satellite-cli-reference) [(`ibmcloud sat`](/docs/satellite?topic=satellite-icsat_map))
-* [{{site.data.keyword.bplong_notm}} plug-in](/docs/cli?topic=schematics-cli-plugin-schematics-cli-reference) [(`ibmcloud schematics`](/docs/schematics?topic=schematics-schematics-cli-reference))
-* [{{site.data.keyword.tg_full_notm}} CLI plug-in](/docs/cli?topic=tg-cli-plugin-transit-gateway-cli) [(`ibmcloud tg`](/docs/cli?topic=tg-cli-plugin-transit-gateway-cli))
-* [{{site.data.keyword.vpc_full}} CLI plug-in]((/docs/cli?topic=vpc-infrastructure-cli-plugin-vpc-reference)) (`ibmcloud is`)
-* [{{site.data.keyword.IBM_notm}} {{site.data.keyword.messagehub}} CLI plug-in](/docs/EventStreams?topic=EventStreams-cli_reference) [(`ibmcloud es`](/docs/EventStreams?topic=EventStreams-cli_reference))
-* [{{site.data.keyword.IBM_notm}} {{site.data.keyword.keymanagementserviceshort}} CLI plug-in](/docs/cli?topic=key-protect-cli-plugin-key-protect-cli-reference) [(`ibmcloud kp`](docs/key-protect?topic=key-protect-cli-plugin-key-protect-cli-reference))
-* [{{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSysShort}} CLI plug-in](/docs/cli?topic=power-iaas-cli-plugin-power-iaas-cli-reference) [(`ibmcloud pi`](/docs/power-iaas?topic=power-iaas-capturing-exporting-vm))
-* {{site.data.keyword.ibmwatson_notm}} CLI plug-in (`ibmcloud watson`)
-* {{site.data.keyword.pm_full}} CLI plug-in (`ibmcloud ml`)
+* [{{site.data.keyword.bplong_notm}} plug-in](/docs/cli?topic=schematics-cli-plugin-schematics-cli-reference) (`ibmcloud schematics`)
+* [{{site.data.keyword.tg_full_notm}} CLI plug-in](/docs/cli?topic=tg-cli-plugin-transit-gateway-cli) (`ibmcloud tg`)
+* [{{site.data.keyword.vpc_full}} CLI plug-in](/docs/cli?topic=vpc-infrastructure-cli-plugin-vpc-reference) (`ibmcloud is`)
+* [{{site.data.keyword.IBM_notm}} {{site.data.keyword.messagehub}} CLI plug-in](/docs/EventStreams?topic=EventStreams-cli_reference) (`ibmcloud es`)
+* [{{site.data.keyword.IBM_notm}} {{site.data.keyword.keymanagementserviceshort}} CLI plug-in](/docs/cli?topic=key-protect-cli-plugin-key-protect-cli-reference) (`ibmcloud kp`)
+* [{{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSysShort}} CLI plug-in](/docs/cli?topic=power-iaas-cli-plugin-power-iaas-cli-reference) (`ibmcloud pi`)
 
 The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the latest available versions. For the full list of installed plug-ins and their versions, run `ibmcloud plugin list` in {{site.data.keyword.cloud-shell_short}}.
 {: tip}
