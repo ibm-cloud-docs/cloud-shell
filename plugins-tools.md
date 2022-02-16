@@ -40,7 +40,7 @@ For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plugin
 * [{{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_full}} CLI plug-in](/docs/cli?topic=dbaas-cli-plugin-dbaas_cli_plugin) (`ibmcloud dbaas`)
 * [{{site.data.keyword.cis_full_notm}} CLI plug-in](/docs/cli?topic=cis-cli-plugin-cis-cli) (`ibmcloud cis`)
 * [{{site.data.keyword.containerlong_notm}} CLI plug-in](/docs/cli?topic=containers-kubernetes-service-cli) (`ibmcloud ks`)
-* [{{site.data.keyword.cos_full_notm}} CLI plug-in](/docs/cli?topic=cloud-object-storage-cli-plugin-ic-cos-cli) [(`ibmcloud cos`](/docs/cloud-object-storage-cli-plugin?topic=cloud-object-storage-cli-plugin-ic-cos-cli))
+* [{{site.data.keyword.cos_full_notm}} CLI plug-in](/docs/cli?topic=cloud-object-storage-cli-plugin-ic-cos-cli) (`ibmcloud cos`)
 * [{{site.data.keyword.satellitelong_notm}} CLI plug-in](/docs/cli?topic=satellite-satellite-cli-reference) [(`ibmcloud sat`](/docs/satellite?topic=satellite-icsat_map))
 * [{{site.data.keyword.bplong_notm}} plug-in](/docs/cli?topic=schematics-cli-plugin-schematics-cli-reference) (`ibmcloud schematics`)
 * [{{site.data.keyword.tg_full_notm}} CLI plug-in](/docs/cli?topic=tg-cli-plugin-transit-gateway-cli) (`ibmcloud tg`)
