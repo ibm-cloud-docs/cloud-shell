@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-12-18"
+  years: 2020, 2022
+lastupdated: "2020-04-14"
 
 keywords: Cloud Shell release notes, Cloud Shell changes, Cloud Shell updates
 
@@ -10,13 +10,7 @@ subcollection: cloud-shell
 
 ---
 
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:table: .aria-labeledby="caption"}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:important: .important}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Release notes
 {: #release-notes-image}
@@ -26,6 +20,11 @@ Use the release notes to learn about the latest changes to {{site.data.keyword.c
 
 The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the most recent available versions. These updates are not usually detailed in these release notes.
 {: tip}
+
+## 14 April 2022
+{: #14-04-2022}
+
+Helm version 3 is now the default version. When you run `helm` on {{site.data.keyword.cloud-shell_short}}, Helm version 3 is the version that runs. To run Helm version 2, type `helm2`. The `helm3` alias is also available if you use Helm version 3 in your scripts.
 
 ## 18 December 2020
 {: #18-12-2020}
