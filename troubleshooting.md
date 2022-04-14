@@ -45,9 +45,10 @@ When you try to start {{site.data.keyword.cloud-shell_short}} or restart it afte
 `Your session couldn't be started.` or `Session could not be started. Please wait for a few minutes, then restart the cloud shell and try again.`
 
 Refresh your {{site.data.keyword.cloud-shell_short}} browser tab or window. If {{site.data.keyword.cloud-shell_short}} still can't start, try the following possible solutions:
+{: tsResolve}
+
 - Restart from the {{site.data.keyword.cloud-shell_short}} menu.
 - Check if the IP address restriction is [defined for the account or the user](/docs/account?topic=account-ips). If the IP address restriction is defined, [add the {{site.data.keyword.cloud-shell_short}} ingress IP ranges](/docs/cloud-shell?topic=cloud-shell-cs-ip-ranges) to log in from the {{site.data.keyword.cloud-shell_short}} service. If the IP address restriction is not defined and you continue to see this issue, create a support case.
-{: tsResolve}
 
 ## Why can't I work with my Kubernetes clusters from my session?
 {: #trouble-kube}
