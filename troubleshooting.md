@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-12-30"
+  years: 2020, 2022
+lastupdated: "2022-04-14"
 
 keywords: Cloud Shell troubleshooting, cloud shell connection lost, could not start cloud shell, cloud shell bashrc, Cloud Shell hangs, Cloud Shell closes, Cloud Shell restarts
 
@@ -42,9 +42,11 @@ Running into issues that you can't fix? We want to hear about it. [Submit feedba
 When you try to start {{site.data.keyword.cloud-shell_short}} or restart it after you were idle or your connection was lost, the following message is displayed:
 {: tsSymptoms}
 
-`Your session couldn't be started.`
+`Your session couldn't be started.` or `Session could not be started. Please wait for a few minutes, then restart the cloud shell and try again.`
 
-Refresh your {{site.data.keyword.cloud-shell_short}} browser tab or window. If {{site.data.keyword.cloud-shell_short}} still can't start, try restarting from the {{site.data.keyword.cloud-shell_short}} menu. If you continue to see this issue, create a support case.
+Refresh your {{site.data.keyword.cloud-shell_short}} browser tab or window. If {{site.data.keyword.cloud-shell_short}} still can't start, try the following possible solutions:
+- Restart from the {{site.data.keyword.cloud-shell_short}} menu.
+- Check if the IP address restriction is [defined for the account or the user](/docs/account?topic=account-ips). If the IP address restriction is defined, [add the {{site.data.keyword.cloud-shell_short}} ingress IP ranges](/docs/cloud-shell?topic=cloud-shell-cs-ip-ranges) to log in from the {{site.data.keyword.cloud-shell_short}} service. If the IP address restriction is not defined and you continue to see this issue, create a support case.
 {: tsResolve}
 
 ## Why can't I work with my Kubernetes clusters from my session?
