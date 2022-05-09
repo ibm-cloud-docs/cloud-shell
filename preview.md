@@ -98,7 +98,6 @@ The following example workflow shows how you can preview a [Node.js Express samp
 1. In the {{site.data.keyword.cloud-shell_short}} menu bar, click the **Web preview** icon ![Web preview](../icons/view.svg), and select the port where your server is listening. For the Node.js sample app, select 3000.
 
    Your web preview opens in a new browser window and shows the equivalent of `http://localhost:3000`. You should see the first screen of your app's UI.
-   <!-- Just how static is this URL? Will it ever change? If so, when? -->
 
    If you see a message that says there's nothing to preview in {{site.data.keyword.cloud-shell_short}}, the server where your app is running isn't listening on the selected port. Verify that your server is listening on the port that you're previewing, and refresh the preview page.
    {: tip}
@@ -111,8 +110,6 @@ Now that you're previewing your app, you can see any changes you make by restart
 You can also use {{site.data.keyword.cloud-shell_short}} to preview apps that are running in Kubernetes, such as a Prometheus dashboard or your typical web app. Because apps that are running in a pod in a Kubernetes cluster use an internal port, you need to expose the pod's port either by creating a service or setting up port forwarding.
 
 If you create a service, you need to expose the service publicly, set up authentication to secure access, and set up an application load balancer (ALB) for the service. For more information, see [Connecting applications with services](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/){: external}.
-
-<!-- What if their service is public, can they stil use web preview? -->
 
 If you're doing app development and testing, port forwarding is a simpler way to be able to quickly preview apps in your cluster. It requires much less up-front configuration, but you also have to reconfigure it whenever the pod restarts. The following steps walk you through setting up port forwarding and previewing an app that's running in a {{site.data.keyword.containerlong_notm}} cluster.
 
@@ -165,7 +162,6 @@ If you're doing app development and testing, port forwarding is a simpler way to
 1. In the {{site.data.keyword.cloud-shell_short}} menu bar, click the **Web preview** icon ![Web preview](../icons/view.svg), and select the port that's being forwarded to your pod.
 
    Your web preview opens in a new browser window. You should see the first screen of your app's UI.
-   <!-- Just how static is this URL? Will it ever change? If so, when? -->
 
    If you see a message that says there's nothing to preview in {{site.data.keyword.cloud-shell_short}}, the server where your app is running isn't listening on the selected port. Verify that your server is listening on the pod's internal port and that you're forwarding the port that you're previewing to the correct internal port.
    {: tip}
