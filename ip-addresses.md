@@ -47,6 +47,7 @@ Data center location | Subnet
 | Dallas 13 | 169.61.41.80/28 |
 | Dallas 13 | 169.61.41.96/28 |
 | Dallas 13 | 169.61.41.112/28 |
+{: caption="Table 1. Cloud Shell ingress IP ranges for us-south (Dallas)" caption-side="bottom"}
 
 ## {{site.data.keyword.cloud-shell_short}} ingress IP ranges for eu-de (Frankfurt)
 {: #frankfurt-ip-range}
@@ -59,6 +60,7 @@ Data center location | Subnet
 | Frankfurt 4 | 161.156.157.192/27 |
 | Frankfurt 4 | 161.156.157.224/27 |
 | Frankfurt 5 | 149.81.73.160/27 |
+{: caption="Table 2. Cloud Shell ingress IP ranges for eu-de (Frankfurt)" caption-side="bottom"}
 
 ## {{site.data.keyword.cloud-shell_short}} ingress IP ranges for jp-tok (Tokyo)
 {: #tokyo-ip-range}
@@ -68,3 +70,4 @@ Data center location | Subnet
 | Tokyo 2 | 161.202.235.192/27 |
 | Tokyo 4 | 128.168.68.192/27 |
 | Tokyo 5 | 165.192.70.32/27 |
+{: caption="Table 3. Cloud Shell ingress IP ranges for jp-tok (Tokyo)" caption-side="bottom"}
