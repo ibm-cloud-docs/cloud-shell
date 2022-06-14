@@ -50,7 +50,7 @@ As with your local system, only one app can run on each port at any time. If you
 
 {{site.data.keyword.cloud-shell_short}} includes lots of [plug-ins, tools, and runtimes](/docs/cloud-shell?topic=cloud-shell-plugins-tools) that you can use to work with apps that you're developing. Because {{site.data.keyword.cloud-shell_short}} storage is temporary, the easiest way to work with an app is to first copy or clone it to your {{site.data.keyword.cloud-shell_short}} workspace, make any changes, and then preview it.
 
-Currently, the {{site.data.keyword.cloud_notm}} CLI {{dev_cli_short}} (`ibmcloud dev`) commands can't be used to build, test, or run apps in {{site.data.keyword.cloud-shell_short}}.
+Currently, the {{site.data.keyword.cloud_notm}} CLI {{site.data.keyword.dev_cli_short}} (`ibmcloud dev`) commands can't be used to build, test, or run apps in {{site.data.keyword.cloud-shell_short}}.
 {: note}
 
 The following example workflow shows how you can preview a [Node.js Express sample app](https://github.com/IBM/nodejs-express-app){: external} that's hosted in a GitHub repository.
