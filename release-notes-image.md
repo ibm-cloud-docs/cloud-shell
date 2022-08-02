@@ -21,6 +21,11 @@ Use the release notes to learn about the latest changes to {{site.data.keyword.c
 The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the most recent available versions. These updates are not usually detailed in these release notes.
 {: tip}
 
+## 3 August 2022
+{: #3-08-2022}
+
+The supported version of Redis is now version 6.
+
 ## 14 April 2022
 {: #14-04-2022}
 
