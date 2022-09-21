@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-16"
+lastupdated: "2022-09-21"
 
 keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities, cli plugins, ibm cloud cli
 
@@ -10,12 +10,7 @@ subcollection: cloud-shell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:table: .aria-labeledby="caption"}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:important: .important}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Installed plug-ins and tools
 {: #plugins-tools}
@@ -60,6 +55,7 @@ The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to t
    - Bazaar version control system (`bzr`)
    - Calico CLI (`calicoctl`)
    - cURL (`curl`)
+   - Docker (`docker`)
    - etcd CLI (`etcdctl`)
    - FIGlet text banner generator (`figlet`)
    - Git CLI (`git`)

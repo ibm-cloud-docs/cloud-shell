@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-14"
+lastupdated: "2022-09-21"
 
 keywords: Cloud Shell release notes, Cloud Shell changes, Cloud Shell updates
 
@@ -20,6 +20,11 @@ Use the release notes to learn about the latest changes to {{site.data.keyword.c
 
 The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the most recent available versions. These updates are not usually detailed in these release notes.
 {: tip}
+
+## 21 September 2022
+{: #21-09-2022}
+
+{{site.data.keyword.cloud-shell_short}} now supports Docker in Docker, which includes the ability to build and run with `ibmcloud dev build` and `ibmcloud dev run` when deploying or running your application on Docker.
 
 ## 3 August 2022
 {: #3-08-2022}
