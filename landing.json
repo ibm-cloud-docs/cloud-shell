@@ -1,0 +1,53 @@
+{
+    "title": "IBM Cloud Shell docs",
+    "lastupdated": "2022-11-04",
+    "introduction": "IBM Cloud Shell is a workspace that you can access through your browser. Cloud Shell is preconfigured with the full IBM Cloud CLI, plug-ins, and tools that you can use to manage apps, resources, and infrastructure.",
+    "section_devtools": {
+      "api": "/apidocs/cloudshell", 
+      "cli": "/docs/cloud-shell?topic=cli-ibmcloud_cli", 
+      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/iam_access_group"
+    },
+    "section_recommended": [
+        {
+            "title": "Getting started with IBM Cloud Shell",
+            "description": "IBM Cloud Shell is a cloud-based shell workspace that's preconfigured with the full IBM Cloud CLI and several plug-ins and tools.",
+            "href": "/docs/cloud-shell?topic=cloud-shell-getting-started"
+          },
+    {
+        "title": "Troubleshooting for IBM Cloud Shell",
+        "description": "Use the tips in this section to help troubleshoot problems that you might run into when you use IBM Cloud Shell.",
+        "href": "/docs/cloud-shell?topic=cloud-shell-troubleshooting"
+      },
+      {
+        "title": "Working in Cloud Shell",
+        "description": "IBM Cloud Shell contains a personal workspace and sessions where you can run commands.",
+        "href": "/docs/cloud-shell?topic=cloud-shell-shell-ui"
+      }
+    ],
+    "section_learn": {
+        "developer": "https://developer.ibm.com/depmodels/cloud/",
+        "architecture": "https://www.ibm.com/cloud/architecture",
+        "training": "https://www.ibm.com/training/cloud",
+        "community": "https://ic-devops-slack-invite.us-south.devops.cloud.ibm.com/"
+    },
+    "section_updates": {
+      "view_more": "/docs/cloud-shell?topic=cloud-shell-release-notes-image",
+      "tiles": [
+        {
+          "date": "21 September 2022",
+          "title": "Support for Docker in Docker",
+          "description": "Cloud Shell now supports Docker in Docker, which includes the ability to build and run with ibmcloud dev build and ibmcloud dev run when deploying or running your application on Docker."
+        },
+        {
+          "date": "3 August 2022",
+          "title": "Redis version 6",
+          "description": "The supported version of Redis is now version 6."
+        },
+        {
+          "date": "14 April 2022",
+          "title": "Helm version 3",
+          "description": "Helm version 3 is now the default version. When you run helm on Cloud Shell, Helm version 3 is the version that runs. To run Helm version 2, type helm2. The helm3 alias is also available if you use Helm version 3 in your scripts."
+        }
+      ]
+    }
+  }
