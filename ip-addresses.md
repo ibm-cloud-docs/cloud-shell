@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-10-26"
+  years: 2020, 2022
+lastupdated: "2022-12-14"
 
 keywords: IBM Cloud Shell, cloud shell, cloud shell service, cloud shell ip addresses, cloud shell allowlist, cloud shell blocklist
 
@@ -32,7 +32,15 @@ You can use a {{site.data.keyword.cloud-shell_short}} session as a terminal to u
 {{site.data.keyword.cloud-shell_short}} does not have privileged access to {{site.data.keyword.cloud_notm}} resources. It has the same access as the locally installed {{site.data.keyword.cloud_notm}} CLI or the {{site.data.keyword.cloud_notm}} console.
 {: note}
 
-## {{site.data.keyword.cloud-shell_short}} ingress IP ranges for us-south (Dallas)
+## Current ingress IP ranges
+{: #current-ranges}
+
+Tables 1 - 3 list the current ingress IP ranges. On 20 January 2023, the IP address list will change. For more information on the new ranges, see [New ingress IP ranges](#new-ranges).
+
+So that existing access is maintained, you must add the new IP ranges to your allowlists as soon as possible. You can remove the old IP ranges from the allowlists after the 20 January 2023.
+{: note}
+
+### {{site.data.keyword.cloud-shell_short}} ingress IP ranges for us-south (Dallas)
 {: #dallas-ip-range}
 
 Data center location | Subnet
@@ -49,7 +57,7 @@ Data center location | Subnet
 | Dallas 13 | 169.61.41.112/28 |
 {: caption="Table 1. Cloud Shell ingress IP ranges for us-south (Dallas)" caption-side="bottom"}
 
-## {{site.data.keyword.cloud-shell_short}} ingress IP ranges for eu-de (Frankfurt)
+### {{site.data.keyword.cloud-shell_short}} ingress IP ranges for eu-de (Frankfurt)
 {: #frankfurt-ip-range}
 
 Data center location | Subnet
@@ -62,7 +70,7 @@ Data center location | Subnet
 | Frankfurt 5 | 149.81.73.160/27 |
 {: caption="Table 2. Cloud Shell ingress IP ranges for eu-de (Frankfurt)" caption-side="bottom"}
 
-## {{site.data.keyword.cloud-shell_short}} ingress IP ranges for jp-tok (Tokyo)
+### {{site.data.keyword.cloud-shell_short}} ingress IP ranges for jp-tok (Tokyo)
 {: #tokyo-ip-range}
 
 Data center location | Subnet
@@ -71,3 +79,42 @@ Data center location | Subnet
 | Tokyo 4 | 128.168.68.192/27 |
 | Tokyo 5 | 165.192.70.32/27 |
 {: caption="Table 3. Cloud Shell ingress IP ranges for jp-tok (Tokyo)" caption-side="bottom"}
+
+
+## New ingress IP ranges
+{: #new-ranges}
+
+On 20 January 2023, the Cloud Shell ingress IPs for all regions (Dallas, Frankfurt, and Tokyo) will change. Tables 4 - 6 show the new IP ranges for each region.
+
+So that existing access is maintained, you must add the new IP ranges to your allowlists as soon as possible. You can remove the old IP ranges from the allowlists after the 20 January 2023.
+{: note}
+
+### New {{site.data.keyword.cloud-shell_short}} ingress IP ranges for us-south (Dallas)
+{: #dallas-ip-new-range}
+
+Data center location | Subnet
+-- | --
+| Dallas 10 | 169.46.9.208/28 |
+| Dallas 12 | 169.48.197.32/28 |
+| Dallas 13 |	67.228.112.80/28 |
+{: caption="Table 4. New Cloud Shell ingress IP ranges for us-south (Dallas)" caption-side="bottom"}
+
+### New {{site.data.keyword.cloud-shell_short}} ingress IP ranges for eu-de (Frankfurt)
+{: #frankfurt-ip-new-range}
+
+Data center location | Subnet
+-- | --
+| Frankfurt 2 | 159.122.93.208/28 |
+| Frankfurt 4 | 161.156.184.160/28 |
+| Frankfurt 5 | 149.81.65.224/28 |
+{: caption="Table 5. New Cloud Shell ingress IP ranges for eu-de (Frankfurt)" caption-side="bottom"}
+
+### New {{site.data.keyword.cloud-shell_short}} ingress IP ranges for jp-tok (Tokyo)
+{: #tokyo-ip-new-range}
+
+Data center location | Subnet
+-- | --
+| Tokyo 2 | 169.56.48.176/28 |
+| Tokyo 4 | 128.168.66.240/28 |
+| Tokyo 5 | 165.192.108.208/28 |
+{: caption="Table 6. New Cloud Shell ingress IP ranges for jp-tok (Tokyo)" caption-side="bottom"}
