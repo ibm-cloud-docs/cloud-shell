@@ -41,6 +41,9 @@ toc:
       - ip-addresses.md
       - plugins-tools.md
       - /cli/cli-ibmcloud_cli
+      - link:
+          label: API reference
+          href: https://{DomainName}/apidocs/cloudshell
 
   - navgroup:
       id: help
