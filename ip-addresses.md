@@ -35,9 +35,9 @@ You can use a {{site.data.keyword.cloud-shell_short}} session as a terminal to u
 ## Current ingress IP ranges
 {: #current-ranges}
 
-Tables 1 - 3 list the current ingress IP ranges. On 20 January 2023, the IP address list will change. For more information on the new ranges, see [New ingress IP ranges](#new-ranges).
+Tables 1 - 3 list the current ingress IP ranges. On 20 January 2023, the IP address list for all regions will change. For more information on the new ranges, see [New ingress IP ranges](#new-ranges).
 
-So that existing access is maintained, you must add the new IP ranges to your allowlists as soon as possible. You can remove the old IP ranges from the allowlists after the 20 January 2023.
+So that existing access is maintained, you must add the new IP ranges to your allowlists as soon as possible. You can remove the old IP ranges from the allowlists after 20 January 2023.
 {: note}
 
 ### {{site.data.keyword.cloud-shell_short}} ingress IP ranges for us-south (Dallas)
@@ -84,10 +84,8 @@ Data center location | Subnet
 ## New ingress IP ranges
 {: #new-ranges}
 
-On 20 January 2023, the Cloud Shell ingress IPs for all regions (Dallas, Frankfurt, and Tokyo) will change. Tables 4 - 6 show the new IP ranges for each region.
+On 20 January 2023, the Cloud Shell ingress IP address list for all regions will change. Tables 4 - 6 list the new IP ranges for each region.
 
-So that existing access is maintained, you must add the new IP ranges to your allowlists as soon as possible. You can remove the old IP ranges from the allowlists after the 20 January 2023.
-{: note}
 
 ### New {{site.data.keyword.cloud-shell_short}} ingress IP ranges for us-south (Dallas)
 {: #dallas-ip-new-range}
