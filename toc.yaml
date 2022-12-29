@@ -28,10 +28,6 @@ toc:
           label: Logging and monitoring
           topics: 
           - at-events.md
-      - topicgroup: 
-          label: Enhancing security
-          topics: 
-          - manage-scc.md
 
   - navgroup:
       id: reference
