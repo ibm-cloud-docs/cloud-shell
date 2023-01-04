@@ -40,15 +40,15 @@ toc:
       - architecture-workload-isolation.md
       - ip-addresses.md
       - plugins-tools.md
-      - /cli/cli-ibmcloud_cli
+      - include: ../cli/reference/ibmcloud/bx_cli.md
       - link:
           label: API reference
           href: https://{DomainName}/apidocs/cloudshell
 
   - navgroup:
       id: help
-      topics: 
-      - /account/account-shell-settings
+      topics:
+      - include: ../account/shell-settings.md
       - faqs.md
       - troubleshooting.md
       - limitations.md
