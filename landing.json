@@ -1,12 +1,10 @@
 {
     "title": "IBM Cloud Shell docs",
-
-    "lastupdated": "2022-11-07",
+    "lastupdated": "2023-01-09",
     "introduction": "IBM Cloud Shell is a workspace that you can access through your browser. Cloud Shell is preconfigured with the full IBM Cloud CLI, plug-ins, and tools that you can use to manage apps, resources, and infrastructure.",
     "section_devtools": {
       "api": "/apidocs/cloudshell", 
-      "cli": "/docs/cloud-shell?topic=cli-ibmcloud_cli", 
-
+      "cli": "/docs/cli?topic=cli-ibmcloud_cli", 
       "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/cloud_shell_account_settings"
     },
     "section_recommended": [
