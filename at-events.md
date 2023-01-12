@@ -10,13 +10,7 @@ subcollection: cloud-shell
 
 ---
 
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:table: .aria-labeledby="caption"}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:important: .important}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Auditing events for {{site.data.keyword.cloud-shell_notm}}
 {: #at_events}

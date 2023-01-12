@@ -15,7 +15,6 @@ subcollection: cloud-shell
 
 {{site.data.keyword.attribute-definition-list}}
 
-
 # Getting started with {{site.data.keyword.cloud-shell_notm}}
 {: #getting-started}
 {: toc-content-type="tutorial"} 

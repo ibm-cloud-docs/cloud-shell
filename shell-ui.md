@@ -10,13 +10,7 @@ subcollection: cloud-shell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:table: .aria-labeledby="caption"}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:important: .important}
-{:note: .note}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Working in {{site.data.keyword.cloud-shell_short}}
 {: #shell-ui}

@@ -10,15 +10,7 @@ subcollection: cloud-shell
 
 ---
 
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:table: .aria-labeledby="caption"}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:important: .important}
-{:note: .note}
-{:pre: .pre}
-{:screen: .screen}
+{{site.data.keyword.attribute-definition-list}}
 
 # Previewing apps
 {: #preview-apps}

@@ -12,19 +12,7 @@ content-type: troubleshoot
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:important: .important}
-{:note: .note}
-{:external: target="_blank" .external}
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
-{:support: data-reuse='support'}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # Troubleshooting for {{site.data.keyword.cloud-shell_notm}}
 {: #troubleshooting}

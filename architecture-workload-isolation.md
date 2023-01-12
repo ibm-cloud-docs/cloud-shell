@@ -10,12 +10,7 @@ subcollection: cloud-shell
 
 ---
 
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:table: .aria-labeledby="caption"}
-{:tip: .tip}
-{:important: .important}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Learning about {{site.data.keyword.cloud-shell_notm}} architecture and workload isolation
 {: #compute-isolation}
