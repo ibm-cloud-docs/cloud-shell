@@ -28,6 +28,11 @@ toc:
           label: Logging and monitoring
           topics: 
           - at-events.md
+      - topicgroup: 
+          label: Enhancing security
+          topics: 
+          - include: ../security-compliance/getting-started.md
+            navtitle: Managing security and compliance
 
   - navgroup:
       id: reference
