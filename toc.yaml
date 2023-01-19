@@ -30,9 +30,10 @@ toc:
           - at-events.md
       - topicgroup: 
           label: Enhancing security
-          topics: 
-          - include: ../security-compliance/getting-started.md
-            navtitle: Managing security and compliance
+          topics:
+          - link:
+              label: Managing security and compliance
+              href: /security-compliance/security-compliance-getting-started
 
   - navgroup:
       id: reference
