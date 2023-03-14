@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-04-14"
+  years: 2020, 2023
+lastupdated: "2023-03-14"
 
 keywords: Cloud Shell troubleshooting, cloud shell connection lost, could not start cloud shell, cloud shell bashrc, Cloud Shell hangs, Cloud Shell closes, Cloud Shell restarts
 
@@ -37,6 +37,7 @@ Refresh your {{site.data.keyword.cloud-shell_short}} browser tab or window. If {
 
 - Restart from the {{site.data.keyword.cloud-shell_short}} menu.
 - Check if the IP address restriction is [defined for the account or the user](/docs/account?topic=account-ips). If the IP address restriction is defined, [add the {{site.data.keyword.cloud-shell_short}} ingress IP ranges](/docs/cloud-shell?topic=cloud-shell-cs-ip-ranges) to log in from the {{site.data.keyword.cloud-shell_short}} service. If the IP address restriction is not defined and you continue to see this issue, create a support case.
+- Log out of {{site.data.keyword.cloud}}. Clear your browser cache and cookies to remove your preferences and then log in again and open {{site.data.keyword.cloud-shell_short}}.
 
 ## Why can't I work with my Kubernetes clusters from my session?
 {: #trouble-kube}
