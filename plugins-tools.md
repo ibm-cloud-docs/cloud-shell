@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-09-21"
+  years: 2020, 2023
+lastupdated: "2023-03-22"
 
 keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities, cli plugins, ibm cloud cli
 
@@ -134,12 +134,3 @@ The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to t
    - `silversearcher-ag`
    - `software-properties-common`
    - `zlib1g-dev`
-
-## Programming language runtimes
-{: #installed-runtimes}
-
-   - Java&trade; (OpenJDK)
-   - Python
-   - Ruby
-   - Go
-   - Node.JS
