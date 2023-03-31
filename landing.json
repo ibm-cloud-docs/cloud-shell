@@ -1,6 +1,6 @@
 {
     "title": "IBM Cloud Shell docs",
-    "lastupdated": "2023-01-09",
+    "lastupdated": "2023-03-31",
     "introduction": "IBM Cloud Shell is a workspace that you can access through your browser. Cloud Shell is preconfigured with the full IBM Cloud CLI, plug-ins, and tools that you can use to manage apps, resources, and infrastructure.",
     "section_devtools": {
       "api": "/apidocs/cloudshell", 
@@ -34,6 +34,11 @@
       "view_more": "/docs/cloud-shell?topic=cloud-shell-release-notes-image",
       "tiles": [
         {
+          "date": "31 March 2023",
+          "title": "The ibmcloud dev app commands are no longer available",
+          "description": "When you deploy or run your application on Docker, the `ibmcloud dev` app commands are no longer available, including `ibmcloud dev build` and `ibmcloud dev run`. However, you can still use Docker commands in IBM Cloud Shell."
+        },
+        {
           "date": "21 September 2022",
           "title": "Support for Docker in Docker",
           "description": "Cloud Shell now supports Docker in Docker, which includes the ability to build and run with ibmcloud dev build and ibmcloud dev run when deploying or running your application on Docker."
@@ -42,11 +47,6 @@
           "date": "3 August 2022",
           "title": "Redis version 6",
           "description": "The supported version of Redis is now version 6."
-        },
-        {
-          "date": "14 April 2022",
-          "title": "Helm version 3",
-          "description": "Helm version 3 is now the default version. When you run helm on Cloud Shell, Helm version 3 is the version that runs. To run Helm version 2, type helm2. The helm3 alias is also available if you use Helm version 3 in your scripts."
         }
       ]
     }
