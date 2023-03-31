@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-09-21"
+  years: 2020, 2023
+lastupdated: "2023-03-31"
 
 keywords: Cloud Shell release notes, Cloud Shell changes, Cloud Shell updates
 
@@ -20,6 +20,11 @@ Use the release notes to learn about the latest changes to {{site.data.keyword.c
 
 The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the most recent available versions. These updates are not usually detailed in these release notes.
 {: tip}
+
+## March 31 2023
+{: #31-03-2023}
+
+When deploying or running your application on Docker, the `ibmcloud dev app` commands are no longer available, including `ibmcloud dev build` and `ibmcloud dev run`. However, you can still use Docker commands on the {{site.data.keyword.cloud-shell_short}}.
 
 ## 21 September 2022
 {: #21-09-2022}
