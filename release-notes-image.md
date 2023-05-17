@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-05-17"
 
 keywords: Cloud Shell release notes, Cloud Shell changes, Cloud Shell updates
 
@@ -20,6 +20,11 @@ Use the release notes to learn about the latest changes to {{site.data.keyword.c
 
 The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the most recent available versions. These updates are not usually detailed in these release notes.
 {: tip}
+
+## 17 May 2023
+{: #17-05-2023}
+
+Simple Python Version Management (`pyenv`) is now available on {{site.data.keyword.cloud-shell_short}}. A preinstalled Python 3.11.2 is available by using `pyenv`.
 
 ## 31 March 2023
 {: #31-03-2023}

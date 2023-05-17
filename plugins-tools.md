@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-22"
+lastupdated: "2023-05-17"
 
 keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities, cli plugins, ibm cloud cli
 
@@ -106,6 +106,7 @@ The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to t
    - Yarn package manager (`yarn`)
    - yq YAML processor (`yq`)
    - Zip archive utility (`zip`)
+   - Simple Python Version Management (`pyenv`)
 
 ## Packages and libraries
 {: #installed-packages}
