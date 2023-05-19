@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-17"
+lastupdated: "2023-05-19"
 
 keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities, cli plugins, ibm cloud cli
 
@@ -18,7 +18,7 @@ subcollection: cloud-shell
 In addition to the full {{site.data.keyword.cloud}} CLI, {{site.data.keyword.cloud-shell_full}} includes preinstalled CLI plug-ins, packages, tools, and runtimes so that you can instantly get working on the command line.
 {: shortdesc}
 
-For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plugins, see [Installing the tools and plug-ins manually](/docs/cli?topic=cli-install-devtools-manually) and [Extending IBM Cloud CLI with plug-ins](/docs/cli?topic=cli-plug-ins).
+For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plugins, see [Extending IBM Cloud CLI with plug-ins](/docs/cli?topic=cli-plug-ins).
 
 ## {{site.data.keyword.cloud_notm}} CLI plug-ins
 {: #installed-plugins}
