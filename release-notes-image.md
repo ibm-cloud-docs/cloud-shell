@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-17"
+lastupdated: "2023-06-02"
 
 keywords: Cloud Shell release notes, Cloud Shell changes, Cloud Shell updates
 
@@ -97,7 +97,6 @@ Helm version 3 is now the default version. When you run `helm` on {{site.data.ke
 * Updated the {{site.data.keyword.cloud-shell_short}} server image to version 0.7.1, which includes the following changes:
    * Updated the ISTIO CLI (`istioctl`) to 1.5.4.
    * Added auto-complete for Red Hat OpenShift CLI (`oc`).
-   * Added the Cloud Foundry CLI installed in the {{site.data.keyword.cloud_notm}} CLI context (`ibmcloud cf`).
 
 ## 15 May 2020
 {: #15-05-2020}
