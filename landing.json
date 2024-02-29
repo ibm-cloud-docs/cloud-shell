@@ -26,7 +26,7 @@
     ],
     "section_learn": {
         "developer": "https://developer.ibm.com/depmodels/cloud/",
-        "architecture": "https://www.ibm.com/cloud/architecture",
+        "architecture": "https://www.ibm.com/architectures/hybrid",
         "training": "https://www.ibm.com/training/cloud",
         "community": "https://ic-devops-slack-invite.us-south.devops.cloud.ibm.com/"
     },
