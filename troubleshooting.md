@@ -56,7 +56,7 @@ The connection to the server localhost:8080 was refused - did you specify the co
 The cluster isn't currently set as the context. As with your local development environment, the cluster context must be set for each individual session.
 {: tsCauses}
 
-Set the cluster as the context in your session as described in [Configuring the CLI to run `kubectl`](/docs/containers?topic=containers-cs_cli_install#cs_cli_configure).
+Set the cluster as the context in your session as described in [Installing the CLI](/docs/containers?topic=containers-cli-install#install-kubectl-cli).
 {: tsResolve}
 
 ## What do I do if I changed my `.bashrc` file and my sessions don't work?

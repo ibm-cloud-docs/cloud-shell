@@ -99,11 +99,11 @@ Now that you're previewing your app, you can see any changes you make by restart
 
 You can also use {{site.data.keyword.cloud-shell_short}} to preview apps that are running in Kubernetes, such as a Prometheus dashboard or your typical web app. Because apps that are running in a pod in a Kubernetes cluster use an internal port, you need to expose the pod's port either by creating a service or setting up port forwarding.
 
-If you create a service, you need to expose the service publicly, set up authentication to secure access, and set up an application load balancer (ALB) for the service. For more information, see [Connecting applications with services](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/){: external}.
+If you create a service, you need to expose the service publicly, set up authentication to secure access, and set up an application load balancer (ALB) for the service. For more information, see [Connecting applications with services](https://kubernetes.io/docs/tutorials/services/connect-applications-service/){: external}.
 
 If you're doing app development and testing, port forwarding is a simpler way to be able to quickly preview apps in your cluster. It requires much less up-front configuration, but you also have to reconfigure it whenever the pod restarts. The following steps walk you through setting up port forwarding and previewing an app that's running in a {{site.data.keyword.containerlong_notm}} cluster.
 
-1. In a {{site.data.keyword.cloud-shell_short}} session, set the cluster where your app is running as the context. This enables you to use `kubectl` commands to work with your cluster.  For more information, see [Configuring the CLI to run `kubectl`](/docs/containers?topic=containers-cs_cli_install#cs_cli_configure).
+1. In a {{site.data.keyword.cloud-shell_short}} session, set the cluster where your app is running as the context. This enables you to use `kubectl` commands to work with your cluster.  For more information, see [Installing the CLI](/docs/containers?topic=containers-cli-install#install-kubectl-cli).
 1. Find the name of the pod where your app is running.
 
    ```bash

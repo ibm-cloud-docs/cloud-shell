@@ -34,7 +34,7 @@ New to {{site.data.keyword.cloud-shell_short}}? [Watch the demo video](https://w
 * Note the following account access information that might affect your access to {{site.data.keyword.cloud-shell_short}} and its features:
    * An account administrator can grant specific users access to {{site.data.keyword.cloud-shell_short}} and its features, even if {{site.data.keyword.cloud-shell_short}} settings are disabled at the account level. For more information, see [Assigning access to {{site.data.keyword.cloud-shell_short}} and its features at a user level](/docs/account?topic=account-shell-settings#shell-access-user).
    * Account owners or users with {{site.data.keyword.cloud-shell_short}} administrator access can enable or disable {{site.data.keyword.cloud-shell_short}} features for an account. The available features in this release are **File upload and download** and **Web preview**. The feature settings apply only to the enabled {{site.data.keyword.cloud-shell_short}} locations. For more information, see [Enabling or disabling {{site.data.keyword.cloud-shell_short}} features for an account](/docs/account?topic=account-shell-settings#shell-features-enable).
-   * For more information, see [IAM roles and actions](/docs/account?topic=account-iam-service-roles-actions#ibm-cloud-shell).
+   * For more information, see [IAM roles and actions](/docs/account?topic=account-iam-service-roles-actions#cloudshell-roles).
 
 ## Start a session in {{site.data.keyword.cloud-shell_notm}}
 {: #open-shell}
