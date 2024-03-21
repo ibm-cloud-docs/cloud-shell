@@ -1,12 +1,12 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-11-09"
+  years: 2020, 2024
+lastupdated: "2024-02-01"
 
 keywords: getting started tutorial, IBM Cloud Shell, cloud shell, IBM Cloud cli, using IBM Cloud Shell, cloud shell access
 content-type: tutorial
-services: 
+services:
 account-plan: lite
 completion-time: 30m
 subcollection: cloud-shell
@@ -17,8 +17,8 @@ subcollection: cloud-shell
 
 # Getting started with {{site.data.keyword.cloud-shell_notm}}
 {: #getting-started}
-{: toc-content-type="tutorial"} 
-{: toc-services=""} 
+{: toc-content-type="tutorial"}
+{: toc-services=""}
 {: toc-completion-time="30m"}
 
 In this getting started tutorial, you use {{site.data.keyword.cloud-shell_full}} to clone a sample Node.js app. {{site.data.keyword.cloud-shell_notm}} is a cloud-based shell workspace that you can access through your browser. It's preconfigured with the full [{{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cli-getting-started) and tons of plug-ins and tools that you can use to manage apps, resources, and infrastructure.
@@ -68,7 +68,7 @@ ls
 You can see that your `nodejs-express-app` directory contains all of the sample app files and folders.
 
 ```text
-Dockerfile  Dockerfile-tools  LICENSE  README.md  package-lock.json  
+Dockerfile  Dockerfile-tools  LICENSE  README.md  package-lock.json
 package.json  public  scripts  server  test
 ```
 {: screen}
@@ -98,7 +98,7 @@ You can start it in {{site.data.keyword.cloud-shell_short}} and preview it local
    ```text
    > nodejsexpressapp@1.0.0 start /home/my-user-name/nodejs-express-app
    > node server/server.js
-   
+
    App UI available http://localhost:3000
    Swagger UI available http://localhost:3000/swagger/api-docs
    ```
@@ -116,6 +116,6 @@ You can start it in {{site.data.keyword.cloud-shell_short}} and preview it local
 From {{site.data.keyword.cloud-shell_short}}, you can quickly run commands on your {{site.data.keyword.cloud_notm}} account. For example:
 
 * [Managing IAM access, API keys, service IDs, and access groups](/docs/cli?topic=cli-ibmcloud_commands_iam)
-* [Viewing usage for accounts, orgs, resource groups, and resources](/docs/cli?topic=cli-ibmcloud_billing)
+* [Viewing billing and usage information](/docs/cli?topic=cli-ibmcloud_billing)
 
 In addition to the {{site.data.keyword.cloud_notm}} CLI, {{site.data.keyword.cloud-shell_short}} is preconfigured with all {{site.data.keyword.cloud_notm}} CLI plug-ins and many tools and runtimes to help you work in the cloud. For the full list, see [Installed plug-ins and tools](/docs/cloud-shell?topic=cloud-shell-plugins-tools).
