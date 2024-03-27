@@ -22,42 +22,42 @@ The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to t
 {: tip}
 
 ## 17 May 2023
-{: #17-05-2023}
+{: #cloud-shell-may1723}
 {: release-note}
 
 Preinstalled pyenv is available
 :   Simple Python Version Management (`pyenv`) is now available on {{site.data.keyword.cloud-shell_short}}. A preinstalled Python 3.11.2 is available by using `pyenv`.
 
 ## 31 March 2023
-{: #31-03-2023}
+{: #cloud-shell-mar3123}
 {: release-note}
 
 ibmcloud dev commands not available on Docker
 :   When you deploy or run your application on Docker, the `ibmcloud dev` app commands are no longer available, including `ibmcloud dev build` and `ibmcloud dev run`. However, you can still use Docker commands in {{site.data.keyword.cloud-shell_short}}.
 
 ## 21 September 2022
-{: #21-09-2022}
+{: #cloud-shell-sep2122}
 {: release-note}
 
 Docker in Docker is supported
 :   {{site.data.keyword.cloud-shell_short}} now supports Docker in Docker, which includes the ability to build and run with `ibmcloud dev build` and `ibmcloud dev run` when deploying or running your application on Docker.
 
 ## 3 August 2022
-{: #3-08-2022}
+{: #cloud-shell-aug0322}
 {: release-note}
 
 Redis 6 is supported
 :   The supported version of Redis is now version 6.
 
 ## 14 April 2022
-{: #14-04-2022}
+{: #cloud-shell-apr1422}
 {: release-note}
 
 Helm version 3 is now the default version
 :   Helm version 3 is now the default version. When you run `helm` on {{site.data.keyword.cloud-shell_short}}, Helm version 3 is the version that runs. To run Helm version 2, type `helm2`. The `helm3` alias is also available if you use Helm version 3 in your scripts.
 
 ## 18 December 2020
-{: #18-12-2020}
+{: #cloud-shell-dec1820}
 {: release-note}
 
 Features can be enabled or disabled for an account
@@ -78,7 +78,7 @@ Red Hat Linux bash shell is now used
 :   {{site.data.keyword.cloud-shell_notm}} now uses a Red Hat&trade; Linux&trade; bash shell instead of a x86-64 Ubuntu Linux&trade; bash shell.
 
 ## 18 September 2020
-{: #18-09-2020}
+{: #cloud-shell-sep1820}
 {: release-note}
 
 {{site.data.keyword.cloud-shell_short}} settings are managed from the {{site.data.keyword.cloud_notm}} console
@@ -96,7 +96,7 @@ New and updated tools are available
    - The {{site.data.keyword.cloud_notm}} CLI (`ibmcloud`) is upgraded to version 1.2.1, and the CLI plug-ins are upgraded to the most recent versions
 
 ## 12 August 2020
-{: #12-08-2020}
+{: #cloud-shell-aug1220}
 {: release-note}
 
 Weekly usage quote increased to 50 hours
@@ -117,7 +117,7 @@ Cookie preferences moved to the Privacy option
    * Updated the {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform to 1.8.1
 
 ## 24 June 2020
-{: #24-06-2020}
+{: #cloud-shell-jun2420}
 {: release-note}
 
 {{site.data.keyword.cloud-shell_notm}} is now generally available (GA)
@@ -132,7 +132,7 @@ Cookie preferences moved to the Privacy option
       * Added auto-complete for Red Hat OpenShift CLI (`oc`).
 
 ## 15 May 2020
-{: #15-05-2020}
+{: #cloud-shell-may1520}
 {: release-note}
 
 Server image is version 0.6.6
@@ -142,7 +142,7 @@ Server image is version 0.6.6
    * Removed Netcat networking utility (`netcat`).
 
 ## 18 April 2020
-{: #18-04-2020}
+{: #cloud-shell-apr1820}
 {: release-note}
 
 Preview web apps
@@ -166,7 +166,7 @@ Time limit updates
    * Updated the {{site.data.keyword.cloud_notm}} CLI and all plug-ins to the most recent versions.
 
 ## 16 February 2020
-{: #image-0-4-37}
+{: #cloud-shell-feb1620}
 {: release-note}
 
 {{site.data.keyword.cloud-shell_short}} server image is 0.4.37
