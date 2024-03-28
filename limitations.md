@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-09-21"
+  years: 2020, 2024
+lastupdated: "2024-03-28"
 
 keywords: Cloud Shell limitations, Cloud Shell known issues
 
@@ -27,6 +27,9 @@ subcollection: cloud-shell
 
 ## Limitations
 {: #limitations}
+
+The Tokyo region for {{site.data.keyword.cloud-shell_short}} is deprecated and will no longer be supported by {{site.data.keyword.cloud-shell_short}} as of 2 July 2024. For more information, see the [release notes](/docs/cloud-shell?topic=cloud-shell-release-notes#cloud-shell-mar2824).
+{: deprecated}
 
 * {{site.data.keyword.cloud-shell_notm}} runs in the Dallas (`us-south`), Frankfurt (`eu-de`), and Tokyo (`jp-tok`) regions only. You can access resources in any region.
 * Usage is limited to 50 hours of weekly use. For more information, see [Tracking your usage](/docs/cloud-shell?topic=cloud-shell-shell-ui#usage-limit).

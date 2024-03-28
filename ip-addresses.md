@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-03-24"
+  years: 2020, 2024
+lastupdated: "2024-03-28"
 
 keywords: IBM Cloud Shell, cloud shell, cloud shell service, cloud shell ip addresses, cloud shell allowlist, cloud shell blocklist
 
@@ -61,6 +61,9 @@ Data center location | Subnet
 
 ### {{site.data.keyword.cloud-shell_short}} ingress IP ranges for jp-tok (Tokyo)
 {: #tokyo-ip-range}
+
+The Tokyo region for {{site.data.keyword.cloud-shell_short}} is deprecated and will no longer be supported by {{site.data.keyword.cloud-shell_short}} as of 2 July 2024. For more information, see the [release notes](/docs/cloud-shell?topic=cloud-shell-release-notes#cloud-shell-mar2824).
+{: deprecated}
 
 Data center location | Subnet
 -- | --

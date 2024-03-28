@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-03-09"
+  years: 2020, 2024
+lastupdated: "2024-03-28"
 
 keywords: HA for Cloud Shell, DR for cloud shell, high availability for cloud shell, disaster recovery for cloud shell, failover for cloud shell
 
@@ -17,6 +17,9 @@ subcollection: cloud-shell
 
 As an {{site.data.keyword.cloud}} platform service, {{site.data.keyword.cloud-shell_full}} follows the practices that are described in [How IBM Cloud ensures high availability and disaster recovery](/docs/overview?topic=overview-zero-downtime), with the exception that {{site.data.keyword.cloud-shell_notm}} is regionally available rather than globally available. Because {{site.data.keyword.cloud-shell_short}} is region-dependent, automated global failover isn't supported. You should always maintain a backup of your data outside of {{site.data.keyword.cloud-shell_short}}.
 {: shortdesc}
+
+The Tokyo region for {{site.data.keyword.cloud-shell_short}} is deprecated and will no longer be supported by {{site.data.keyword.cloud-shell_short}} as of 2 July 2024. For more information, see the [release notes](/docs/cloud-shell?topic=cloud-shell-release-notes#cloud-shell-mar2824).
+{: deprecated}
 
 {{site.data.keyword.cloud-shell_notm}} is available in the Dallas (`us-south`), Frankfurt (`eu-de`), and Tokyo (`jp-tok`) regions, and each location has three different data centers for redundancy. The data for each location is kept in the data centers near that location. If all the data centers in a location or region fail, {{site.data.keyword.cloud-shell_notm}} becomes unavailable in that location or region. When this happens, you can change to another location or region as described in [Changing locations](/docs/cloud-shell?topic=cloud-shell-shell-ui#change-location).
 
