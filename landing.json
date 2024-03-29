@@ -1,6 +1,6 @@
 {
     "title": "IBM Cloud Shell docs",
-    "lastupdated": "2023-05-17",
+    "lastupdated": "2024-03-28",
     "introduction": "IBM Cloud Shell is a workspace that you can access through your browser. Cloud Shell is preconfigured with the full IBM Cloud CLI, plug-ins, and tools that you can use to manage apps, resources, and infrastructure.",
     "section_devtools": {
       "api": "/apidocs/cloudshell", 
@@ -31,8 +31,13 @@
         "community": "https://ic-devops-slack-invite.us-south.devops.cloud.ibm.com/"
     },
     "section_updates": {
-      "view_more": "/docs/cloud-shell?topic=cloud-shell-release-notes-image",
+      "view_more": "/docs/cloud-shell?topic=cloud-shell-release-notes",
       "tiles": [
+        {
+          "date": "28 March 2024",
+          "title": "Tokyo region is deprecated for IBM Cloud Shell",
+          "description": "The Tokyo region for Cloud Shell is deprecated and will no longer be supported by Cloud Shell as of 2 July 2024."
+        },
         { 
           "date": "17 May 2023",
           "title": "Simple Python Version Management (`pyenv`) is now available on IBM Cloud Shell",
@@ -42,11 +47,6 @@
           "date": "31 March 2023",
           "title": "The ibmcloud dev app commands are no longer available",
           "description": "When you deploy or run your application on Docker, the `ibmcloud dev` app commands are no longer available, including `ibmcloud dev build` and `ibmcloud dev run`. However, you can still use Docker commands in IBM Cloud Shell."
-        },
-        {
-          "date": "21 September 2022",
-          "title": "Support for Docker in Docker",
-          "description": "Cloud Shell now supports Docker in Docker, which includes the ability to build and run with ibmcloud dev build and ibmcloud dev run when deploying or running your application on Docker."
         }
       ]
     }
