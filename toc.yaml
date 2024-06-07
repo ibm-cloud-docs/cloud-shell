@@ -2,6 +2,7 @@
 toc:
   properties:
     subcollection: cloud-shell
+    service-name: cloudshell
     version: 2
     category: platform_services
     audience: platform
@@ -10,13 +11,11 @@ toc:
     product-page: https://www.ibm.com/products/cloud-shell
     path: cloud-shell
     label: Cloud Shell
-
   entries: 
   - navgroup: 
       id: learn
       topics:
       - getting-started.md
-
   - navgroup: 
       id: howto
       topics:
@@ -34,7 +33,6 @@ toc:
           - link:
               label: Managing security and compliance
               href: /security-compliance/security-compliance-getting-started
-
   - navgroup:
       id: reference
       topics:
@@ -46,7 +44,6 @@ toc:
       - link:
           label: API reference
           href: https://{DomainName}/apidocs/cloudshell
-
   - navgroup:
       id: help
       topics:
