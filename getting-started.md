@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-01"
+lastupdated: "2024-06-05"
 
 keywords: getting started tutorial, IBM Cloud Shell, cloud shell, IBM Cloud cli, using IBM Cloud Shell, cloud shell access
 content-type: tutorial
@@ -82,7 +82,7 @@ You can start it in {{site.data.keyword.cloud-shell_short}} and preview it local
 1. First, download project dependencies for the Node.js sample app.
 
    ```bash
-   npm install
+   npm install --only=prod
    ```
    {: pre}
 
