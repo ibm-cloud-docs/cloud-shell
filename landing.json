@@ -34,6 +34,11 @@
       "view_more": "/docs/cloud-shell?topic=cloud-shell-release-notes",
       "tiles": [
         {
+          "date": "2 July 2024",
+          "title": "Tokyo region is no longer supported by IBM Cloud Shell",
+          "description": "The Tokyo region for Cloud Shell is no longer supported or available in Cloud Shell as of 2 July 2024."
+        },
+        {
           "date": "28 March 2024",
           "title": "Tokyo region is deprecated for IBM Cloud Shell",
           "description": "The Tokyo region for Cloud Shell is deprecated and will no longer be supported by Cloud Shell as of 2 July 2024."

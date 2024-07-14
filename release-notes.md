@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-07-14"
 
 keywords: Cloud Shell release notes, Cloud Shell changes, Cloud Shell updates
 
@@ -21,6 +21,13 @@ Use the release notes to learn about the latest changes to {{site.data.keyword.c
 
 The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the most recent available versions. These updates are not usually detailed in these release notes.
 {: tip}
+
+## 2 July 2024
+{: #cloud-shell-july24}
+{: release-note}
+
+Tokyo region is no longer available in {{site.data.keyword.cloud-shell_short}}
+:   The Tokyo region for {{site.data.keyword.cloud-shell_short}} is no longer available in {{site.data.keyword.cloud-shell_short}} as of 2 July 2024. {{site.data.keyword.cloud-shell_short}} users who selected Tokyo as their region will automatically be redirected to the next geographically closest location (Dallas or Frankfurt). If you prefer, you can switch your location yourself within {{site.data.keyword.cloud-shell_short}}. For more information, see [Changing locations](/docs/cloud-shell?topic=cloud-shell-shell-ui#change-location).
 
 ## 28 March 2024
 {: #cloud-shell-mar2824}
