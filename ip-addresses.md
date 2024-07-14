@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-07-14"
 
 keywords: IBM Cloud Shell, cloud shell, cloud shell service, cloud shell ip addresses, cloud shell allowlist, cloud shell blocklist
 
@@ -59,17 +59,3 @@ Data center location | Subnet
 | Frankfurt 5 | 149.81.112.128/27 |
 {: caption="Table 2. Cloud Shell ingress IP ranges for eu-de (Frankfurt)" caption-side="bottom"}
 
-### {{site.data.keyword.cloud-shell_short}} ingress IP ranges for jp-tok (Tokyo)
-{: #tokyo-ip-range}
-
-The Tokyo region for {{site.data.keyword.cloud-shell_short}} is deprecated and will no longer be supported by {{site.data.keyword.cloud-shell_short}} as of 2 July 2024. For more information, see the [release notes](/docs/cloud-shell?topic=cloud-shell-release-notes#cloud-shell-mar2824).
-{: deprecated}
-
-Data center location | Subnet
--- | --
-| Tokyo 2 | 161.202.254.192/27 |
-| Tokyo 2 | 169.56.48.176/28 |
-| Tokyo 4 | 128.168.66.240/28 |
-| Tokyo 4 | 128.168.98.160/27 |
-| Tokyo 5 | 165.192.108.208/28 |
-{: caption="Table 3. Cloud Shell ingress IP ranges for jp-tok (Tokyo)" caption-side="bottom"}
