@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-07-14"
 
 keywords: Cloud Shell release notes, Cloud Shell changes, Cloud Shell updates
 
