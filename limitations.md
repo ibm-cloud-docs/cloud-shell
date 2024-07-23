@@ -28,9 +28,6 @@ subcollection: cloud-shell
 ## Limitations
 {: #limitations}
 
-The Tokyo region for {{site.data.keyword.cloud-shell_short}} is deprecated and will no longer be supported by {{site.data.keyword.cloud-shell_short}} as of 2 July 2024. For more information, see the [release notes](/docs/cloud-shell?topic=cloud-shell-release-notes#cloud-shell-mar2824).
-{: deprecated}
-
-* {{site.data.keyword.cloud-shell_notm}} runs in the Dallas (`us-south`), Frankfurt (`eu-de`), and Tokyo (`jp-tok`) regions only. You can access resources in any region.
+* {{site.data.keyword.cloud-shell_notm}} runs in the Dallas (`us-south`) and Frankfurt (`eu-de`) regions only. You can access resources in any region.
 * Usage is limited to 50 hours of weekly use. For more information, see [Tracking your usage](/docs/cloud-shell?topic=cloud-shell-shell-ui#usage-limit).
 * {{site.data.keyword.cloud-shell_notm}} does not support [trusted profiles](/docs/account?topic=account-create-trusted-profile&interface=ui). If you start {{site.data.keyword.cloud-shell_notm}} and see an `Internal Error`, ensure that you're not using the [IAM Trusted profiles](/iam/trusted-profiles){: external} feature to log in to your {{site.data.keyword.cloud_notm}} account.
