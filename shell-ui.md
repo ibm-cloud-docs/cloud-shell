@@ -71,7 +71,7 @@ Because you have separate workspaces for each account, your session history and 
 {{site.data.keyword.cloud-shell_short}} runs in the Dallas (`us-south`) and Frankfurt (`eu-de`) regions. Each {{site.data.keyword.cloud-shell_short}} location operates independently, which means that your workspace storage, sessions, and usage are separate. When you work in {{site.data.keyword.cloud-shell_short}}, the location that you're in determines the following aspects:
 
 - Where your workspace data is stored, including any files that you upload and your user data, such as your session history and usage quota
-- The default region that's targeted by the {{site.data.keyword.cloud_notm}} CLI: `us-south`, `eu-de`, or `jp-tok`
+- The default region that's targeted by the {{site.data.keyword.cloud_notm}} CLI: `us-south` or `eu-de`
 
 By default, the location that's closest to you geographically is selected when you open {{site.data.keyword.cloud-shell_short}} from the console. For example, if you're in California then {{site.data.keyword.cloud-shell_short}} opens to the Dallas region, but if you're in Paris it opens to the Frankfurt region.
 
