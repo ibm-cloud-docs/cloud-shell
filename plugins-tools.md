@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-05-19"
+  years: 2020, 2024
+lastupdated: "2024-08-01"
 
 keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities, cli plugins, ibm cloud cli
 
@@ -15,10 +15,10 @@ subcollection: cloud-shell
 # Installed plug-ins and tools
 {: #plugins-tools}
 
-In addition to the full {{site.data.keyword.cloud}} CLI, {{site.data.keyword.cloud-shell_full}} includes preinstalled CLI plug-ins, packages, tools, and runtimes so that you can instantly get working on the command line.
+In addition to the full {{site.data.keyword.cloud}} CLI, {{site.data.keyword.cloud-shell_full}} includes preinstalled CLI plug-ins, packages, tools, and runtimes so that you can instantly start working on the command line.
 {: shortdesc}
 
-For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plugins, see [Extending IBM Cloud CLI with plug-ins](/docs/cli?topic=cli-plug-ins).
+For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plug-ins, see [Extending IBM Cloud CLI with plug-ins](/docs/cli?topic=cli-plug-ins).
 
 ## {{site.data.keyword.cloud_notm}} CLI plug-ins
 {: #installed-plugins}
@@ -28,7 +28,7 @@ For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plugin
 * [{{site.data.keyword.at_full_notm}} CLI plug-in](/docs/cli?topic=cli-activity-tracker-cli) (`ibmcloud atracker`)
 * [{{site.data.keyword.iae_full_notm}} CLI plug-in](/docs/cli?topic=cli-CLI_analytics_engine) (`ibmcloud ae`)
 * [{{site.data.keyword.appconfig_notm}} CLI plug-in](/docs/app-configuration-cli-plugin?topic=app-configuration-cli-plugin-app-configuration-cli) (`ibmcloud ac`)
-* [{{site.data.keyword.cloud_notm}} Catalogs Management CLI plug-in](/docs/cli?topic=cli-manage-catalogs-plugin) (`ibmcloud catalog`)
+* [{{site.data.keyword.cloud_notm}} Catalogs management CLI plug-in](/docs/cli?topic=cli-manage-catalogs-plugin) (`ibmcloud catalog`)
 * [{{site.data.keyword.IBM_notm}} Context-based restrictions CLI plug-in](/docs/cli?topic=cli-cbr-plugin) (`ibmcloud cbr`)
 * [{{site.data.keyword.IBM_notm}} {{site.data.keyword.databases-for}} CLI plug-in](/docs/cli?topic=cli-cdb-reference) (`ibmcloud cdb`)
 * [{{site.data.keyword.cloudant_short_notm}} CLI plug-in](/docs/cli?topic=cli-cloudant-cli) (`ibmcloud cloudant`)
