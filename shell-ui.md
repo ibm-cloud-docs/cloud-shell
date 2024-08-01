@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-08-01"
 
 keywords: cloud shell terminal, cloud shell session, cloud shell usage limit, restart cloud shell, cloud shell workspace, cloud shell cookies
 
@@ -23,7 +23,7 @@ To open {{site.data.keyword.cloud-shell_short}}, click the {{site.data.keyword.c
 ## Your {{site.data.keyword.cloud-shell_short}} workspace
 {: #shell-workspace}
 
-Each time that you open {{site.data.keyword.cloud-shell_short}}, you connect to your {{site.data.keyword.cloud-shell_short}} workspace. A workspace is a dedicated environment that holds your user and session data and provides temporary storage for you to work with files. Workspaces are separate for each user, account, and region, which each run in their own virtual machine. This means that only you can access your workspace, and if you're a user in multiple accounts, you have separate workspaces for each account, which keeps your data isolated and secure. For more information about storing data in {{site.data.keyword.cloud-shell_short}}, see [Temporary workspace storage](/docs/cloud-shell?topic=cloud-shell-files#file-persistence).
+Each time that you open {{site.data.keyword.cloud-shell_short}}, you connect to your {{site.data.keyword.cloud-shell_short}} workspace. A workspace is a dedicated environment that holds your user and session data and provides temporary storage for you to work with files. Workspaces are separate for each user, account, and region, which each run in their own virtual machine. Only you can access your workspace, and if you're a user in multiple accounts, you have separate workspaces for each account, which keeps your data that is isolated and secure. For more information about storing data in {{site.data.keyword.cloud-shell_short}}, see [Temporary workspace storage](/docs/cloud-shell?topic=cloud-shell-files#file-persistence).
 
 ## Deleting your {{site.data.keyword.cloud-shell_short}} workspace
 {: #shell-workspace-delete}
@@ -77,7 +77,7 @@ By default, the location that's closest to you geographically is selected when y
 
 To change to {{site.data.keyword.cloud-shell_short}} in a different location, find the current location in the {{site.data.keyword.cloud-shell_short}} menu bar, and click **Change**. Select the location that you want to switch to, and click **OK**.
 
-If you change from the default location, {{site.data.keyword.cloud-shell_short}} remembers your location preferences by saving them as cookies in your browser. If you switch to a different browser, clear your browser cookies, or your [cookie preferences](/#cookie-preferences) don't allow personalization cookies, {{site.data.keyword.cloud-shell_short}} will open in the default location.
+If you change from the default location, {{site.data.keyword.cloud-shell_short}} remembers your location preferences by saving them as cookies in your browser. If you switch to a different browser, clear your browser cookies, or your [cookie preferences](/#cookie-preferences) don't allow personalization cookies, {{site.data.keyword.cloud-shell_short}} opens in the default location.
 
 ## Restarting {{site.data.keyword.cloud-shell_short}}
 {: #shell-restart}
@@ -90,7 +90,7 @@ To restart, click the Menu icon ![More icon](../icons/actions-icon-vertical.svg)
 ## Tracking your usage
 {: #usage-limit}
 
-You can use {{site.data.keyword.cloud-shell_short}} for up to 50 hours within a week per region. Any time that you have at least one open session counts toward this usage quota, even if you aren't actively running commands. For example, if you're working in {{site.data.keyword.cloud-shell_short}} for 15 minutes and then leave your session open for a 30-minute lunch break, those 45 minutes are counted as usage. If you have three sessions open at the same time over an hour period, your usage is one hour because concurrent sessions don't count as additional usage. To minimize your usage, be sure to close sessions after you're done using them.
+You can use {{site.data.keyword.cloud-shell_short}} for up to 50 hours within a week per region. Anytime that you have at least one open session counts toward this usage quota, even if you aren't actively running commands. For example, if you're working in {{site.data.keyword.cloud-shell_short}} for 15 minutes and then leave your session open for a 30-minute lunch break, those 45 minutes are counted as usage. If you have three sessions open at the same time over an hour period, your usage is one hour because concurrent sessions don't count as additional usage. To minimize your usage, be sure to close sessions after you're done using them.
 
 If you use all of your quota, your {{site.data.keyword.cloud-shell_short}} sessions are closed. Closing {{site.data.keyword.cloud-shell_short}} removes any data in your workspace, including your files and command history.
 
