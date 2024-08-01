@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-11-04"
+  years: 2020, 2024
+lastupdated: "2024-08-01"
 
 keywords: Cloud Shell preview web app, web preview in Cloud Shell, view port, port preview, app localhost
 
@@ -15,7 +15,7 @@ subcollection: cloud-shell
 # Previewing apps
 {: #preview-apps}
 
-You can preview apps that are running in {{site.data.keyword.cloud-shell_full}} just like you would if you were running them locally. The {{site.data.keyword.cloud-shell_short}} web preview makes your app UI or endpoint available at a URL that only you can access. This gives you a chance to view changes to your app before you deploy it to a publicly accessible location.
+You can preview apps that are running in {{site.data.keyword.cloud-shell_full}} just like you do if you are running them locally. The {{site.data.keyword.cloud-shell_short}} web preview makes your app UI or endpoint available at a URL that only you can access. With this feature, you have a chance to view changes to your app before you deploy it to a publicly accessible location.
 {: shortdesc}
 
 ## Before you begin
@@ -92,18 +92,18 @@ The following example workflow shows how you can preview a [Node.js Express samp
    If you see a message that says there's nothing to preview in {{site.data.keyword.cloud-shell_short}}, the server where your app is running isn't listening on the selected port. Verify that your server is listening on the port that you're previewing, and refresh the preview page.
    {: tip}
 
-Now that you're previewing your app, you can see any changes you make by restarting the app if needed and refreshing the page. Be sure to commit any changes back to your GitHub repo or otherwise download your changes because your workspace storage is temporary.
+Now that you're previewing your app, you can see any changes that you make by restarting the app if needed and refreshing the page. Be sure to commit any changes back to your GitHub repo or otherwise download your changes because your workspace storage is temporary.
 
-## Previewing apps running in a Kubernetes pod
+## Previewing apps that run in a Kubernetes pod
 {: #preview-kube-cluster}
 
-You can also use {{site.data.keyword.cloud-shell_short}} to preview apps that are running in Kubernetes, such as a Prometheus dashboard or your typical web app. Because apps that are running in a pod in a Kubernetes cluster use an internal port, you need to expose the pod's port either by creating a service or setting up port forwarding.
+You can also use {{site.data.keyword.cloud-shell_short}} to preview apps that are running in Kubernetes, such as a Prometheus dashboard or your typical web app. Because apps that are running in a pod in a Kubernetes cluster use an internal port, you need to expose the pod's port. You can do that either by creating a service or setting up port forwarding.
 
 If you create a service, you need to expose the service publicly, set up authentication to secure access, and set up an application load balancer (ALB) for the service. For more information, see [Connecting applications with services](https://kubernetes.io/docs/tutorials/services/connect-applications-service/){: external}.
 
-If you're doing app development and testing, port forwarding is a simpler way to be able to quickly preview apps in your cluster. It requires much less up-front configuration, but you also have to reconfigure it whenever the pod restarts. The following steps walk you through setting up port forwarding and previewing an app that's running in a {{site.data.keyword.containerlong_notm}} cluster.
+If you're doing app development and testing, port forwarding is a simpler way to be able to quickly preview apps in your cluster. It requires much less up-front configuration, but you also must reconfigure it whenever the pod restarts. The following steps walk you through setting up port forwarding and previewing an app that's running in a {{site.data.keyword.containerlong_notm}} cluster.
 
-1. In a {{site.data.keyword.cloud-shell_short}} session, set the cluster where your app is running as the context. This enables you to use `kubectl` commands to work with your cluster.  For more information, see [Installing the CLI](/docs/containers?topic=containers-cli-install#install-kubectl-cli).
+1. In a {{site.data.keyword.cloud-shell_short}} session, set the cluster where your app is running as the context. With this setting you can use `kubectl` commands to work with your cluster. For more information, see [Installing the CLI](/docs/containers?topic=containers-cli-install#install-kubectl-cli).
 1. Find the name of the pod where your app is running.
 
    ```bash
@@ -119,7 +119,7 @@ If you're doing app development and testing, port forwarding is a simpler way to
    ```
    {: screen}
 
-1. Find the port in the pod that you want to expose by running the [`kubectl describe`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe){: external} command on the pod.
+1. Find the port in the pod that you want to display by running the [`kubectl describe`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe){: external} command on the pod.
 
    ```bash
    kubectl describe pod my-pod-123abc
@@ -151,9 +151,9 @@ If you're doing app development and testing, port forwarding is a simpler way to
    Now that port forwarding is set up, you can preview your app.
 1. In the {{site.data.keyword.cloud-shell_short}} menu bar, click the **Web preview** icon ![Web preview](../icons/view.svg), and select the port that's being forwarded to your pod.
 
-   Your web preview opens in a new browser window. You should see the first screen of your app's UI.
+   Your web preview opens in a new browser window. You can see the first screen of your app's UI.
 
-   If you see a message that says there's nothing to preview in {{site.data.keyword.cloud-shell_short}}, the server where your app is running isn't listening on the selected port. Verify that your server is listening on the pod's internal port and that you're forwarding the port that you're previewing to the correct internal port.
+   If you see a message that says there is nothing to preview in {{site.data.keyword.cloud-shell_short}}, the server where your app is running isn't listening on the selected port. Verify that your server is listening on the pod's internal port and that you're forwarding the port that you're previewing to the correct internal port.
    {: tip}
 
 ## Previewing other endpoints on a port
