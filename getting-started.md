@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-05"
+lastupdated: "2024-07-31"
 
 keywords: getting started tutorial, IBM Cloud Shell, cloud shell, IBM Cloud cli, using IBM Cloud Shell, cloud shell access
 content-type: tutorial
@@ -21,10 +21,10 @@ subcollection: cloud-shell
 {: toc-services=""}
 {: toc-completion-time="30m"}
 
-In this getting started tutorial, you use {{site.data.keyword.cloud-shell_full}} to clone a sample Node.js app. {{site.data.keyword.cloud-shell_notm}} is a cloud-based shell workspace that you can access through your browser. It's preconfigured with the full [{{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cli-getting-started) and tons of plug-ins and tools that you can use to manage apps, resources, and infrastructure.
+In this getting started tutorial, you use {{site.data.keyword.cloud-shell_full}} to clone a sample Node.js app. {{site.data.keyword.cloud-shell_notm}} is a cloud-based shell workspace that you can access through your browser. {{site.data.keyword.cloud-shell_short}} is preconfigured with the full [{{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cli-getting-started) and tons of plug-ins and tools that you can use to manage apps, resources, and infrastructure.
 {: shortdesc}
 
-New to {{site.data.keyword.cloud-shell_short}}? [Watch the demo video](https://www.youtube.com/watch?v=a8YHFyYfpVI){: external} to see how quickly you can start using it from the {{site.data.keyword.cloud_notm}} console.
+New to {{site.data.keyword.cloud-shell_short}}? [Watch the demo video](https://www.youtube.com/watch?v=a8YHFyYfpVI){: external} to see how you can start to use the service from the {{site.data.keyword.cloud_notm}} console.
 {: tip}
 
 ## Before you begin
@@ -93,7 +93,7 @@ You can start it in {{site.data.keyword.cloud-shell_short}} and preview it local
    ```
    {: pre}
 
-   When the app is running, it outputs the location where the app UI is available. For {{site.data.keyword.cloud-shell_short}}, you only need to note the port, which in this case is `3000` .
+   When the app is running, it outputs the location where the app UI is available. For {{site.data.keyword.cloud-shell_short}}, you need to note only the port, which in this case is `3000` .
 
    ```text
    > nodejsexpressapp@1.0.0 start /home/my-user-name/nodejs-express-app

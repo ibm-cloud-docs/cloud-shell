@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-04-29"
+  years: 2020, 2024
+lastupdated: "2024-07-31"
 
 keywords: Cloud Shell feedback, questions about Cloud Shell
 
@@ -26,4 +26,4 @@ Let our team know your thoughts about {{site.data.keyword.cloud-shell_short}} or
 ## Chat with us on Slack
 {: #feedback-chat}
 
-Have a casual question or just want to talk about all things {{site.data.keyword.cloud-shell_notm}}? Come chat with the development team on [{{site.data.keyword.cloud_notm}} Dev Tools Slack](https://ic-devops-slack-invite.us-south.devops.cloud.ibm.com/){: external}. After you request your invitation, sign in and join the `#ask-your-question` channel.
+Have a casual question or want to talk about all things {{site.data.keyword.cloud-shell_notm}}? Come chat with the development team on [{{site.data.keyword.cloud_notm}} Dev Tools Slack](https://ic-devops-slack-invite.us-south.devops.cloud.ibm.com/){: external}. After you request your invitation, sign in and join the `#ask-your-question` channel.

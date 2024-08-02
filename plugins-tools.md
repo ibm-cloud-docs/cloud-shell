@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-05-19"
+  years: 2020, 2024
+lastupdated: "2024-08-02"
 
 keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities, cli plugins, ibm cloud cli
 
@@ -15,10 +15,10 @@ subcollection: cloud-shell
 # Installed plug-ins and tools
 {: #plugins-tools}
 
-In addition to the full {{site.data.keyword.cloud}} CLI, {{site.data.keyword.cloud-shell_full}} includes preinstalled CLI plug-ins, packages, tools, and runtimes so that you can instantly get working on the command line.
+In addition to the full {{site.data.keyword.cloud}} CLI, {{site.data.keyword.cloud-shell_full}} includes preinstalled CLI plug-ins, packages, tools, and runtimes so that you can instantly start working on the command line.
 {: shortdesc}
 
-For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plugins, see [Extending IBM Cloud CLI with plug-ins](/docs/cli?topic=cli-plug-ins).
+For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plug-ins, see [Extending IBM Cloud CLI with plug-ins](/docs/cli?topic=cli-plug-ins).
 
 ## {{site.data.keyword.cloud_notm}} CLI plug-ins
 {: #installed-plugins}
@@ -28,7 +28,7 @@ For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plugin
 * [{{site.data.keyword.at_full_notm}} CLI plug-in](/docs/cli?topic=cli-activity-tracker-cli) (`ibmcloud atracker`)
 * [{{site.data.keyword.iae_full_notm}} CLI plug-in](/docs/cli?topic=cli-CLI_analytics_engine) (`ibmcloud ae`)
 * [{{site.data.keyword.appconfig_notm}} CLI plug-in](/docs/app-configuration-cli-plugin?topic=app-configuration-cli-plugin-app-configuration-cli) (`ibmcloud ac`)
-* [{{site.data.keyword.cloud_notm}} Catalogs Management CLI plug-in](/docs/cli?topic=cli-manage-catalogs-plugin) (`ibmcloud catalog`)
+* [{{site.data.keyword.cloud_notm}} Catalogs management CLI plug-in](/docs/cli?topic=cli-manage-catalogs-plugin) (`ibmcloud catalog`)
 * [{{site.data.keyword.IBM_notm}} Context-based restrictions CLI plug-in](/docs/cli?topic=cli-cbr-plugin) (`ibmcloud cbr`)
 * [{{site.data.keyword.IBM_notm}} {{site.data.keyword.databases-for}} CLI plug-in](/docs/cli?topic=cli-cdb-reference) (`ibmcloud cdb`)
 * [{{site.data.keyword.cloudant_short_notm}} CLI plug-in](/docs/cli?topic=cli-cloudant-cli) (`ibmcloud cloudant`)
@@ -49,7 +49,6 @@ For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plugin
 * [{{site.data.keyword.cos_full_notm}} CLI plug-in](/docs/cli?topic=cli-ic-cos-cli) (`ibmcloud cos`)
 * [{{site.data.keyword.IBM_notm}} Power Systems Virtual Server CLI plug-in](/docs/cli?topic=cli-power-iaas-cli-reference) (`ibmcloud pi`)
 * [{{site.data.keyword.pag_full_notm}} CLI plug-in](/docs/privileged-access-gateway?topic=privileged-access-gateway-pag-cli-commands) (`ibmcloud gateway`)
-* [{{site.data.keyword.IBM_notm}} {{site.data.keyword.qiskit_runtime_short}} CLI plug-in](/docs/quantum-computing?topic=quantum-computing-quantum-computing-cli) (`ibmcloud qiskit-runtime`)
 * [{{site.data.keyword.satellitelong_notm}} CLI plug-in](/docs/satellite?topic=satellite-satellite-cli-reference) [(`ibmcloud sat`](/docs/satellite?topic=satellite-icsat_map))
 * [{{site.data.keyword.bplong_notm}} CLI plug-in](/docs/cli?topic=cli-manage-catalogs-plugin) (`ibmcloud schematics`)
 * [{{site.data.keyword.secrets-manager_full_notm}} CLI plug-in](/docs/secrets-manager?topic=secrets-manager-secrets-manager-cli) (`ibmcloud secrets-manager`)

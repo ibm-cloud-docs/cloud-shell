@@ -38,7 +38,7 @@ The {{site.data.keyword.cloud-shell_short}} data plane is hosting the user's {{s
 ## {{site.data.keyword.cloud-shell_notm}} workload isolation
 {: #workload-isolation}
 
-Each regional deployment of the {{site.data.keyword.cloud-shell_notm}} serves multiple tenants. It is accessed through public endpoints. All the data at rest is encrypted by IBM keys. Data in transit is encrypted by using TLS.
+Each regional deployment of the {{site.data.keyword.cloud-shell_notm}} serves multiple tenants. It is accessed through public endpoints. IBM keys encrypt all the data at rest. Data in transit is encrypted by using TLS.
 
 The user's {{site.data.keyword.cloud-shell_short}} server is running in a virtual machine. It is isolated from the other user's {{site.data.keyword.cloud-shell_short}} server that is running on the same node. {{site.data.keyword.cloud-shell_short}} servers that are running on the same node share physical resources such as CPU, memory, and I/O devices. The guest OS in an individual {{site.data.keyword.cloud-shell_short}} server cannot detect any device other than the virtual devices that are made available to it. 
 

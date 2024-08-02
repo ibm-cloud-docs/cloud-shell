@@ -1,3 +1,3 @@
 # Editing the Cloud Shell documentation
 
-Christie Christopherson owns this repo. You can assign pull requests to `@christoc` or any of the core docs team members. 
+Hadassa Romeus owns this repo. You can assign pull requests to `@Hadassa-Romeus` or any of the core docs team members. 
