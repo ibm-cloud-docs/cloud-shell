@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-08-06"
 
 keywords: Cloud Shell release notes, Cloud Shell changes, Cloud Shell updates
 
@@ -30,6 +30,7 @@ Tokyo region is deprecated for {{site.data.keyword.cloud-shell_short}}
 :   The Tokyo region for {{site.data.keyword.cloud-shell_short}} is deprecated and will no longer be supported by {{site.data.keyword.cloud-shell_short}} as of 2 July 2024. {{site.data.keyword.cloud-shell_short}} users who selected Tokyo as their region will automatically be redirected to the next geographically closest location (Dallas or Frankfurt). If you prefer, you can switch your location yourself within {{site.data.keyword.cloud-shell_short}}. For more information, see [Changing locations](/docs/cloud-shell?topic=cloud-shell-shell-ui#change-location).
 
 :   If an account’s {{site.data.keyword.cloud-shell_short}} settings have enabled only Tokyo {{site.data.keyword.cloud-shell_short}} availability, then the account owner or user with the correct access must change their {{site.data.keyword.cloud-shell_short}} settings to another listed location before 2 July 2024 to prevent any disruption in {{site.data.keyword.cloud-shell_short}} performance. For more information, see [Enabling or disabling {{site.data.keyword.cloud-shell_short}} locations for an account](/docs/account?topic=account-shell-settings#shell-settings-locations).
+
 
 ## 17 May 2023
 {: #cloud-shell-may1723}

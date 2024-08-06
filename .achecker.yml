@@ -26,6 +26,7 @@ failLevels:
 # i.e. reportLevels: violation
 # Valid values: violation, potentialviolation, recommendation, potentialrecommendation, manual
 # Default: violation, potentialviolation
+
 reportLevels:
     - violation
     - potentialviolation
