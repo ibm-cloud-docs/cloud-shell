@@ -1,4 +1,5 @@
 {
+    "version": 2,
     "title": "IBM Cloud Shell",
     "introduction": "IBM Cloud Shell is a workspace that you can access through your browser. Cloud Shell is preconfigured with the full IBM Cloud CLI, plug-ins, and tools that you can use to manage apps, resources, and infrastructure.",    
     "section_topics": {
@@ -23,20 +24,6 @@
       "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/cloud_shell_account_settings"
     },
     "section_updates": {
-      "view_more": "/docs/cloud-shell?topic=cloud-shell-release-notes",
-      "tiles": [
-        {
-          "date": "28 March 2024",
-          "title": "Tokyo region is deprecated for IBM Cloud Shell"
-        },
-        { 
-          "date": "17 May 2023",
-          "title": "Simple Python Version Management (`pyenv`) is now available on IBM Cloud Shell"
-        },
-        {
-          "date": "31 March 2023",
-          "title": "The ibmcloud dev app commands are no longer available"
-        }
-      ]
+      "view_more": "/docs/cloud-shell?topic=cloud-shell-release-notes"
     }
   }
