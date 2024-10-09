@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-10-19"
+  years: 2020, 2024
+lastupdated: "2024-10-09"
 
 keywords: IBM Cloud Shell, cloud shell, workload isolation, cloud shell architecture, cloud shell control plane, cloud shell data plane, cloud shell service, public isolation for cloud shell, compute isolation for cloud shell, cloud shell architecture, workload isolation in cloud shell
 
@@ -22,7 +22,7 @@ Review the sample architecture for {{site.data.keyword.cloud-shell_full}}, and l
 
 {{site.data.keyword.cloud-shell_notm}} is a public, multi-tenant regional service that is available in {{site.data.keyword.cloud}}. With {{site.data.keyword.cloud-shell_short}}, you can manage {{site.data.keyword.cloud_notm}} resources and applications in a cloud-hosted shell environment from any web browser, with one click from the {{site.data.keyword.cloud_notm}} console. 
 
-![A diagram that shows a sample Cloud Shell architecture.](images/workload_isolation.png "Cloud Shell architecture sample."){: caption="Figure 1. Cloud Shell sample architecture" caption-side="bottom"}
+![A diagram that shows a sample Cloud Shell architecture.](images/workload_isolation.png "Cloud Shell architecture sample."){: caption="Cloud Shell sample architecture" caption-side="bottom"}
 
 The {{site.data.keyword.cloud-shell_short}} control plane is responsible for provisioning {{site.data.keyword.cloud-shell_short}} servers and managing the lifecycle.
 
