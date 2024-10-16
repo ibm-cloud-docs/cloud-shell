@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-31"
+lastupdated: "2024-10-09"
 
 keywords: cloud shell activity tracker events, cloud shell event, audit Cloud Shell commands, Cloud Shell logs
 
@@ -31,7 +31,7 @@ The following table lists actions in {{site.data.keyword.cloud-shell_notm}} that
 | `cloudshell.server.configure` | An event is generated when a session is configured. This event is generated for configuring new sessions and reconfiguring an existing session. |
 | `cloudshell.server.delete` | An event is generated when a session is deleted. |
 | `cloudshell.account-settings.update` | An event is generated when {{site.data.keyword.cloud-shell_short}} settings are updated for an account. |
-{: caption="Table 1. Actions that generate events" caption-side="top"}
+{: caption="Actions that generate events" caption-side="top"}
 
 ## Viewing events
 {: #at_ui}

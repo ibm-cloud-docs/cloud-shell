@@ -1,53 +1,29 @@
 {
-    "title": "IBM Cloud Shell docs",
-    "lastupdated": "2024-07-31",
-    "introduction": "IBM Cloud Shell is a workspace that you can access through your browser. Cloud Shell is preconfigured with the full IBM Cloud CLI, plug-ins, and tools that you can use to manage apps, resources, and infrastructure.",
+    "version": 2,
+    "title": "IBM Cloud Shell",
+    "introduction": "IBM Cloud Shell is a workspace that you can access through your browser. Cloud Shell is preconfigured with the full IBM Cloud CLI, plug-ins, and tools that you can use to manage apps, resources, and infrastructure.",    
+    "section_topics": {
+    "links": [
+    {
+        "title": "Getting started with IBM Cloud Shell",
+        "href": "/docs/cloud-shell?topic=cloud-shell-getting-started"
+      },
+    {
+        "title": "Troubleshooting for IBM Cloud Shell",
+        "href": "/docs/cloud-shell?topic=cloud-shell-troubleshooting"
+      },
+      {
+        "title": "Working in Cloud Shell",
+        "href": "/docs/cloud-shell?topic=cloud-shell-shell-ui"
+      }
+    ]
+  },
     "section_devtools": {
       "api": "/apidocs/cloudshell", 
       "cli": "/docs/cli?topic=cli-ibmcloud_cli", 
       "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/cloud_shell_account_settings"
     },
-    "section_recommended": [
-        {
-            "title": "Getting started with IBM Cloud Shell",
-            "description": "IBM Cloud Shell is a cloud-based shell workspace that's preconfigured with the full IBM Cloud CLI and several plug-ins and tools.",
-            "href": "/docs/cloud-shell?topic=cloud-shell-getting-started"
-          },
-    {
-        "title": "Troubleshooting for IBM Cloud Shell",
-        "description": "Use the tips in this section to help troubleshoot problems that you might run into when you use IBM Cloud Shell.",
-        "href": "/docs/cloud-shell?topic=cloud-shell-troubleshooting"
-      },
-      {
-        "title": "Working in Cloud Shell",
-        "description": "IBM Cloud Shell contains a personal workspace and sessions where you can run commands.",
-        "href": "/docs/cloud-shell?topic=cloud-shell-shell-ui"
-      }
-    ],
-    "section_learn": {
-        "developer": "https://developer.ibm.com/depmodels/cloud/",
-        "architecture": "https://www.ibm.com/architectures/hybrid",
-        "training": "https://www.ibm.com/training/cloud",
-        "community": "https://ic-devops-slack-invite.us-south.devops.cloud.ibm.com/"
-    },
     "section_updates": {
-      "view_more": "/docs/cloud-shell?topic=cloud-shell-release-notes",
-      "tiles": [
-        {
-          "date": "28 March 2024",
-          "title": "Tokyo region is deprecated for IBM Cloud Shell",
-          "description": "The Tokyo region for Cloud Shell is deprecated and will no longer be supported by Cloud Shell as of 2 July 2024."
-        },
-        { 
-          "date": "17 May 2023",
-          "title": "Simple Python Version Management (`pyenv`) is now available on IBM Cloud Shell",
-          "description": "A preinstalled Python 3.11.2 is available by using `pyenv`."
-        },
-        {
-          "date": "31 March 2023",
-          "title": "The ibmcloud dev app commands are no longer available",
-          "description": "When you deploy or run your application on Docker, the `ibmcloud dev` app commands are no longer available, including `ibmcloud dev build` and `ibmcloud dev run`. However, you can still use Docker commands in IBM Cloud Shell."
-        }
-      ]
+      "view_more": "/docs/cloud-shell?topic=cloud-shell-release-notes"
     }
   }

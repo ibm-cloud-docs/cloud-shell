@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-01"
+lastupdated: "2024-10-09"
 
 keywords: cloud shell terminal, cloud shell session, cloud shell usage limit, restart cloud shell, cloud shell workspace, cloud shell cookies
 
@@ -44,7 +44,7 @@ A {{site.data.keyword.cloud-shell_short}} session is the terminal interface wher
 
 When you open a session, you start in your {{site.data.keyword.cloud-shell_short}} workspace's home directory, `/home/<user-name>`. Your home directory provides a temporary place for you to work with files in {{site.data.keyword.cloud-shell_short}}. It is shared between all of your sessions. Because data in your home directory isn't persisted, any files that you add or change are removed after two hours of inactivity. For more information about your {{site.data.keyword.cloud-shell_short}} workspace and home directory, see [Working with files](/docs/cloud-shell?topic=cloud-shell-files).
 
-![A diagram that shows the workspace storage, which can be accessed in your home directory. The five sessions connect to the same workspace storage.](images/cloud-shell-env.svg "Sessions connect to your personal workspace storage."){: caption="Figure 1. Your personal workspace and sessions in Cloud Shell" caption-side="bottom"}
+![A diagram that shows the workspace storage, which can be accessed in your home directory. The five sessions connect to the same workspace storage.](images/cloud-shell-env.svg "Sessions connect to your personal workspace storage."){: caption="Your personal workspace and sessions in Cloud Shell" caption-side="bottom"}
 
 ### Opening sessions
 {: #multi-shell}
