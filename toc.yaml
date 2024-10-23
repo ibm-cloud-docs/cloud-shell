@@ -24,7 +24,7 @@ toc:
       - preview.md
       - feedback.md
       - topicgroup: 
-          label: Logging and monitoring
+          label: Observability
           topics: 
           - at-events.md
       - topicgroup: 
