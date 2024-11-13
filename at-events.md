@@ -1,8 +1,9 @@
+
 ---
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-09"
+lastupdated: "2024-10-23"
 
 keywords: cloud shell activity tracker events, cloud shell event, audit Cloud Shell commands, Cloud Shell logs
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-09"
+lastupdated: "2024-10-23"
 
 keywords: IBM Cloud Shell, cloud shell, cloud shell service, cloud shell ip addresses, cloud shell allowlist, cloud shell blocklist
 
@@ -34,7 +34,7 @@ You can use a {{site.data.keyword.cloud-shell_short}} session as a terminal to u
 Tables 1 - 3 list the IP ranges for each region.
 
 
-### {{site.data.keyword.cloud-shell_short}} ingress IP ranges for us-south (Dallas)
+### {{site.data.keyword.cloud-shell_short}} ingress IP ranges for Dallas (us-south)
 {: #dallas-ip-range}
 
 Data center location | Subnet
@@ -45,7 +45,7 @@ Data center location | Subnet
 | Dallas 12 |	169.48.231.32/27 |
 | Dallas 13 |	67.228.112.80/28 |
 | Dallas 13 |	67.228.231.192/27 |
-{: caption="Cloud Shell ingress IP ranges for us-south (Dallas)" caption-side="bottom"}
+{: caption="Cloud Shell ingress IP ranges for Dallas (us-south) caption-side="bottom"}
 
 ### {{site.data.keyword.cloud-shell_short}} ingress IP ranges for eu-de (Frankfurt)
 {: #frankfurt-ip-range}
