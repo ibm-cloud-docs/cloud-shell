@@ -37,6 +37,7 @@ toc:
       id: reference
       topics:
       - ha-dr.md
+      - topic: service-dependency.md
       - architecture-workload-isolation.md
       - ip-addresses.md
       - plugins-tools.md
