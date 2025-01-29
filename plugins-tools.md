@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-08-02"
+  years: 2020, 2025
+lastupdated: "2025-01-29"
 
 keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities, cli plugins, ibm cloud cli
 
@@ -47,7 +47,7 @@ For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plug-i
 * [{{site.data.keyword.containerlong_notm}} CLI plug-in](/docs/cli?topic=cli-kubernetes-service-cli) (`ibmcloud ks`)
 * [{{site.data.keyword.monitoringlong_notm}} (ibmcloud monitoring) CLI plug-in](/docs/cli?topic=cli-monitor-cli) (`ibmcloud monitoring`)
 * [{{site.data.keyword.cos_full_notm}} CLI plug-in](/docs/cli?topic=cli-ic-cos-cli) (`ibmcloud cos`)
-* [{{site.data.keyword.IBM_notm}} Power Systems Virtual Server CLI plug-in](/docs/cli?topic=cli-power-iaas-cli-reference) (`ibmcloud pi`)
+* [{{site.data.keyword.IBM_notm}} Power Systems Virtual Server CLI plug-in](/docs/power-iaas-cli-plugin?topic=power-iaas-cli-plugin-power-iaas-cli-reference) (`ibmcloud pi`)
 * [{{site.data.keyword.pag_full_notm}} CLI plug-in](/docs/privileged-access-gateway?topic=privileged-access-gateway-pag-cli-commands) (`ibmcloud gateway`)
 * [{{site.data.keyword.satellitelong_notm}} CLI plug-in](/docs/satellite?topic=satellite-satellite-cli-reference) [(`ibmcloud sat`](/docs/satellite?topic=satellite-icsat_map))
 * [{{site.data.keyword.bplong_notm}} CLI plug-in](/docs/cli?topic=cli-manage-catalogs-plugin) (`ibmcloud schematics`)
