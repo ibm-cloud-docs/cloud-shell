@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-07-31"
+  years: 2020, 2025
+lastupdated: "2025-01-29"
 
 keywords: upload file in cloud shell, download file in cloud shell, add file, add project to cloud shell, file storage, persistence, import file, export file
 
@@ -34,7 +34,7 @@ A known issue exists where your connection to {{site.data.keyword.cloud-shell_sh
 {: important}
 
 ### Backing up your data
-{: #data-backup}
+{: #backup-data}
 
 Your workspace storage is temporary, and it is not intended to be used as the primary storage location for your files. Don't store business-critical or sensitive data in your workspace, and create a backup of your files outside of {{site.data.keyword.cloud-shell_notm}}. You're responsible for your data, and your backup can help you recover in case an outage or data loss occurs for any reason. For more information about how to transfer files to create a backup, see [Transferring multiple files](#transfer-many-files).
 
