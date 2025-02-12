@@ -1,14 +1,15 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2025-01-29"
+  years: 2024, 2025
+lastupdated: "2025-02-12"
 
 keywords:
 
 subcollection: cloud-shell
 
 ---
+
 
 
 
