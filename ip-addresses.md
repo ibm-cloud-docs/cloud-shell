@@ -52,4 +52,4 @@ Data center location | Subnet
 | Frankfurt 2 | 169.50.22.224/27 \n 10.134.69.192/26 |
 | Frankfurt 4 | 161.156.184.160/28 \n 161.156.185.160/27 \n 10.240.247.0/26 |
 | Frankfurt 5 | 149.81.65.224/28 \n 149.81.112.128/27 \n 10.123.216.64/26 |
-{: caption="Cloud Shell ingress IP ranges for eu-de (Frankfurt)" caption-side="bottom"}
+{: caption="Cloud Shell ingress IP ranges for Frankfurt (eu-de)" caption-side="bottom"}
