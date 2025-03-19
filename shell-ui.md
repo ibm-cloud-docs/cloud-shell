@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-02-12"
+lastupdated: "2025-03-19"
 
 keywords: cloud shell terminal, cloud shell session, cloud shell usage limit, restart cloud shell, cloud shell workspace, cloud shell cookies
 
@@ -55,15 +55,15 @@ To open a new session, click the Open icon ![Open a new session icon](../icons/a
 Each session automatically closes if it's not used for an hour. If you don't use {{site.data.keyword.cloud-shell_short}} for two hours - that is, another hour after the last session is closed - all files and data in your {{site.data.keyword.cloud-shell_short}} workspace are erased. If you need to step away from {{site.data.keyword.cloud-shell_short}}, be sure to download any files that you want to keep. For more information, see [Working with files](/docs/cloud-shell?topic=cloud-shell-files).
 {: tip}
 
-## Switching accounts
+## Switching accounts or trusted profiles
 {: #switch-accounts}
 {: support}
 
-When you open a session, you're logged in with the {{site.data.keyword.cloud_notm}} CLI targeting the account and region that you were in when you opened {{site.data.keyword.cloud-shell_short}}. This account and region are the default for every session.
+When you open a session, you're logged in with the {{site.data.keyword.cloud_notm}} CLI targeting the account and region that you were in when you opened {{site.data.keyword.cloud-shell_short}}. This account and region are default for the selected session, but you can also switch account by selecting a different account or trusted profile in the {{site.data.keyword.cloud_notm}} console.
 
-To switch the default account for your sessions, close {{site.data.keyword.cloud-shell_short}}, switch to a different account in the {{site.data.keyword.cloud_notm}} console menu bar, and then reopen {{site.data.keyword.cloud-shell_short}}.
+When you switch accounts or trusted profiles, any previously opened {{site.data.keyword.cloud-shell_short}} browser tab will automatically reload and use the account and region of the selected account or trusted profile.
 
-Because you have separate workspaces for each account, your session history and temporary file storage are also separate. This means that when you switch accounts, you see different session tabs and don't have access to any files that you were working with in the previous account.
+Each account has a dedicated workspace, ensuring that session history and temporary file storage remain separate. When you switch accounts or trusted profiles, you will see different session tabs and will not have access to files from the previous account or trusted profile.
 
 ## Changing locations
 {: #change-location}

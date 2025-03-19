@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-07-31"
+  years: 2020, 2025
+lastupdated: "2025-03-19"
 
 keywords: Cloud Shell frequently asked questions, Cloud Shell faq, cloud shell type, cloud shell bash
 
@@ -89,11 +89,20 @@ As with any bash shell, you can modify the `.bashrc` file in your home directory
 
 Be careful when you edit these values because you can introduce errors that cause your sessions to not start. Don't change the `CLOUDSHELL`, `BLUEMIX_HOME`, `ACCOUNT_ID`, and `SESSION_NAME` environment variables, because they're required for your {{site.data.keyword.cloud-shell_short}} environment to work.
 
-## How can I switch accounts in {{site.data.keyword.cloud-shell_short}}?
+## Can I use trusted profiles with {{site.data.keyword.cloud-shell_short}}?
+{: #faq-use-trusted-profiles}
+{: faq}
+
+A [trusted profile](/docs/account?topic=account-create-trusted-profile&interface=ui) can be used to create and access a {{site.data.keyword.cloud-shell_short}} session, along with regular account access. When you use a trusted profile, you access the account that is associated with that profile.
+
+## How can I switch account or trusted profile in {{site.data.keyword.cloud-shell_short}}?
 {: #faq-switch-accounts}
 {: faq}
 
-To switch the default account for all sessions, close {{site.data.keyword.cloud-shell_short}}, switch the account in the {{site.data.keyword.cloud_notm}} console menu bar, and then reopen {{site.data.keyword.cloud-shell_short}}.
+To switch between an account and a [trusted profile](/docs/account?topic=account-create-trusted-profile&interface=ui), follow these steps:
+- In the {{site.data.keyword.cloud_notm}} console, select the required account or trusted profile.
+- Return to the existing {{site.data.keyword.cloud-shell_short}} browser tab. The session will automatically reload with the selected account or trusted profile. (or)
+- In the {{site.data.keyword.cloud_notm}} console, click the ![{{site.data.keyword.cloud-shell_short}}](image-2.png) icon in the {{site.data.keyword.cloud_notm}} console. A new browser tab opens with the chosen account or trusted profile.
 
 ## Can I use `sudo` to run commands?
 {: #faq-sudo}
