@@ -26,7 +26,8 @@ The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to t
 {: #cloud-shell-mar1825}
 {: release-note}
 
-[Trusted profiles](/docs/account?topic=account-create-trusted-profile&interface=ui) enhance regular accounts by providing support to create and access {{site.data.keyword.cloud-shell_short}} sessions.
+Trusted profiles
+:   [Trusted profiles](/docs/account?topic=account-create-trusted-profile&interface=ui) enhance regular accounts by providing support to create and access {{site.data.keyword.cloud-shell_short}} sessions.
 
 ## 28 March 2024
 {: #cloud-shell-mar2824}
