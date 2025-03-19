@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-12-02"
+  years: 2020, 2025
+lastupdated: "2025-02-12"
 
 keywords: IBM Cloud Shell, cloudshell, CloudShell, cloud shell, cloud shell service, cloud shell ip addresses, cloud shell allowlist, cloud shell blocklist
 
@@ -44,7 +44,7 @@ Data center location | Subnet
 | Dallas 13 |	67.228.112.80/28 \n 67.228.231.192/27 \n 10.37.169.128/26 |
 {: caption="Cloud Shell ingress IP ranges for Dallas (us-south) caption-side="bottom"}
 
-### {{site.data.keyword.cloud-shell_short}} ingress IP ranges for eu-de (Frankfurt)
+### {{site.data.keyword.cloud-shell_short}} ingress IP ranges for Frankfurt (eu-de)
 {: #frankfurt-ip-range}
 
 Data center location | Subnet
@@ -52,4 +52,4 @@ Data center location | Subnet
 | Frankfurt 2 | 169.50.22.224/27 \n 10.134.69.192/26 |
 | Frankfurt 4 | 161.156.184.160/28 \n 161.156.185.160/27 \n 10.240.247.0/26 |
 | Frankfurt 5 | 149.81.65.224/28 \n 149.81.112.128/27 \n 10.123.216.64/26 |
-{: caption="Cloud Shell ingress IP ranges for eu-de (Frankfurt)" caption-side="bottom"}
+{: caption="Cloud Shell ingress IP ranges for Frankfurt (eu-de)" caption-side="bottom"}

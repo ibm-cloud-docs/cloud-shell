@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-03-28"
+  years: 2020, 2025
+lastupdated: "2025-03-19"
 
 keywords: Cloud Shell limitations, Cloud Shell known issues
 
@@ -30,4 +30,3 @@ subcollection: cloud-shell
 
 * {{site.data.keyword.cloud-shell_notm}} runs in the Dallas (`us-south`) and Frankfurt (`eu-de`) regions only. You can access resources in any region.
 * Usage is limited to 50 hours of weekly use. For more information, see [Tracking your usage](/docs/cloud-shell?topic=cloud-shell-shell-ui#usage-limit).
-* {{site.data.keyword.cloud-shell_notm}} does not support [trusted profiles](/docs/account?topic=account-create-trusted-profile&interface=ui). If you start {{site.data.keyword.cloud-shell_notm}} and see an `Internal Error`, ensure that you're not using the [IAM Trusted profiles](/iam/trusted-profiles){: external} feature to log in to your {{site.data.keyword.cloud_notm}} account.

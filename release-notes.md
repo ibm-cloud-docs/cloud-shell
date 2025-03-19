@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-08-06"
+  years: 2020, 2025
+lastupdated: "2025-03-19"
 
 keywords: Cloud Shell release notes, Cloud Shell changes, Cloud Shell updates
 
@@ -19,8 +19,14 @@ content-type: release-note
 Use the release notes to learn about the latest changes to {{site.data.keyword.cloud-shell_full}}.
 {: shortdesc}
 
-The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the most recent available versions. These updates are not usually detailed in these release notes.
+The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the most recent available versions. These updates are not detailed in these release notes.
 {: tip}
+
+## 18 March 2025
+{: #cloud-shell-mar1825}
+{: release-note}
+
+[Trusted profiles](/docs/account?topic=account-create-trusted-profile&interface=ui) enhance regular accounts by providing support to create and access {{site.data.keyword.cloud-shell_short}} sessions.
 
 ## 28 March 2024
 {: #cloud-shell-mar2824}

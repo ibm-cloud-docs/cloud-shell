@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-07-31"
+  years: 2020, 2025
+lastupdated: "2025-02-20"
 
 keywords: upload file in cloud shell, download file in cloud shell, add file, add project to cloud shell, file storage, persistence, import file, export file
 
@@ -30,11 +30,11 @@ Your {{site.data.keyword.cloud-shell_short}} workspace includes 500 MB of tempor
 
 Your workspace storage is shared across all of your sessions, so you can work with the same files in different session tabs. The storage persists only while your workspace is active. If you're idle in {{site.data.keyword.cloud-shell_short}} for over an hour, your files and data are removed. Similarly, if you reach the usage quota or you restart {{site.data.keyword.cloud-shell_short}}, {{site.data.keyword.cloud-shell_short}} closes and removes your data. If you change files that you want to keep, be sure to download the files at the end of your session.
 
-A known issue exists where your connection to {{site.data.keyword.cloud-shell_short}} is lost if your reach the temporary storage limit. If this issue happens, the only way to fix the connection is to restart {{site.data.keyword.cloud-shell_short}}, which removes all of your files. While you work in {{site.data.keyword.cloud-shell_notm}}, avoid uploading large files and remove any unused files by using standard Linux&trade; commands, such as `rm`.
+A known issue exists where your connection to {{site.data.keyword.cloud-shell_short}} is lost if your reach the temporary storage limit. If this issue happens, the only way to fix the connection is to restart {{site.data.keyword.cloud-shell_short}}, which removes all of your files. While you work in {{site.data.keyword.cloud-shell_notm}}, avoid uploading huge files and remove any unused files by using standard Linux&trade; commands, such as `rm`.
 {: important}
 
 ### Backing up your data
-{: #data-backup}
+{: #backup-data}
 
 Your workspace storage is temporary, and it is not intended to be used as the primary storage location for your files. Don't store business-critical or sensitive data in your workspace, and create a backup of your files outside of {{site.data.keyword.cloud-shell_notm}}. You're responsible for your data, and your backup can help you recover in case an outage or data loss occurs for any reason. For more information about how to transfer files to create a backup, see [Transferring multiple files](#transfer-many-files).
 

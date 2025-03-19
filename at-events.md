@@ -1,9 +1,8 @@
-
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-10-23"
+  years: 2020, 2025
+lastupdated: "2025-02-11"
 
 keywords: cloud shell activity tracker events, cloud shell event, audit Cloud Shell commands, Cloud Shell logs
 
@@ -13,18 +12,127 @@ subcollection: cloud-shell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Auditing events for {{site.data.keyword.cloud-shell_notm}}
+# Activity tracking events for {{site.data.keyword.cloud-shell_notm}}
 {: #at_events}
 
-As a security officer, auditor, or manager, you can use the {{site.data.keyword.at_full_notm}} service to track how users interact with {{site.data.keyword.cloud-shell_full}}. {{site.data.keyword.cloud-shell_short}} automatically generates events that you can analyze in the {{site.data.keyword.at_short}} service.
+
+
+{{site.data.keyword.cloud_notm}} services, such as {{site.data.keyword.cloud-shell_notm}}, generate activity tracking events. 
 {: shortdesc}
 
-{{site.data.keyword.at_short}} records user-initiated activities that change the state of a service in {{site.data.keyword.cloud_notm}}. You can use this service to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. In addition, you can be alerted about actions as they happen. The events that are collected comply with the Cloud Auditing Data Federation (CADF) standard. For more information, see [{{site.data.keyword.at_full_notm}}](/docs/activity-tracker?topic=activity-tracker-getting-started).
+Activity tracking events report on activities that change the state of a service in {{site.data.keyword.cloud_notm}}. You can use the events to investigate abnormal activity and critical actions and to comply with regulatory audit requirements.
 
-## List of events
-{: #at_actions}
+You can use {{site.data.keyword.atracker_full_notm}}, a platform service, to route auditing events in your account to destinations of your choice by configuring targets and routes that define where activity tracking events are sent. For more information, see see [About {{site.data.keyword.atracker_full_notm}}](/docs/atracker?topic=atracker-about).
 
-The following table lists actions in {{site.data.keyword.cloud-shell_notm}} that generate an event.
+You can use {{site.data.keyword.logs_full_notm}} to visualize and alert on events that are generated in your account and routed by {{site.data.keyword.atracker_full_notm}} to an {{site.data.keyword.logs_full_notm}} instance.
+
+As of 28 March 2024, the {{site.data.keyword.at_full_notm}} service is deprecated and will no longer be supported as of 30 March 2025. Customers will need to migrate to {{site.data.keyword.logs_full_notm}} before 30 March 2025. During the migration period, customers can use {{site.data.keyword.at_full_notm}} along with {{site.data.keyword.logs_full_notm}}. Activity tracking events are the same for both services. For information about migrating from {{site.data.keyword.at_full_notm}} to {{site.data.keyword.logs_full_notm}} and running the services in parallel, see migration planning. 
+{: important}
+
+## Locations where activity tracking events are generated
+{: #at-locations}
+
+
+
+### Locations where activity tracking events are sent to {{site.data.keyword.at_full_notm}} hosted event search
+{: #at-legacy-locations}
+
+
+
+{{site.data.keyword.cloud-shell_notm}} sends activity tracking events to {{site.data.keyword.at_full_notm}} hosted event search in the regions that are indicated in the following table.
+
+| Dallas (`us-south`) | Washington (`us-east`)  | Toronto (`ca-tor`) | Sao Paulo (`br-sao`) |
+|---------------------|-------------------------|-------------------|----------------------|
+| [Yes]{: tag-green} | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} |
+{: caption="Regions where activity tracking events are sent in Americas locations" caption-side="top"}
+{: #at-table-1}
+{: tab-title="Americas"}
+{: tab-group="at"}
+{: class="simple-tab-table"}
+{: row-headers}
+
+| Tokyo (`jp-tok`)    | Sydney (`au-syd`) |  Osaka (`jp-osa`) | Chennai (`in-che`) |
+|---------------------|------------------|------------------|--------------------|
+| [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} |
+{: caption="Regions where activity tracking events are sent in Asia Pacific locations" caption-side="top"}
+{: #at-table-2}
+{: tab-title="Asia Pacific"}
+{: tab-group="at"}
+{: class="simple-tab-table"}
+{: row-headers}
+
+| Frankfurt (`eu-de`)  | London (`eu-gb`) | Madrid (`eu-es`) |
+|---------------------------------------------------------------|---------------------|------------------|
+| [Yes]{: tag-green} | [No]{: tag-red} | [No]{: tag-red} |
+{: caption="Regions where activity tracking events are sent in Europe locations" caption-side="top"}
+{: #at-table-3}
+{: tab-title="Europe"}
+{: tab-group="at"}
+{: class="simple-tab-table"}
+{: row-headers}
+
+### Locations where activity tracking events are sent by {{site.data.keyword.atracker_full_notm}}
+{: #atracker-locations}
+
+
+
+{{site.data.keyword.cloud-shell_notm}} sends activity tracking events by {{site.data.keyword.atracker_full_notm}} in the regions that are indicated in the following table.
+
+| Dallas (`us-south`) | Washington (`us-east`)  | Toronto (`ca-tor`) | Sao Paulo (`br-sao`) |
+|---------------------|-------------------------|-------------------|----------------------|
+| [Yes]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} |
+{: caption="Regions where activity tracking events are sent in Americas locations" caption-side="top"}
+{: #atracker-table-1}
+{: tab-title="Americas"}
+{: tab-group="atracker"}
+{: class="simple-tab-table"}
+{: row-headers}
+
+| Tokyo (`jp-tok`)    | Sydney (`au-syd`) |  Osaka (`jp-osa`) | Chennai (`in-che`) |
+|---------------------|------------------|------------------|--------------------|
+| [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} |
+{: caption="Regions where activity tracking events are sent in Asia Pacific locations" caption-side="top"}
+{: #atracker-table-2}
+{: tab-title="Asia Pacific"}
+{: tab-group="atracker"}
+{: class="simple-tab-table"}
+{: row-headers}
+
+| Frankfurt (`eu-de`)  | London (`eu-gb`) | Madrid (`eu-es`) |
+|---------------------------------------------------------------|---------------------|------------------|
+| [Yes]{: tag-green} | [No]{: tag-red} | [No]{: tag-red} |
+{: caption="Regions where activity tracking events are sent in Europe locations" caption-side="top"}
+{: #atracker-table-3}
+{: tab-title="Europe"}
+{: tab-group="atracker"}
+{: class="simple-tab-table"}
+{: row-headers}
+
+## Viewing activity tracking events for {{site.data.keyword.cloud-shell_notm}}
+{: #at-viewing}
+
+
+
+You can use {{site.data.keyword.logs_full_notm}} to visualize and alert on events that are generated in your account and routed by {{site.data.keyword.atracker_full_notm}} to an {{site.data.keyword.logs_full_notm}} instance.
+
+Events that {{site.data.keyword.cloud-shell_short}} generates are automatically forwarded to the {{site.data.keyword.at_short}} service instance that is available in the same location.
+
+{{site.data.keyword.at_short}} can have only one instance per location. To view events, you must access the web UI of the {{site.data.keyword.at_short}} service in the same location where your service instance is available. For more information, see [Launching the web UI through the IBM Cloud UI](/docs/activity-tracker?topic=activity-tracker-launch).
+
+### Launching {{site.data.keyword.logs_full_notm}} from the Observability page
+{: #log-launch-standalone}
+
+
+
+For information on launching the {{site.data.keyword.logs_full_notm}} UI, see [Launching the UI in the {{site.data.keyword.logs_full_notm}} documentation.](/docs/cloud-logs?topic=cloud-logs-instance-launch)
+
+
+## List of platform events
+{: #at_actions_platform}
+
+
+
+The following table lists the activity tracking event actions that the {{site.data.keyword.cloud_notm}} platform generates {{site.data.keyword.cloud-shell_short}} instances are processed.
 
 | Action             | Description       |
 | ------------------ | ----------------- |
@@ -32,17 +140,12 @@ The following table lists actions in {{site.data.keyword.cloud-shell_notm}} that
 | `cloudshell.server.configure` | An event is generated when a session is configured. This event is generated for configuring new sessions and reconfiguring an existing session. |
 | `cloudshell.server.delete` | An event is generated when a session is deleted. |
 | `cloudshell.account-settings.update` | An event is generated when {{site.data.keyword.cloud-shell_short}} settings are updated for an account. |
-{: caption="Actions that generate events" caption-side="top"}
+{: caption="Actions that generate platform events" caption-side="bottom"}
 
-## Viewing events
-{: #at_ui}
+## Analyzing {{site.data.keyword.cloud-shell_short}} activity tracking events
+{: #at_events_iam_analyze}
 
-Events that {{site.data.keyword.cloud-shell_short}} generates are automatically forwarded to the {{site.data.keyword.at_short}} service instance that is available in the same location.
 
-{{site.data.keyword.at_short}} can have only one instance per location. To view events, you must access the web UI of the {{site.data.keyword.at_short}} service in the same location where your service instance is available. For more information, see [Launching the web UI through the IBM Cloud UI](/docs/activity-tracker?topic=activity-tracker-launch).
-
-## Analyzing events
-{: #at_events_analyze}
 
 {{site.data.keyword.at_short}} events contain fields that describe the action that occurred. Values in the `requestData` and `responseData` fields are specific to {{site.data.keyword.cloud-shell_notm}}, and the other fields are common to all {{site.data.keyword.at_short}} events. For a more information about common fields, see [Event fields](/docs/activity-tracker?topic=activity-tracker-event).
 
