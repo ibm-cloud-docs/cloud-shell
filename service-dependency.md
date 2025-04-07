@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2025
-lastupdated: "2025-03-19"
+lastupdated: "2025-04-01"
 
 keywords:
 
@@ -105,9 +105,9 @@ The following table provides the dependency listing of this service following a 
 | SOS SIEM| Security compliance | No | Both |  ibm-intranet  |
 | SOS Tenable| Security compliance | No | Both |  ibm-intranet  |
 | SOS Health-Check, Vulnerability Scanning and Patching| Security compliance | No | Both |  ibm-intranet  |
-| IBM Cloud Global Search and Tagging| Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/overview?topic=overview-zero-downtime#global-platform)  |
+| IBM Cloud Global Search and Tagging| Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Logs| Operations, Security compliance | No | Both |  Same region  |
-| OSS Platform| Operations | No | Both |  [Global](https://cloud.ibm.com/docs/overview?topic=overview-zero-downtime#global-platform)  |
+| OSS Platform| Operations | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 {: row-headers}
 {: caption="IBM Cloud Shell service dependency information - Minimal dependencies" caption-side="top"}
 {: tab-title="Minimal dependencies"}
