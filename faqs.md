@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-03-19"
+lastupdated: "2025-04-11"
 
 keywords: Cloud Shell frequently asked questions, Cloud Shell faq, cloud shell type, cloud shell bash
 
@@ -66,7 +66,7 @@ You can use {{site.data.keyword.cloud-shell_short}} for up to 50 hours within a 
 {: #how-audit-logs}
 {: faq}
 
-{{site.data.keyword.cloud-shell_short}} generates {{site.data.keyword.at_full_notm}} events for your sessions and commands. You can analyze these events by using the {{site.data.keyword.at_short}} service. For more information, see [Activity Tracker events for {{site.data.keyword.cloud-shell_notm}}](/docs/cloud-shell?topic=cloud-shell-at_events).
+{{site.data.keyword.cloud-shell_short}} generates{{site.data.keyword.atracker_full_notm}} events for your sessions and commands. You can analyze these events by using the {{site.data.keyword.at_short}} service. For more information, see [Activity Tracker events for {{site.data.keyword.cloud-shell_notm}}](/docs/cloud-shell?topic=cloud-shell-at_events).
 
 ## How can I delete my data in {{site.data.keyword.cloud-shell_short}}?
 {: #how-delete-data}

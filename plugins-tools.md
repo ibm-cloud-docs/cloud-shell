@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-02-20"
+lastupdated: "2025-04-11"
 
 keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities, cli plugins, ibm cloud cli
 
@@ -18,14 +18,14 @@ subcollection: cloud-shell
 In addition to the full {{site.data.keyword.cloud}} CLI, {{site.data.keyword.cloud-shell_full}} includes preinstalled CLI plug-ins, packages, tools, and runtimes so that you can instantly start working on the command line.
 {: shortdesc}
 
-For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plug-ins, see [Extending IBM Cloud CLI with plug-ins](/docs/cli?topic=cli-plug-ins).
+For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plug-ins, see [Extending {{site.data.keyword.cloud_notm}} CLI with plug-ins](/docs/cli?topic=cli-plug-ins).
 
 ## {{site.data.keyword.cloud_notm}} CLI plug-ins
 {: #installed-plugins}
 
 {{site.data.keyword.cloud-shell_notm}} includes all {{site.data.keyword.cloud_notm}} CLI plug-ins, including but not limited to:
 
-* [{{site.data.keyword.at_full_notm}} CLI plug-in](/docs/cli?topic=cli-activity-tracker-cli) (`ibmcloud atracker`)
+* [{{site.data.keyword.atracker_full_notm}} CLI plug-in](/docs/cli?topic=cli-activity-tracker-cli) (`ibmcloud atracker`)
 * [{{site.data.keyword.iae_full_notm}} CLI plug-in](/docs/cli?topic=cli-CLI_analytics_engine) (`ibmcloud ae`)
 * [{{site.data.keyword.appconfig_notm}} CLI plug-in](/docs/app-configuration-cli-plugin?topic=app-configuration-cli-plugin-app-configuration-cli) (`ibmcloud ac`)
 * [{{site.data.keyword.cloud_notm}} Catalogs management CLI plug-in](/docs/cli?topic=cli-manage-catalogs-plugin) (`ibmcloud catalog`)

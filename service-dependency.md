@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2025
-lastupdated: "2025-04-01"
+lastupdated: "2025-04-11"
 
 keywords:
 
@@ -16,7 +16,7 @@ subcollection: cloud-shell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Service dependency map for IBM Cloud Shell
+# Service dependency map for {{site.data.keyword.cloud-shell_notm}}
 {: #service-dependencies}
 
 If a service depends on other {{site.data.keyword.cloud_notm}} services, there can be impacts if any of the dependent services are having issues. The dependency severity indicates the impact to the service when the dependency is down.
@@ -39,22 +39,22 @@ The following table provides the dependency listing of this service following a 
 
 |Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
 |:---|:---|:---|:---|:---|
-| IBM Cloud Internet Services | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
-| IBM Cloud Virtual Servers | Availability, Change management, Disaster recovery | No | Both |  Same region  |
-| IBM Cloud Identity and Access Management | Availability, Change management, Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| IBM Cloud Kubernetes Service and Red Hat OpenShift on IBM Cloud - containers-kubernetes | Availability, Change management, Disaster recovery | No | Both |  Same region  |
-| IBM Cloud Bare Metal | Availability, Change management, Disaster recovery | No | Both |  Same region  |
+| {{site.data.keyword.cis_full_notm}} | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
+| {{site.data.keyword.BluVirtServers}} | Availability, Change management, Disaster recovery | No | Both |  Same region  |
+| {{site.data.keyword.iamlong}}| Availability, Change management, Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| {{site.data.keyword.containerlong_notm}} and Red Hat OpenShift on {{site.data.keyword.cloud_notm}} - containers-kubernetes | Availability, Change management, Disaster recovery | No | Both |  Same region  |
+| {{site.data.keyword.baremetal_long_sing}} | Availability, Change management, Disaster recovery | No | Both |  Same region  |
 | Akamai | Availability, Change management, Disaster recovery | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| IBM Cloud Object Storage | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
-| IBM Cloud Databases - databases-for-etcd | Availability, Change management, Disaster recovery | No | Both |  Same region  |
-| IBM Cloudant for IBM Cloud - cloudantnosqldb | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
-| IBM Cloud Classic DNS Servers | Availability, Change management | No | Both |  Same data center  |
-| IBM Cloud Classic Infrastructure Resource Management | Availability, Change management | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| IBM Cloud Public IP Address Management | Availability, Change management | No | Both |  Same region  |
-| IBM Cloud Console | Availability, Operations | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| IBM Cloud Databases - databases-for-redis | Availability, Change management, Disaster recovery | No | Both |  Same region  |
+| {{site.data.keyword.cos_full_not}} | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
+| {{site.data.keyword.cloud_notm}} Databases - databases-for-etcd | Availability, Change management, Disaster recovery | No | Both |  Same region  |
+| {{site.data.keyword.cloudant_short_notm}} for {{site.data.keyword.cloud_notm}} - cloudantnosqldb | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
+| {{site.data.keyword.dns_full_notm}} | Availability, Change management | No | Both |  Same data center  |
+| {{site.data.keyword.cloud_notm}} Classic Infrastructure Resource Management | Availability, Change management | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| {{site.data.keyword.cloud_notm}} Public IP Address Management | Availability, Change management | No | Both |  Same region  |
+| {{site.data.keyword.cloud_notm}} Console | Availability, Operations | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| {{site.data.keyword.cloud_notm}} Databases - databases-for-redis | Availability, Change management, Disaster recovery | No | Both |  Same region  |
 {: row-headers}
-{: caption="IBM Cloud Shell service dependency information - Critical dependencies" caption-side="top"}
+{: caption="{{site.data.keyword.cloud-shell_notm}} service dependency information - Critical dependencies" caption-side="top"}
 {: tab-title="Critical dependencies"}
 {: tab-group="service-dependency-data-for-cloudshell"}
 {: class="comparison-tab-table"}
@@ -63,22 +63,22 @@ The following table provides the dependency listing of this service following a 
 
 |Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
 |:---|:---|:---|:---|:---|
-| IBM Cloud Container Registry | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
+| {{site.data.keyword.registryshort_notm}} | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
 | Synthetics | Availability, Operations | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| IBM Key Protect for IBM Cloud | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
-| IBM Cloud Classic NTP Servers | Availability, Change management | No | Both |  Same data center  |
-| IBM Cloud Activity Tracker event routing | Availability, Operations, Security compliance | No | Both |  Same region  |
-| IBM Cloud Business Support Services | Availability | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| IBM Cloud Global Resource Catalog | Availability, Change management | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| {{site.data.keyword.keymanagementservicelong_notm}} for {{site.data.keyword.cloud_notm}} | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
+| {{site.data.keyword.cloud_notm}} Classic NTP Servers | Availability, Change management | No | Both |  Same data center  |
+| {{site.data.keyword.atracker_full_notm}} event routing | Availability, Operations, Security compliance | No | Both |  Same region  |
+| {{site.data.keyword.cloud_notm}} Business Support Services | Availability | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| {{site.data.keyword.cloud_notm}} Global Resource Catalog | Availability, Change management | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | Let's Encrypt | Availability, Change management, Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| IBM Log Analysis Log Routing | Availability, Operations, Security compliance | No | Both |  Same region  |
-| IBM Cloud Metrics Routing | Availability, Operations | No | Both |  Same region  |
-| IBM Cloud Monitoring | Availability, Operations | No | Both |  Same region  |
-| IBM Cloud Secrets Manager | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
-| IBM Cloud Service Endpoints | Availability, Change management, Disaster recovery | No | Both |  Same region  |
+| {{site.data.keyword.loganalysislong_notm}} Log Routing {{site.data.keyword.logs_full_notm}}| Availability, Operations, Security compliance | No | Both |  Same region  |
+| {{site.data.keyword.metrics_router_full_notm}} | Availability, Operations | No | Both |  Same region  |
+| {{site.data.keyword.monitoringlong_notm}}| Availability, Operations | No | Both |  Same region  |
+| {{site.data.keyword.secrets-manager_full_notm}} | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
+| {{site.data.keyword.cloud_notm}}Service Endpoints | Availability, Change management, Disaster recovery | No | Both |  Same region  |
 | Segment | Availability | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 {: row-headers}
-{: caption="IBM Cloud Shell service dependency information - Significant dependencies" caption-side="top"}
+{: caption="{{site.data.keyword.cloud-shell_notm}} service dependency information - Significant dependencies" caption-side="top"}
 {: tab-title="Significant dependencies"}
 {: tab-group="service-dependency-data-for-cloudshell"}
 {: class="comparison-tab-table"}
@@ -87,10 +87,10 @@ The following table provides the dependency listing of this service following a 
 
 |Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
 |:---|:---|:---|:---|:---|
-| IBM Cloud CLI | Change management | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| {{site.data.keyword.cloud_notm}} CLI | Change management | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | TaaS Tekton Runners| Change management, Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 {: row-headers}
-{: caption="IBM Cloud Shell service dependency information - Medium dependencies" caption-side="top"}
+{: caption="{{site.data.keyword.cloud-shell_notm}} service dependency information - Medium dependencies" caption-side="top"}
 {: tab-title="Medium dependencies"}
 {: tab-group="service-dependency-data-for-cloudshell"}
 {: class="comparison-tab-table"}
@@ -105,11 +105,11 @@ The following table provides the dependency listing of this service following a 
 | SOS SIEM| Security compliance | No | Both |  ibm-intranet  |
 | SOS Tenable| Security compliance | No | Both |  ibm-intranet  |
 | SOS Health-Check, Vulnerability Scanning and Patching| Security compliance | No | Both |  ibm-intranet  |
-| IBM Cloud Global Search and Tagging| Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| IBM Cloud Logs| Operations, Security compliance | No | Both |  Same region  |
+| {{site.data.keyword.cloud_notm}}Global Search and Tagging| Security compliance | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
+| {{site.data.keyword.logs_full_notm}}| Operations, Security compliance | No | Both |  Same region  |
 | OSS Platform| Operations | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 {: row-headers}
-{: caption="IBM Cloud Shell service dependency information - Minimal dependencies" caption-side="top"}
+{: caption="{{site.data.keyword.cloud-shell_notm}} service dependency information - Minimal dependencies" caption-side="top"}
 {: tab-title="Minimal dependencies"}
 {: tab-group="service-dependency-data-for-cloudshell"}
 {: class="comparison-tab-table"}
