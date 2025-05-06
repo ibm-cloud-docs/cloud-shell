@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-02-11"
+lastupdated: "2025-04-11"
 
 keywords: cloud shell activity tracker events, cloud shell event, audit Cloud Shell commands, Cloud Shell logs
 
@@ -34,12 +34,12 @@ As of 28 March 2024, the {{site.data.keyword.at_full_notm}} service is deprecate
 
 
 
-### Locations where activity tracking events are sent to {{site.data.keyword.at_full_notm}} hosted event search
+### Locations where activity tracking events are sent to {{site.data.keyword.atracker_full_notm}} hosted event search
 {: #at-legacy-locations}
 
 
 
-{{site.data.keyword.cloud-shell_notm}} sends activity tracking events to {{site.data.keyword.at_full_notm}} hosted event search in the regions that are indicated in the following table.
+{{site.data.keyword.cloud-shell_notm}} sends activity tracking events to {{site.data.keyword.atracker_full}_notm} hosted event search in the regions that are indicated in the following table.
 
 | Dallas (`us-south`) | Washington (`us-east`)  | Toronto (`ca-tor`) | Sao Paulo (`br-sao`) |
 |---------------------|-------------------------|-------------------|----------------------|
@@ -117,7 +117,7 @@ You can use {{site.data.keyword.logs_full_notm}} to visualize and alert on event
 
 Events that {{site.data.keyword.cloud-shell_short}} generates are automatically forwarded to the {{site.data.keyword.at_short}} service instance that is available in the same location.
 
-{{site.data.keyword.at_short}} can have only one instance per location. To view events, you must access the web UI of the {{site.data.keyword.at_short}} service in the same location where your service instance is available. For more information, see [Launching the web UI through the IBM Cloud UI](/docs/activity-tracker?topic=activity-tracker-launch).
+{{site.data.keyword.at_short}} can have only one instance per location. To view events, you must access the web UI of the {{site.data.keyword.at_short}} service in the same location where your service instance is available. For more information, see [Launching the web UI through the {{site.data.keyword.could_notm}} UI](/docs/activity-tracker?topic=activity-tracker-launch).
 
 ### Launching {{site.data.keyword.logs_full_notm}} from the Observability page
 {: #log-launch-standalone}
