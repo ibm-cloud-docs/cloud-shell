@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-04-11"
+lastupdated: "2025-05-28"
 
 keywords: cloud shell activity tracker events, cloud shell event, audit Cloud Shell commands, Cloud Shell logs
 
@@ -117,8 +117,6 @@ You can use {{site.data.keyword.logs_full_notm}} to visualize and alert on event
 
 Events that {{site.data.keyword.cloud-shell_short}} generates are automatically forwarded to the {{site.data.keyword.at_short}} service instance that is available in the same location.
 
-{{site.data.keyword.at_short}} can have only one instance per location. To view events, you must access the web UI of the {{site.data.keyword.at_short}} service in the same location where your service instance is available. For more information, see [Launching the web UI through the {{site.data.keyword.could_notm}} UI](/docs/activity-tracker?topic=activity-tracker-launch).
-
 ### Launching {{site.data.keyword.logs_full_notm}} from the Observability page
 {: #log-launch-standalone}
 
@@ -147,7 +145,7 @@ The following table lists the activity tracking event actions that the {{site.da
 
 
 
-{{site.data.keyword.at_short}} events contain fields that describe the action that occurred. Values in the `requestData` and `responseData` fields are specific to {{site.data.keyword.cloud-shell_notm}}, and the other fields are common to all {{site.data.keyword.at_short}} events. For a more information about common fields, see [Event fields](/docs/activity-tracker?topic=activity-tracker-event).
+{{site.data.keyword.at_short}} events contain fields that describe the action that occurred. Values in the `requestData` and `responseData` fields are specific to {{site.data.keyword.cloud-shell_notm}}, and the other fields are common to all {{site.data.keyword.at_short}} events. For a more information about common fields, see [Audit events](/docs/cloud-logs?topic=cloud-logs-streaming_at_select).
 
 When a user opens, configures, or closes a {{site.data.keyword.cloud-shell_short}} session, the event that is triggered has an `action` field set to `cloudshell.server.create`, `cloudshell.server.configure`, or `cloudshell.server.delete`. The event includes the following fields:
 
