@@ -39,7 +39,7 @@ As of 28 March 2024, the {{site.data.keyword.at_full_notm}} service is deprecate
 
 
 
-{{site.data.keyword.cloud-shell_notm}} sends activity tracking events to {{site.data.keyword.atracker_full}_notm} hosted event search in the regions that are indicated in the following table.
+{{site.data.keyword.cloud-shell_notm}} sends activity tracking events to {{site.data.keyword.atracker_full_notm}} hosted event search in the regions that are indicated in the following table.
 
 | Dallas (`us-south`) | Washington (`us-east`)  | Toronto (`ca-tor`) | Sao Paulo (`br-sao`) |
 |---------------------|-------------------------|-------------------|----------------------|
