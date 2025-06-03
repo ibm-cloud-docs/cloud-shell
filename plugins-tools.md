@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-05-28"
+lastupdated: "2025-06-03"
 
 keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities, cli plugins, ibm cloud cli
 
@@ -47,7 +47,7 @@ For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plug-i
 * [{{site.data.keyword.containerlong_notm}} CLI plug-in](/docs/cli?topic=cli-kubernetes-service-cli) (`ibmcloud ks`)
 * [{{site.data.keyword.monitoringlong_notm}} (ibmcloud monitoring) CLI plug-in](/docs/cli?topic=cli-monitor-cli) (`ibmcloud monitoring`)
 * [{{site.data.keyword.cos_full_notm}} CLI plug-in](/docs/cli?topic=cli-ic-cos-cli) (`ibmcloud cos`)
-* [{{site.data.keyword.IBM_notm}} Power Systems Virtual Server CLI plug-in](/docs/power-iaas-cli-plugin?topic=power-iaas-cli-plugin-power-iaas-cli-reference-v1) (`ibmcloud pi`)
+* [{{site.data.keyword.IBM_notm}} Power Systems Virtual Server CLI plug-in](/docs/power-iaas?topic=power-iaas-power-iaas-cli-reference-v1) (`ibmcloud pi`)
 * [{{site.data.keyword.satellitelong_notm}} CLI plug-in](/docs/satellite?topic=satellite-satellite-cli-reference) [(`ibmcloud sat`](/docs/satellite?topic=satellite-icsat_map))
 * [{{site.data.keyword.bplong_notm}} CLI plug-in](/docs/cli?topic=cli-manage-catalogs-plugin) (`ibmcloud schematics`)
 * [{{site.data.keyword.secrets-manager_full_notm}} CLI plug-in](/docs/secrets-manager?topic=secrets-manager-secrets-manager-cli) (`ibmcloud secrets-manager`)
@@ -55,7 +55,7 @@ For more information about the {{site.data.keyword.cloud-shell_notm}} CLI plug-i
 * [{{site.data.keyword.vpc_full}} CLI plug-in](/docs/cli?topic=cli-vpc-reference) (`ibmcloud is`)
 * [{{site.data.keyword.IBM_notm}} {{site.data.keyword.messagehub}} CLI plug-in](/docs/EventStreams?topic=EventStreams-cli_reference) (`ibmcloud es`)
 * [{{site.data.keyword.IBM_notm}} {{site.data.keyword.keymanagementserviceshort}} CLI plug-in](/docs/cli?topic=cli-key-protect-cli-reference) (`ibmcloud kp`)
-* [{{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSysShort}} CLI plug-in](/docs/power-iaas-cli-plugin?topic=power-iaas-cli-plugin-power-iaas-cli-reference-v1) (`ibmcloud pi`)
+* [{{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSysShort}} CLI plug-in](/docs/power-iaas?topic=power-iaas-power-iaas-cli-reference-v1) (`ibmcloud pi`)
 * [{{site.data.keyword.vpc_short}} CLI plug-in](/docs/cli?topic=cli-vpc-reference) (`ibmcloud vpc-infrastructure`)
 * [{{site.data.keyword.IBM_notm}} {{site.data.keyword.dv_short}} CLI plug-in](/docs/data-virtualization?topic=data-virtualization-CLI-name) (`ibmcloud watson-query`)
 

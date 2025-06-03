@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-03-19"
+lastupdated: "2025-06-03"
 
 keywords: cloud shell terminal, cloud shell session, cloud shell usage limit, restart cloud shell, cloud shell workspace, cloud shell cookies
 
@@ -77,7 +77,7 @@ By default, the location that's closest to you geographically is selected when y
 
 To change to {{site.data.keyword.cloud-shell_short}} in a different location, find the current location in the {{site.data.keyword.cloud-shell_short}} menu bar, and click **Change**. Select the location that you want to switch to, and click **OK**.
 
-If you change from the default location, {{site.data.keyword.cloud-shell_short}} remembers your location preferences by saving them as cookies in your browser. If you switch to a different browser, clear your browser cookies, or your [cookie preferences](/#cookie-preferences) don't allow personalization cookies, {{site.data.keyword.cloud-shell_short}} opens in the default location.
+If you change from the default location, {{site.data.keyword.cloud-shell_short}} remembers your location preferences by saving them as cookies in your browser. If you switch to a different browser, clear your browser cookies, or your [cookie preferences](/docs/cloud-shell?topic=cloud-shell-shell-ui#cookie-preferences) don't allow personalization cookies, {{site.data.keyword.cloud-shell_short}} opens in the default location.
 
 ## Restarting {{site.data.keyword.cloud-shell_short}}
 {: #shell-restart}
