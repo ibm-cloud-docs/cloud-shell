@@ -1,4 +1,3 @@
----
 toc:
   properties:
     subcollection: cloud-shell
@@ -11,23 +10,23 @@ toc:
     product-page: https://www.ibm.com/products/cloud-shell
     path: cloud-shell
     label: Cloud Shell
-  entries: 
-  - navgroup: 
+  entries:
+  - navgroup:
       id: learn
       topics:
       - getting-started.md
-  - navgroup: 
+  - navgroup:
       id: howto
       topics:
       - shell-ui.md
       - files.md
       - preview.md
       - feedback.md
-      - topicgroup: 
+      - topicgroup:
           label: Observability
-          topics: 
+          topics:
           - at-events.md
-      - topicgroup: 
+      - topicgroup:
           label: Enhancing security
           topics:
           - link:
