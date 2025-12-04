@@ -22,15 +22,15 @@ Use the release notes to learn about the latest changes to {{site.data.keyword.c
 The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to the most recent available versions. These updates are not detailed in these release notes.
 {: tip}
 
-## 01 Dec 2025  
+## 01 December 2025  
 {: #cloud-shell-dec0125 } 
 {: release-note}
 
 Docker
-:   Docker is updated to version 28, providing improved performance and compatibility with the latest container tools.  
+:   Docker is updated to version 28, providing improved performance, and compatibility with the latest container tools.  
 
 `yq`
-:   `yq` is upgraded from version 3 to version 4, bringing enhanced YAML processing capabilities and broader command compatibility.
+:   `yq` is upgraded from version 3 to version 4, bringing enhanced YAML processing capabilities, and broader command compatibility.
 
 CLI plug-ins
 :   Some CLI plug-ins are removed from the default {{site.data.keyword.cloud-shell_short}} image. However, you can still manually install any required plug-ins by using `ibmcloud plugin install <name>`.
