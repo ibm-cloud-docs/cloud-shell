@@ -29,7 +29,7 @@ The {{site.data.keyword.cloud_notm}} CLI and plug-ins are regularly updated to t
 Docker
 :   Docker is updated to version 28, providing improved performance, and compatibility with the latest container tools.  
 
-`yq`
+yq
 :   `yq` is upgraded from version 3 to version 4, bringing enhanced YAML processing capabilities, and broader command compatibility.
 
 CLI plug-ins
