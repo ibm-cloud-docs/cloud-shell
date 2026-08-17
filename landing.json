@@ -1,14 +1,14 @@
 {
-    "version": 2,
-    "title": "IBM Cloud Shell",
-    "introduction": "IBM Cloud Shell is a workspace that you can access through your browser. Cloud Shell is preconfigured with the full IBM Cloud CLI, plug-ins, and tools that you can use to manage apps, resources, and infrastructure.",    
-    "section_topics": {
+  "version": 2,
+  "title": "IBM Cloud Shell",
+  "introduction": "IBM Cloud Shell is a workspace that you can access through your browser. Cloud Shell is preconfigured with the full IBM Cloud CLI, plug-ins, and tools that you can use to manage apps, resources, and infrastructure.",
+  "section_topics": {
     "links": [
-    {
+      {
         "title": "Getting started with IBM Cloud Shell",
         "href": "/docs/cloud-shell?topic=cloud-shell-getting-started"
       },
-    {
+      {
         "title": "Troubleshooting for IBM Cloud Shell",
         "href": "/docs/cloud-shell?topic=cloud-shell-troubleshooting"
       },
@@ -18,12 +18,12 @@
       }
     ]
   },
-    "section_devtools": {
-      "api": "/apidocs/cloudshell", 
-      "cli": "/docs/cli?topic=cli-ibmcloud_cli", 
-      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/cloud_shell_account_settings"
-    },
-    "section_updates": {
-      "view_more": "/docs/cloud-shell?topic=cloud-shell-release-notes"
-    }
+  "section_devtools": {
+    "api": "/apidocs/cloudshell",
+    "cli": "/docs/cli?topic=cli-ibmcloud_cli",
+    "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/cloud_shell_account_settings"
+  },
+  "section_updates": {
+    "view_more": "/docs/cloud-shell?topic=cloud-shell-release-notes"
   }
+}
