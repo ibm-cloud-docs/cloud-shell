@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-02-12"
+  years: 2020, 2026
+lastupdated: "2026-10-28"
 
 keywords: IBM Cloud Shell, cloudshell, CloudShell, cloud shell, cloud shell service, cloud shell ip addresses, cloud shell allowlist, cloud shell blocklist
 
@@ -14,6 +14,12 @@ subcollection: cloud-shell
 
 # {{site.data.keyword.cloud-shell_notm}} session IP ranges
 {: #cs-ip-ranges}
+
+Effective 5 November 2026: {{site.data.keyword.cloud-shell_notm}} will no longer be presented as the default web shell experience on {{site.data.keyword.cloud_notm}}. New users will be guided to [Paver](https://paver.cloud.ibm.com){: external} as the recommended experience for infrastructure operations. Existing {{site.data.keyword.cloud-shell_notm}} users can continue using {{site.data.keyword.cloud-shell_notm}} while they explore and become familiar with Paver. For more information, see [Using the Paver interactive shell](https://paver.ibm.com/docs/core-concepts/shell/){: external}.
+{: preview}
+
+**{{site.data.keyword.cloud-shell_notm}} deprecation:** Effective 31 March 2027 (subject to change), {{site.data.keyword.cloud-shell_notm}} will be deprecated and will no longer be available on {{site.data.keyword.cloud_notm}}. You are encouraged to start using Paver ahead of this date to ensure a smooth transition. Any files or workloads that need to be retained should be saved before the deprecation date.
+{: deprecated}
 
 If you want to restrict access to {{site.data.keyword.cloud-shell_full}} from your service, you can allowlist specific IP addresses or ranges of IP addresses on your deployment.
 {: shortdesc}
