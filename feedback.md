@@ -16,10 +16,9 @@ subcollection: cloud-shell
 {: #feedback}
 
 Effective 5 November 2026: {{site.data.keyword.cloud-shell_notm}} will no longer be presented as the default web shell experience on {{site.data.keyword.cloud_notm}}. New users will be guided to [Paver](https://paver.cloud.ibm.com){: external} as the recommended experience for infrastructure operations. Existing {{site.data.keyword.cloud-shell_notm}} users can continue using {{site.data.keyword.cloud-shell_notm}} while they explore and become familiar with Paver. For more information, see [Using the Paver interactive shell](https://paver.ibm.com/docs/core-concepts/shell/){: external}.
-{: preview}
+{: important}
 
-**{{site.data.keyword.cloud-shell_notm}} deprecation:** Effective 31 March 2027 (subject to change), {{site.data.keyword.cloud-shell_notm}} will be deprecated and will no longer be available on {{site.data.keyword.cloud_notm}}. You are encouraged to start using Paver ahead of this date to ensure a smooth transition. Any files or workloads that need to be retained should be saved before the deprecation date.
-{: deprecated}
+
 
 Help us improve {{site.data.keyword.cloud-shell_full}} by sharing your experience with our team. Whether you have questions, concerns, or want to give us a rave review, we want to hear from you!
 {: shortdesc}
