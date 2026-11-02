@@ -1,3 +1,5 @@
 includes:
 - https://github.ibm.com/cloud-docs/cli
 - https://github.ibm.com/cloud-docs/account
+tags:
+- Announcement
