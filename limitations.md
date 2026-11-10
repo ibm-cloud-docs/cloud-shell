@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-03-19"
+  years: 2020, 2026
+lastupdated: "2026-11-10"
 
 keywords: Cloud Shell limitations, Cloud Shell known issues
 
@@ -14,6 +14,11 @@ subcollection: cloud-shell
 
 # Known issues and limitations
 {: #issues-limitations}
+
+Effective November 10, 2026, {{site.data.keyword.cloud-shell_notm}} will no longer be the default web shell experience on {{site.data.keyword.cloud_notm}}. [Paver Shell](https://paver.cloud.ibm.com){: external} is the recommended experience for managing infrastructure. With Paver, you can complete tasks, solve issues, optimize resources, and stay informed about what's happening in your environment. For more information, see [Using the Paver interactive shell](https://paver.ibm.com/docs/core-concepts/shell/){: external}.
+{: important}
+
+
 
 {{site.data.keyword.cloud-shell_full}} includes the following known issues and limitations that might impact your experience.
 {: shortdesc}

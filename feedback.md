@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-07-31"
+  years: 2020, 2026
+lastupdated: "2026-11-10"
 
 keywords: Cloud Shell feedback, questions about Cloud Shell
 
@@ -14,6 +14,11 @@ subcollection: cloud-shell
 
 # Submitting feedback
 {: #feedback}
+
+Effective November 10, 2026, {{site.data.keyword.cloud-shell_notm}} will no longer be the default web shell experience on {{site.data.keyword.cloud_notm}}. [Paver Shell](https://paver.cloud.ibm.com){: external} is the recommended experience for managing infrastructure. With Paver, you can complete tasks, solve issues, optimize resources, and stay informed about what's happening in your environment. For more information, see [Using the Paver interactive shell](https://paver.ibm.com/docs/core-concepts/shell/){: external}.
+{: important}
+
+
 
 Help us improve {{site.data.keyword.cloud-shell_full}} by sharing your experience with our team. Whether you have questions, concerns, or want to give us a rave review, we want to hear from you!
 {: shortdesc}

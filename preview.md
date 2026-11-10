@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-08-01"
+  years: 2020, 2026
+lastupdated: "2026-11-10"
 
 keywords: Cloud Shell preview web app, web preview in Cloud Shell, view port, port preview, app localhost
 
@@ -14,6 +14,11 @@ subcollection: cloud-shell
 
 # Previewing apps
 {: #preview-apps}
+
+Effective November 10, 2026, {{site.data.keyword.cloud-shell_notm}} will no longer be the default web shell experience on {{site.data.keyword.cloud_notm}}. [Paver Shell](https://paver.cloud.ibm.com){: external} is the recommended experience for managing infrastructure. With Paver, you can complete tasks, solve issues, optimize resources, and stay informed about what's happening in your environment. For more information, see [Using the Paver interactive shell](https://paver.ibm.com/docs/core-concepts/shell/){: external}.
+{: important}
+
+
 
 You can preview apps that are running in {{site.data.keyword.cloud-shell_full}} just like you do if you are running them locally. The {{site.data.keyword.cloud-shell_short}} web preview makes your app UI or endpoint available at a URL that only you can access. With this feature, you have a chance to view changes to your app before you deploy it to a publicly accessible location.
 {: shortdesc}

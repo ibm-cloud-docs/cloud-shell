@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-08-01"
+  years: 2020, 2026
+lastupdated: "2026-11-10"
 
 keywords: Cloud Shell troubleshooting, cloud shell connection lost, could not start cloud shell, cloud shell bashrc, Cloud Shell hangs, Cloud Shell closes, Cloud Shell restarts
 
@@ -16,6 +16,11 @@ content-type: troubleshoot
 
 # Troubleshooting for {{site.data.keyword.cloud-shell_notm}}
 {: #troubleshooting}
+
+Effective November 10, 2026, {{site.data.keyword.cloud-shell_notm}} will no longer be the default web shell experience on {{site.data.keyword.cloud_notm}}. [Paver Shell](https://paver.cloud.ibm.com){: external} is the recommended experience for managing infrastructure. With Paver, you can complete tasks, solve issues, optimize resources, and stay informed about what's happening in your environment. For more information, see [Using the Paver interactive shell](https://paver.ibm.com/docs/core-concepts/shell/){: external}.
+{: important}
+
+
 
 Use these tips to help troubleshoot problems that you might run into when you use {{site.data.keyword.cloud-shell_full}}.
 {: shortdesc}

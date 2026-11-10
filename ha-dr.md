@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-10-12"
+lastupdated: "2026-11-10"
 
 keywords: HA for Cloud Shell, DR for cloud shell, high availability for cloud shell, disaster recovery for cloud shell, failover for cloud shell
 
@@ -14,6 +14,11 @@ subcollection: cloud-shell
 
 # Understanding high availability and disaster recovery for {{site.data.keyword.cloud-shell_short}}
 {: #ha-dr}
+
+Effective November 10, 2026, {{site.data.keyword.cloud-shell_notm}} will no longer be the default web shell experience on {{site.data.keyword.cloud_notm}}. [Paver Shell](https://paver.cloud.ibm.com){: external} is the recommended experience for managing infrastructure. With Paver, you can complete tasks, solve issues, optimize resources, and stay informed about what's happening in your environment. For more information, see [Using the Paver interactive shell](https://paver.ibm.com/docs/core-concepts/shell/){: external}.
+{: important}
+
+
 
 As an {{site.data.keyword.cloud}} platform service, {{site.data.keyword.cloud-shell_full}} follows the practices that are described in [How {{site.data.keyword.cloud_notm}} prepares for disaster recovery](/docs/resiliency?topic=resiliency-ha-redundancy). One exception is that {{site.data.keyword.cloud-shell_notm}} is regionally available rather than globally available. Because {{site.data.keyword.cloud-shell_short}} is region-dependent, automated global failover isn't supported. Always maintain a backup of your data outside of {{site.data.keyword.cloud-shell_short}}.
 {: shortdesc}

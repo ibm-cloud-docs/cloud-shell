@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-02-20"
+  years: 2020, 2026
+lastupdated: "2026-11-10"
 
 keywords: upload file in cloud shell, download file in cloud shell, add file, add project to cloud shell, file storage, persistence, import file, export file
 
@@ -14,6 +14,11 @@ subcollection: cloud-shell
 
 # Working with files
 {: #files}
+
+Effective November 10, 2026, {{site.data.keyword.cloud-shell_notm}} will no longer be the default web shell experience on {{site.data.keyword.cloud_notm}}. [Paver Shell](https://paver.cloud.ibm.com){: external} is the recommended experience for managing infrastructure. With Paver, you can complete tasks, solve issues, optimize resources, and stay informed about what's happening in your environment. For more information, see [Using the Paver interactive shell](https://paver.ibm.com/docs/core-concepts/shell/){: external}.
+{: important}
+
+
 
 Your {{site.data.keyword.cloud-shell_full}} workspace includes a home directory where you can temporarily work with files in your {{site.data.keyword.cloud-shell_short}} sessions. You can upload or download files one at a time to your workspace through the UI, or use command-line tools to work with many files at once.
 {: shortdesc}
