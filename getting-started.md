@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-11-10"
+lastupdated: "2026-11-11"
 
 keywords: getting started tutorial, IBM Cloud Shell, cloud shell, IBM Cloud cli, using IBM Cloud Shell, cloud shell access
 content-type: tutorial
@@ -21,8 +21,7 @@ subcollection: cloud-shell
 {: toc-services=""}
 {: toc-completion-time="30m"}
 
-Effective November 10, 2026, {{site.data.keyword.cloud-shell_notm}} will no longer be the default web shell experience on {{site.data.keyword.cloud_notm}}. [Paver Shell](https://paver.cloud.ibm.com){: external} is the recommended experience for managing infrastructure. With Paver, you can complete tasks, solve issues, optimize resources, and stay informed about what's happening in your environment. For more information, see [Using the Paver interactive shell](https://paver.ibm.com/docs/core-concepts/shell/){: external}.
-{: important}
+
 
 
 

@@ -48,8 +48,6 @@ toc:
       topics:
       - include: ../account/shell-settings.md
       - faqs.md
-      - topic: faqs-paver.md
-        navtitle: FAQs for Cloud Shell transition to Paver Shell
       - troubleshooting.md
       - limitations.md
       - release-notes.md
