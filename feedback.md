@@ -15,6 +15,9 @@ subcollection: cloud-shell
 # Submitting feedback
 {: #feedback}
 
+Effective November 23, 2026, {{site.data.keyword.cloud-shell_notm}} will no longer be the default web shell experience on {{site.data.keyword.cloud_notm}}. [Paver Shell](https://paver.cloud.ibm.com){: external} is the recommended experience for managing infrastructure. With Paver, you can complete tasks, solve issues, optimize resources, and stay informed about what's happening in your environment. For more information, see [Using the {{site.data.keyword.IBM_notm}} Paver interactive shell](https://paver.ibm.com/docs/core-concepts/shell/){: external}.
+{: important}
+
 
 
 
