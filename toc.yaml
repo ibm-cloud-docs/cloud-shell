@@ -48,6 +48,7 @@ toc:
       topics:
       - include: ../account/shell-settings.md
       - faqs.md
+      - faqs-paver.md
       - troubleshooting.md
       - limitations.md
       - release-notes.md
