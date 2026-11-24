@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-11-11"
+lastupdated: "2026-11-24"
 
 keywords: IBM Cloud Shell, cloud shell, workload isolation, cloud shell architecture, cloud shell control plane, cloud shell data plane, cloud shell service, public isolation for cloud shell, compute isolation for cloud shell, cloud shell architecture, workload isolation in cloud shell
 
@@ -17,6 +17,8 @@ subcollection: cloud-shell
 
 **Plan your move to Paver.** Cloud Shell will transition out of service on 31 March 2027. To help you prepare, we recommend starting with [Paver](https://paver.ibm.com/){: external} today. Paver provides AI-assisted support for infrastructure operations and is becoming the preferred experience on IBM Cloud.
 {: important}
+
+
 
 Review the sample architecture for {{site.data.keyword.cloud-shell_full}}, and learn more about different isolation levels. You can then choose the solution that best meets the requirements of the workloads that you want to run in the cloud.
 

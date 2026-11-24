@@ -4,7 +4,7 @@ copyright:
   years: 2026
 lastupdated: "2026-11-24"
 
-keywords: Cloud Shell transition, Cloud Shell FAQ, IBM Paver Shell, Paver, Paver Shell FAQ, Cloud Shell to Paver
+keywords: Cloud Shell transition, Cloud Shell FAQ, IBM Paver Shell, Paver, Paver Shell FAQ, Cloud Shell to Paver, Paver shell
 
 subcollection: cloud-shell
 
