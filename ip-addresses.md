@@ -15,12 +15,8 @@ subcollection: cloud-shell
 # {{site.data.keyword.cloud-shell_notm}} session IP ranges
 {: #cs-ip-ranges}
 
-Effective November 23, 2026, {{site.data.keyword.cloud-shell_notm}} will no longer be the default web shell experience on {{site.data.keyword.cloud_notm}}. [Paver Shell](https://paver.cloud.ibm.com){: external} is the recommended experience for managing infrastructure. With Paver, you can complete tasks, solve issues, optimize resources, and stay informed about what's happening in your environment. For more information, see [Using the {{site.data.keyword.IBM_notm}} Paver interactive shell](https://paver.ibm.com/docs/core-concepts/shell/){: external}.
+E**Plan your move to Paver.** Cloud Shell will transition out of service on 31 March 2027. To help you prepare, we recommend starting with [Paver](https://paver.ibm.com/){: external} today. Paver provides AI-assisted support for infrastructure operations and is becoming the preferred experience on IBM Cloud.
 {: important}
-
-
-
-
 
 If you want to restrict access to {{site.data.keyword.cloud-shell_full}} from your service, you can allowlist specific IP addresses or ranges of IP addresses on your deployment.
 {: shortdesc}

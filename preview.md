@@ -15,12 +15,8 @@ subcollection: cloud-shell
 # Previewing apps
 {: #preview-apps}
 
-Effective November 23, 2026, {{site.data.keyword.cloud-shell_notm}} will no longer be the default web shell experience on {{site.data.keyword.cloud_notm}}. [Paver Shell](https://paver.cloud.ibm.com){: external} is the recommended experience for managing infrastructure. With Paver, you can complete tasks, solve issues, optimize resources, and stay informed about what's happening in your environment. For more information, see [Using the {{site.data.keyword.IBM_notm}} Paver interactive shell](https://paver.ibm.com/docs/core-concepts/shell/){: external}.
+**Plan your move to Paver.** Cloud Shell will transition out of service on 31 March 2027. To help you prepare, we recommend starting with [Paver](https://paver.ibm.com/){: external} today. Paver provides AI-assisted support for infrastructure operations and is becoming the preferred experience on IBM Cloud.
 {: important}
-
-
-
-
 
 You can preview apps that are running in {{site.data.keyword.cloud-shell_full}} just like you do if you are running them locally. The {{site.data.keyword.cloud-shell_short}} web preview makes your app UI or endpoint available at a URL that only you can access. With this feature, you have a chance to view changes to your app before you deploy it to a publicly accessible location.
 {: shortdesc}
