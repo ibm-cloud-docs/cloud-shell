@@ -21,11 +21,8 @@ subcollection: cloud-shell
 {: toc-services=""}
 {: toc-completion-time="30m"}
 
-
 **Plan your move to Paver.** Cloud Shell will transition out of service on 31 March 2027. To help you prepare, we recommend starting with [Paver](https://paver.ibm.com/){: external} today. Paver provides AI-assisted support for infrastructure operations and is becoming the preferred experience on IBM Cloud.
 {: important}
-
-
 
 In this getting started tutorial, you use {{site.data.keyword.cloud-shell_full}} to clone a sample Node.js app. {{site.data.keyword.cloud-shell_notm}} is a cloud-based shell workspace that you can access through your browser. {{site.data.keyword.cloud-shell_short}} is preconfigured with the full [{{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cli-getting-started) and tons of plug-ins and tools that you can use to manage apps, resources, and infrastructure.
 {: shortdesc}

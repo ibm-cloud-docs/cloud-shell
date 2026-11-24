@@ -18,8 +18,6 @@ subcollection: cloud-shell
 **Plan your move to Paver.** Cloud Shell will transition out of service on 31 March 2027. To help you prepare, we recommend starting with [Paver](https://paver.ibm.com/){: external} today. Paver provides AI-assisted support for infrastructure operations and is becoming the preferred experience on IBM Cloud.
 {: important}
 
-
-
 Your {{site.data.keyword.cloud-shell_full}} workspace includes a home directory where you can temporarily work with files in your {{site.data.keyword.cloud-shell_short}} sessions. You can upload or download files one at a time to your workspace through the UI, or use command-line tools to work with many files at once.
 {: shortdesc}
 

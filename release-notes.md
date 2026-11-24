@@ -19,9 +19,6 @@ content-type: release-note
 **Plan your move to Paver.** Cloud Shell will transition out of service on 31 March 2027. To help you prepare, we recommend starting with [Paver](https://paver.ibm.com/){: external} today. Paver provides AI-assisted support for infrastructure operations and is becoming the preferred experience on IBM Cloud.
 {: important}
 
-
-
-
 Use the release notes to learn about the latest changes to {{site.data.keyword.cloud-shell_full}}.
 {: shortdesc}
 

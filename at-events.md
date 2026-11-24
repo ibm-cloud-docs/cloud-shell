@@ -15,14 +15,8 @@ subcollection: cloud-shell
 # Activity tracking events for {{site.data.keyword.cloud-shell_notm}}
 {: #at_events}
 
-
 **Plan your move to Paver.** Cloud Shell will transition out of service on 31 March 2027. To help you prepare, we recommend starting with [Paver](https://paver.ibm.com/){: external} today. Paver provides AI-assisted support for infrastructure operations and is becoming the preferred experience on IBM Cloud.
 {: important}
-
-
-
-
-
 
 {{site.data.keyword.cloud_notm}} services, such as {{site.data.keyword.cloud-shell_notm}}, generate activity tracking events. 
 {: shortdesc}

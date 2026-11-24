@@ -18,8 +18,6 @@ subcollection: cloud-shell
 **Plan your move to Paver.** Cloud Shell will transition out of service on 31 March 2027. To help you prepare, we recommend starting with [Paver](https://paver.ibm.com/){: external} today. Paver provides AI-assisted support for infrastructure operations and is becoming the preferred experience on IBM Cloud.
 {: important}
 
-
-
 You can preview apps that are running in {{site.data.keyword.cloud-shell_full}} just like you do if you are running them locally. The {{site.data.keyword.cloud-shell_short}} web preview makes your app UI or endpoint available at a URL that only you can access. With this feature, you have a chance to view changes to your app before you deploy it to a publicly accessible location.
 {: shortdesc}
 

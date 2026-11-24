@@ -15,12 +15,8 @@ subcollection: cloud-shell
 # Understanding high availability and disaster recovery for {{site.data.keyword.cloud-shell_short}}
 {: #ha-dr}
 
-
 **Plan your move to Paver.** Cloud Shell will transition out of service on 31 March 2027. To help you prepare, we recommend starting with [Paver](https://paver.ibm.com/){: external} today. Paver provides AI-assisted support for infrastructure operations and is becoming the preferred experience on IBM Cloud.
 {: important}
-
-
-
 
 As an {{site.data.keyword.cloud}} platform service, {{site.data.keyword.cloud-shell_full}} follows the practices that are described in [How {{site.data.keyword.cloud_notm}} prepares for disaster recovery](/docs/resiliency?topic=resiliency-ha-redundancy). One exception is that {{site.data.keyword.cloud-shell_notm}} is regionally available rather than globally available. Because {{site.data.keyword.cloud-shell_short}} is region-dependent, automated global failover isn't supported. Always maintain a backup of your data outside of {{site.data.keyword.cloud-shell_short}}.
 {: shortdesc}

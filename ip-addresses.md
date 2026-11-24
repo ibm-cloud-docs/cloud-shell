@@ -15,11 +15,8 @@ subcollection: cloud-shell
 # {{site.data.keyword.cloud-shell_notm}} session IP ranges
 {: #cs-ip-ranges}
 
-
 **Plan your move to Paver.** Cloud Shell will transition out of service on 31 March 2027. To help you prepare, we recommend starting with [Paver](https://paver.ibm.com/){: external} today. Paver provides AI-assisted support for infrastructure operations and is becoming the preferred experience on IBM Cloud.
 {: important}
-
-
 
 If you want to restrict access to {{site.data.keyword.cloud-shell_full}} from your service, you can allowlist specific IP addresses or ranges of IP addresses on your deployment.
 {: shortdesc}
