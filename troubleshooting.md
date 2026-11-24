@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-11-11"
+lastupdated: "2026-11-24"
 
 keywords: Cloud Shell troubleshooting, cloud shell connection lost, could not start cloud shell, cloud shell bashrc, Cloud Shell hangs, Cloud Shell closes, Cloud Shell restarts
 

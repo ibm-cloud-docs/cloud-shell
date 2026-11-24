@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-11-11"
+lastupdated: "2026-11-24"
 
 keywords: HA for Cloud Shell, DR for cloud shell, high availability for cloud shell, disaster recovery for cloud shell, failover for cloud shell
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-11-11"
+lastupdated: "2026-11-24"
 
 keywords: Cloud Shell frequently asked questions, Cloud Shell faq, cloud shell type, cloud shell bash
 

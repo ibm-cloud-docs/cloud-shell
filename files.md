@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-11-11"
+lastupdated: "2026-11-24"
 
 keywords: upload file in cloud shell, download file in cloud shell, add file, add project to cloud shell, file storage, persistence, import file, export file
 

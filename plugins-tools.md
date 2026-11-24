@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-11-11"
+lastupdated: "2026-11-24"
 
 keywords: cloud shell plug-ins, cloud shell runtimes, cloud shell tools, cloud shell utilities, cli plugins, ibm cloud cli
 
