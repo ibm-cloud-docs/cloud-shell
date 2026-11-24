@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-11-11"
+lastupdated: "2026-11-24"
 
 keywords: Cloud Shell troubleshooting, cloud shell connection lost, could not start cloud shell, cloud shell bashrc, Cloud Shell hangs, Cloud Shell closes, Cloud Shell restarts
 
@@ -17,6 +17,8 @@ content-type: troubleshoot
 # Troubleshooting for {{site.data.keyword.cloud-shell_notm}}
 {: #troubleshooting}
 
+**Plan your move to Paver.** Cloud Shell will transition out of service on 31 March 2027. To help you prepare, we recommend starting with [Paver](https://paver.ibm.com/){: external} today. Paver provides AI-assisted support for infrastructure operations and is becoming the preferred experience on IBM Cloud.
+{: important}
 
 
 

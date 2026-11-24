@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-11-11"
+lastupdated: "2026-11-24"
 
 keywords: Cloud Shell preview web app, web preview in Cloud Shell, view port, port preview, app localhost
 
@@ -15,7 +15,8 @@ subcollection: cloud-shell
 # Previewing apps
 {: #preview-apps}
 
-
+**Plan your move to Paver.** Cloud Shell will transition out of service on 31 March 2027. To help you prepare, we recommend starting with [Paver](https://paver.ibm.com/){: external} today. Paver provides AI-assisted support for infrastructure operations and is becoming the preferred experience on IBM Cloud.
+{: important}
 
 
 
