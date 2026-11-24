@@ -2,9 +2,9 @@
 
 copyright:
   years: 2026
-lastupdated: "[{LAST_UPDATED_DATE}]"
+lastupdated: "2026-11-24"
 
-keywords: Cloud Shell transition, Cloud Shell FAQ, IBM Paver Shell, Paver, Paver Shell FAQ, Cloud Shell to Paver
+keywords: Cloud Shell transition, Cloud Shell FAQ, IBM Paver Shell, Paver, Paver Shell FAQ, Cloud Shell to Paver, Paver shell
 
 subcollection: cloud-shell
 
@@ -16,9 +16,6 @@ content-type: faq
 
 # FAQs for the transition from IBM Cloud Shell to IBM Paver Shell
 {: #faqs-paver-transition}
-
-Effective November 23, 2026, {{site.data.keyword.cloud-shell_notm}} will no longer be the default web shell experience on {{site.data.keyword.cloud_notm}}. [Paver Shell](https://paver.cloud.ibm.com){: external} is the recommended experience for managing infrastructure. With Paver, you can complete tasks, solve issues, optimize resources, and stay informed about what's happening in your environment. For more information, see [Using the {{site.data.keyword.IBM_notm}} Paver interactive shell](https://paver.ibm.com/docs/core-concepts/shell/){: external}.
-{: important}
 
 Frequently asked questions about the transition from {{site.data.keyword.cloud-shell_full}} to {{site.data.keyword.IBM_notm}} Paver Shell include questions about the timeline, access, workspace storage, and capabilities. To find all FAQs for {{site.data.keyword.cloud}}, see the [FAQ library](/docs/faqs).
 {: shortdesc}
